@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+.search-bar {
+    margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+}
+.container > div {
+    margin-right: 20px;
+}
+.container > div:last-child {
+    margin-right: 0;
+}
+.container > div > h2 {
+    margin-top: 0;
+}
