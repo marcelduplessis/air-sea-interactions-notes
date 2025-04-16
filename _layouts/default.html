@@ -19,10 +19,16 @@
         .search-bar {
             margin-bottom: 20px;
         }
+        .photo {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <nav>
+        <div class="photo">
+            <img src="{{ "/assets/images/airsea-pic.jpg" | relative_url }}" alt="Photo" width="100%">
+        </div>
         <div class="search-bar">
             <input type="text" id="search" placeholder="Search...">
         </div>
