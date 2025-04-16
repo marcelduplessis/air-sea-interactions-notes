@@ -4,7 +4,7 @@ title: Introduction to Air-Sea Interactions
 ---
 
 
-# Introduction to Air-Sea Interactions
+# Introduction to Earth's energy imbalance
 
 Air-sea interactions refer to the dynamic processes and exchanges that occur between the atmosphere and the ocean. These interactions play a critical role in regulating Earth's climate, weather patterns, and the global energy balance. 
 
