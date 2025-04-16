@@ -3,22 +3,78 @@
 <head>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <style>
+        body {
+            display: flex;
+        }
+        nav {
+            width: 200px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>{{ site.title }}</h1>
-    </header>
+    <nav>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+        <ul>
+            <li><a href="/lecture-notes/intro-to-airsea-interactions.md">Lecture Note 1</a></li>
+            <li><a href="/lecture-notes/basics-airsea-interactions-theory.md">Lecture Note 2</a></li>
+            <!-- Add more notes as needed -->
+        </ul>
+    </nav>
     <main>
         {{ content }}
     </main>
-    <footer>
-        <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
-    </footer>
 </body>
 </html>
-<!-- Compare this snippet from _config.yml: -->
-<!-- title: My Lecture Notes -->
-<!-- description: A collection of lecture notes on air-sea interactions -->
-<!-- baseurl: "" -->
-<!-- url: "https://example.com" -->
-<!-- theme: minima -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <style>
+        body {
+            display: flex;
+        }
+        nav {
+            width: 200px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        main {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+        <ul>
+            <li><a href="/lecture-notes/note1.md">Lecture Note 1</a></li>
+            <li><a href="/lecture-notes/note2.md">Lecture Note 2</a></li>
+            <!-- Add more notes as needed -->
+        </ul>
+    </nav>
+    <main>
+        {{ content }}
+    </main>
+    <script src="{{ "/assets/js/search.js" | relative_url }}"></script>
+</body>
+</html>
