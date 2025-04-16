@@ -27,54 +27,13 @@
             <input type="text" id="search" placeholder="Search...">
         </div>
         <ul>
-            <li><a href="/lecture-notes/intro-to-airsea-interactions.md">Lecture Note 1</a></li>
-            <li><a href="/lecture-notes/basics-airsea-interactions-theory.md">Lecture Note 2</a></li>
+            <li><a href="/lecture-notes/intro-to-airsea-interactions.md">Introduction to air-sea interactions</a></li>
+            <li><a href="/lecture-notes/basics-airsea-interactions-theory.md">Basics of air-sea interactions theory</a></li>
             <!-- Add more notes as needed -->
         </ul>
     </nav>
     <main>
         {{ content }}
     </main>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    <style>
-        body {
-            display: flex;
-        }
-        nav {
-            width: 200px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        main {
-            flex-grow: 1;
-            padding: 20px;
-        }
-        .search-bar {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <div class="search-bar">
-            <input type="text" id="search" placeholder="Search...">
-        </div>
-        <ul>
-            <li><a href="/lecture-notes/note1.md">Lecture Note 1</a></li>
-            <li><a href="/lecture-notes/note2.md">Lecture Note 2</a></li>
-            <!-- Add more notes as needed -->
-        </ul>
-    </nav>
-    <main>
-        {{ content }}
-    </main>
-    <script src="{{ "/assets/js/search.js" | relative_url }}"></script>
 </body>
 </html>
