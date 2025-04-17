@@ -124,6 +124,8 @@ Another major factor infleuncing the way that heat is distribution around the gl
   <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
 </div>
 
+The reason for this has got to do with specific heat capacity of dry air being 1000 J kg-1 K-1, and seawater 4000 J kg-1K-1. For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 J m-2 K-1, equal to about 3 meters of seawater. As a case study, if we applied 100 W m-2 heating applied to the atmosphere for a day, it would warm at about a degree Kelvin. On the otherhand, if we had an ocean surface mixed layer of 30 meters, it would only warm by about 0.1 K. 
+
 
 ### Atmospheric sensible heat transport (3PW)
 
