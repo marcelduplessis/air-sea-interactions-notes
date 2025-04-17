@@ -111,7 +111,37 @@ Energy measured in Watts per meter squared (W m-2).
 
 The global heat redistribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 N and 35 S would get warmer every year.
 
+### Atmospheric sensible heat transport (3PW)
+
+- Hadley Cells ascend near the equator, move poleward where they descend and return back toward the equator.
+- Conversion of thermal energy to mechanical energy that drives the Hadley cell, much like a Carnot cycle (Pauluis, 2011). 
+- These cells do not move directly from equator to pole, but are veered by the Coriolis force, so they have dominantly zonal winds at the surface. E.g. equatorial easterlies and mid-latitude westerlies.
+
+
 {% include youtube.html id="mKcU-hIoPf4" %}
+
+### Ocean sensible heat transport (2 PW)
+
+- Warm seawater moves poleward, and colder seawater moves equatorward.
+- Unlike the atmosphere, oceans are heated and cooled at the surface, so they are not like heat engines. Instead, it must come from other sources, e.g., winds and tides.
+- Meridional heat transport is poleward when zonally averaged, but the Atlantic is northward at all latitudes, and the Indian Ocean is southward at all latitudes.
+- Wind-driven circulation and thermohaline circulation are not distinct. We will begin to disentangle this in this course.
+
+
+{% include youtube.html id="CCmTY0PKGDs" %}
+
+### Ocean latent heat transport (1 PW)
+
+- Atmosphere/ocean latent heat transport is moist air moving poleward and dry air and liquid water in oceans and rivers moving equatorward.
+- Vaporization releases heat that is transported from the location where evaporates to where the precipitation occurs - this is known as the  “steam cycle”.
+- Moist air carries a lot of heat as it takes 560 times as much energy to evaporate water as to warm it by 1 degree. 
+- Thus, although the hydrological cycle transports only a small mass of water it carries a lot of heat.
+
+## Ocean heat content
+
+Heat redistribution allows for the ocean to continuously absorb atmospheric heat
+
+
 
 ## General readings for this section
 
