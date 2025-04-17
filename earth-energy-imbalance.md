@@ -3,8 +3,11 @@ layout: default
 title: Earth's energy imbalance
 ---
 
-
 # Earth's energy imbalance
+
+
+
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* 
 
 Air-sea interactions refer to the dynamic processes and exchanges that occur between the atmosphere and the ocean. These interactions play a critical role in regulating Earth's climate, weather patterns, and the global energy balance. 
 
@@ -16,3 +19,9 @@ Key processes involved in air-sea interactions include:
 - **Moisture Exchange**: The evaporation and precipitation processes that contribute to the hydrological cycle.
 
 Understanding air-sea interactions is essential for studying climate change, predicting extreme weather events, and managing marine resources effectively.
+
+## Learning Goals
+
+After working through this section, learners should be able to:
+
+- Understand the 
