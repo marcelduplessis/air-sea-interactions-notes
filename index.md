@@ -10,5 +10,5 @@ Welcome! This site hosts my notes on air-sea interactions that I have compiled f
 
 I would like to acknowledge that my learning of air-sea interactions is thanks to the time and efforts of my teachers and collaborators, to whom I am grateful for. These include but not limited to Mathieu Rouault, Brian Ward, Sebastiaan Swart, Sarh Nicholson, Meghan Cronin, and Sabrina Speich. In some ways, the content of this site is thanks to them.
 
-*A note on fluxes*: At present, this site focuses on the air-sea exchange of heat. There are of course many other fluxes important for understanding climate, not least CO$_{2}$. Maybe one day I will add some info on that.
+*A note on fluxes:*: these notes focus almost exclusively on **heat exchange**: which can be defined as the transfer of heat between the ocean and the atmosphere, influencing sea surface temperatures and atmospheric circulation. 
 
