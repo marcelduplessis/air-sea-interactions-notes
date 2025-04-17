@@ -6,8 +6,11 @@
     <style>
         body {
             display: flex;
+            flex-wrap: nowrap; /* Prevents wrapping of flex items */
         }
         nav {
+            max-width: 450px; /* Ensures it doesn't grow beyond 450px */
+            min-width: 450px; /* Ensures it doesn't shrink below 450px */
             width: 450px;
             padding: 20px;
             background-color: #f4f4f4;
