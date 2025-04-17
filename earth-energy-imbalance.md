@@ -22,7 +22,7 @@ Globally, over the year, the Earth system - land surfaces, oceans, and atmospher
 
 Joule is a unit of energy that measures the energy required to create heat.
 
-**What are some consequences of this energy uptake on Earth?**
+### What are some consequences of this energy uptake on Earth?
 
 Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 W m$`^{-2}`$ of solar power arrives as primarily shortwave radiation. 102 W m$`^{-2}`$ of this shortwave radiation is reflected back to space, with about 239 W m$`^{-2}`$ entering the earth’s atmosphere.
 
@@ -58,8 +58,16 @@ The energy in the Earth system is transported around in the following ways:
 
 The figure shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
 
-The satellite observed brightness temperature by AIRS at an infrared wavelength that senses the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
+### Measuring Earth's brightness temperature
 
+The satellite observed brightness temperature by the Atmospheric Infrared Sounder (AIRS) at an infrared wavelength senses the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
+
+<div style="text-align: center;">
+  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 50%;">
+  <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
+</div>
+
+We can obtain beautiful images of the Earth's brightness temperature. In the image below, the average temperatures in April, 2003 are shown, observed by AIRS at an infrared wavelength that senses either the Earth's surface or any intervening cloud. Similar to a photograph of the planet taken with the camera shutter held open for a month, stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
 
 ## General readings for this section
 
