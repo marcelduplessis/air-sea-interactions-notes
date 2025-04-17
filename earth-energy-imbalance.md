@@ -15,6 +15,15 @@ The Earth's atmospehre recieves it heat through solar radiation, which acts prim
 
 ![Radiation spectrum](assets/images/em-spectrum.png)
 
+Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 watts of solar power per square meter (1 watt = 1 J/s).
+
+Joule is a unit of energy that measures the energy required to create heat.
+
+**What are some consequences of this energy uptake on Earth?**
+
+
+
+
 
 ## General readings
 
