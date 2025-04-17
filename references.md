@@ -24,6 +24,6 @@ title: References
 <style>
 .reference {
     text-indent: -5em; /* Negative indent for the first line */
-    padding-left: 5em; /* Indent for subsequent lines */
+    padding-left: 3em; /* Indent for subsequent lines */
 }
 </style>
