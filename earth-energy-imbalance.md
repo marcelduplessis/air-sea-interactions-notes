@@ -39,9 +39,9 @@ Incoming Solar Radiation (Solar In) represent the solar energy that enters the E
 The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$^{-2}$. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
 
 **The Stefan-Boltzmann law**\
-$$j* = \sigma T^4$$
+$$j^* = \sigma T^4$$
 
-Here, $$ \sigma $$ has a value of 5.670374419 $$ \times $$ 10$^{−8}$ W (m$^{2}$ x K$^4$), which represents the constant of proportionality between these two variables.
+$$j^*$$ is the black-body radiant emittance, $$ \sigma $$ has a value of 5.670374419 $$ \times $$ 10$^{−8}$ W (m$^{2}$ x K$^4$), which represents the constant of proportionality between these two variables.
 
 
 A summary of the energy flow processes:
