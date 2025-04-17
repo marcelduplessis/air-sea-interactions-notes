@@ -2,11 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 nav {
     width: 500px;
     padding: 20px;
     background-color: #f4f4f4;
+    line-height: 1.5;
 }
 main {
     flex-grow: 1;
@@ -19,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 a {
-    color: #13263b;
+    color: #3584b2;
     text-decoration: none;
 }
 a:hover {
