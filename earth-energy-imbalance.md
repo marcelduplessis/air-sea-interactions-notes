@@ -69,6 +69,45 @@ The satellite observed brightness temperature by the Atmospheric Infrared Sounde
 
 We can obtain beautiful images of the Earth's brightness temperature. In the image below, the average temperatures in April, 2003 are shown, observed by AIRS at an infrared wavelength that senses either the Earth's surface or any intervening cloud. Similar to a photograph of the planet taken with the camera shutter held open for a month, stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
 
+The Earth's brightness temperature reflects thermal radiation emitted by the Earth. This temperature is estimated at around -18 C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
+
+Earth's average temperature is around 15 C, based on surface measurements from weather stations, ships, and buoys over many decades. This temperature reflects the actual average temperature of the Earth's surface, which is influenced by various factors, including solar radiation, atmospheric circulation, ocean currents, and land surface characteristics.
+
+The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. 
+
+The Earth's atmosphere acts like a blanket, trapping some of the thermal radiation emitted by the Earth's surface and re-radiating it back towards the surface. 
+
+This causes the surface temperature to be higher than the brightness temperature measured from space. 
+
+Additionally, the surface temperature can be affected by other factors that are not detected by thermal sensors in space, such as local weather patterns and the influence of the ocean currents.
+
+## Greenhouse gas absorption
+
+The absorption spectrum of greenhouse gases refers to the specific wavelengths of electromagnetic radiation that are absorbed by these gases in the Earth's atmosphere. When sunlight passes through the atmosphere and reaches the Earth's surface, it includes a range of wavelengths, from ultraviolet to visible to infrared radiation. Some of these wavelengths are absorbed by the Earth's surface and then re-emitted as longer-wavelength infrared radiation, which is absorbed by greenhouse gases in the atmosphere.
+
+The absorption spectrum of a greenhouse gas like carbon dioxide or methane shows the specific wavelengths at which it absorbs infrared radiation. These gases have several strong absorption bands in the infrared region, which correspond to specific molecular vibrations. Carbon dioxide, for example, absorbs infrared radiation at wavelengths of around 2.7, 4.3, and 15 micrometers, while methane absorbs at around 3.3 micrometers. These absorption bands are often referred to as "windows" or "transmission bands", where the greenhouse gases allow some of the infrared radiation to pass through and escape into space.
+
+The absorption spectrum of greenhouse gases plays a crucial role in the Earth's energy balance and climate system. By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming. Understanding the absorption spectrum of greenhouse gases is therefore essential for understanding the causes and impacts of climate change, and for developing strategies to mitigate its effects.
+
+<div style="text-align: center;">
+  <img src="assets/images/ghg.png" alt="ghg" style="width: 50%;">
+  <p><em> Amount of energy absorbed by greenhouse gases in various wavelength regions, from ultraviolet radiation on the left, to visible light in the middle, to infrared radiation on the right. This figure was prepared by Robert A. Rohde for the Global Warming Art project.</em></p>
+</div>
+
+## Global redistribution of energy
+
+Latitude-by-latitude, the energy budget is not in balance.
+
+But also varies from season to season, day-to-night and longitude-by-longitude.
+
+Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun.
+
+Energy measured in Watts per meter squared (W m-2).
+
+
+
+
+
 ## General readings for this section
 
 - BFK18
