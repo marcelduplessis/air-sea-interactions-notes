@@ -34,7 +34,14 @@ Fusion keeps the solar system warm, so presently the vast majority of the heatin
 The Earth's energy budget involves the balance between incoming solar radiation and outgoing terrestrial radiation. This balance is crucial for maintaining the climate system.
 Components of the Energy Budget
 
-Incoming Solar Radiation (Solar In) represent the solar energy that enters the Earth's atmosphere of approximately 341.3 W m$^{-2}$. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (101.9 W m$^{-2}$). The remaining solar radiation is absorbed by the atmosphere and the Earth's surface, approximately 238.5 W m$^{-2}$. The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$^{-2}$.
+Incoming Solar Radiation (Solar In) represent the solar energy that enters the Earth's atmosphere of approximately 341.3 W m$^{-2}$. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (101.9 W m$^{-2}$). The remaining solar radiation is absorbed by the atmosphere and the Earth's surface, approximately 238.5 W m$^{-2}$. 
+
+The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$^{-2}$. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
+
+**The Stefan-Boltzmann law**\
+$$j* = \sigma T^4$$
+
+Here, $$ \sigma $$ has a value of 5.670374419 $$ \times $$ 10$^{−8}$ W (m$^{2}$ x K$^4$), which represents the constant of proportionality between these two variables.
 
 
 A summary of the energy flow processes:
