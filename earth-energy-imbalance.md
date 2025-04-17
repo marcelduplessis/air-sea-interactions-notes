@@ -5,7 +5,7 @@ title: Earth's energy imbalance
 
 # Earth's energy imbalance
 
-*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- Fox-Kemper et al. (2018)
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [BFK18]
 
 Air-sea interactions refer to the dynamic processes and exchanges that occur between the atmosphere and the ocean. These interactions play a critical role in regulating Earth's climate, weather patterns, and the global energy balance. 
 
