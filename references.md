@@ -21,6 +21,10 @@ title: References
 [GF19] Foltz, G.R., 2019. Wind-and buoyancy-forced upper ocean. Encyclopedia of ocean sciences, 1, pp.113-121. URL: <a href="https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf">https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf</a>.
 </div>
 
+<div id="RALS17" class="reference">
+[RALS17] Ruzmaikin, A., Aumann, H.H., Lee, J. and Susskind, J., 2017. Diurnal cycle variability of surface temperature inferred from AIRS data. Journal of Geophysical Research: Atmospheres, 122(20), pp.10-928. URL: <a href="https://doi.org/10.1002/2016JD026265">https://doi.org/10.1002/2016JD026265</a>.
+</div>
+
 <div id="TFK09" class="reference">
 [TFK09] Trenberth, K.E., Fasullo, J.T. and Kiehl, J., 2009. Earth's global energy budget. Bulletin of the american meteorological society, 90(3), pp.311-324. URL: <a href="https://doi.org/10.1175/2008BAMS2634.1">https://doi.org/10.1175/2008BAMS2634.1</a>.
 </div>
