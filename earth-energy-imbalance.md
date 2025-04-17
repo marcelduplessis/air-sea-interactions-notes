@@ -28,7 +28,7 @@ Fusion keeps the solar system warm, so presently the vast majority of the heatin
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 50%;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: [TFK09]em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: [TFK09]</em></p>
 </div>
 
 The Earth's energy budget involves the balance between incoming solar radiation and outgoing terrestrial radiation. This balance is crucial for maintaining the climate system.
@@ -57,6 +57,9 @@ The energy in the Earth system is transported around in the following ways:
 - **Ocean Heat Transport**: Movement of heat within the ocean, affecting global climate patterns.
 
 The figure shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
+
+The satellite observed brightness temperature by AIRS at an infrared wavelength that senses the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
+
 
 ## General readings for this section
 
