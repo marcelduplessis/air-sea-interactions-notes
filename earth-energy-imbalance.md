@@ -104,7 +104,12 @@ Equator and tropics receive excess incoming radiation over outgoing, mid-latitud
 
 Energy measured in Watts per meter squared (W m-2).
 
+<div style="text-align: center;">
+  <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 50%;">
+  <p><em> Global heat redistribution. Source: NASA.</em></p>
+</div>
 
+The global heat redistribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 N and 35 S would get warmer every year.
 
 
 
