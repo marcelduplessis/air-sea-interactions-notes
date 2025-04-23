@@ -1,10 +1,7 @@
 ---
 layout: default
-title: Notes on air-sea interactions
+title: Introduction to Air-Sea Interactions Notes
 ---
-
-# Introduction to Air-Sea Interactions Notes{.large-gap}
-
 
 *Marcel du Plessis*
 
