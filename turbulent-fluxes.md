@@ -4,35 +4,48 @@ chapter: 3
 title: Turbulent Heat Fluxes
 ---
 
-<h1> Basics of Air-Sea Interactions Theory </h1>
+<h1> Turbulent fluxes </h1>
 
-Air-sea interactions play a critical role in the exchange of momentum, heat, and gases between the atmosphere and the ocean. These exchanges are fundamental to understanding weather, climate, and ocean dynamics. Two key approaches to quantify these exchanges are the **eddy covariance method** and the **bulk flux method**.
+There are two key approaches to quantify air-sea exchanges: the **eddy covariance method** and the **bulk flux method**.
 
 <h2>Eddy Covariance</h2>
 
-The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or CO₂ concentration.
+The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration.
 
 <h3>Key Features:</h3>
-- **Direct Measurement**: Captures turbulent fluxes by resolving small-scale eddies.
+
+- **Direct Measurement**: Captures turbulent fluxes by resolving small-scale atmospheric eddies.
 - **High Temporal Resolution**: Requires fast-response sensors (e.g., sonic anemometers, infrared gas analyzers).
 - **Complexity**: Sensitive to sensor alignment, platform motion (e.g., ship or buoy), and environmental noise.
 
 <h3>Governing Equation:</h3>
-The flux of a scalar quantity $Q$ is given by:
 
-$$
-F_Q = \overline{w'q'}
-$$
-Where:
-- $$w'$$: Vertical velocity fluctuation
-- $$q'$$: Scalar quantity fluctuation (e.g., temperature, humidity)
-- $$\overline{w'q'}$$: Time-averaged covariance of $$w'$$ and $$q'$$
+If we are interested in a quantity \\( q \\), it can be separated into its mean and fluctating parts:
+
+\\[ q = \overline{q} - q' \\]
+
+\\( \overline{q} \\) is the mean component, while \\( q' \\) is the flucutating term.
+
+The flux of the scalar quantity $q$ is given by:
+
+\\[ F = \overline{w'q'} \\]
+
+- \\( w' \\): Vertical velocity fluctuation
+- \\( q' \\): Scalar quantity fluctuation (e.g., temperature, humidity)
+- \\( \overline{w'q'} \\): Time-averaged covariance of \\( w' \\) and \\( q' \\)
+
+<div style="text-align: center;">
+  <img src="assets/images/eddy-cov-schematic.jpg" alt="eddy covariance schematic" style="width: 80%; margin: 30px 0;">
+  <p><em>Schematic of the transport of a quantity c by turbulent motion. Source: Source: <a href="/references/#BA10">[BA10]</a></em></p>
+</div>
 
 <h3>Advantages:</h3>
+
 - Provides high accuracy for turbulent fluxes.
 - Useful for research-grade measurements.
 
 <h3>Limitations:</h3>
+
 - Requires expensive instrumentation.
 - Challenging to deploy in harsh marine environments.
 
