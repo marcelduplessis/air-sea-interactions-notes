@@ -34,6 +34,7 @@
     </style>
 </head>
 <body class="start-h1-{{ page.chapter }}"></body>
+<body class="{% if page.no_heading_numbers %}no-heading-numbers{% else %}start-h1-{{ page.chapter | default: 0 }}{% endif %}">
 <body>
     <nav>
         <div class="photo">
