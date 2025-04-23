@@ -5,7 +5,7 @@ title: Basics of Air-Sea Interactions Theory
 
 Air-sea interactions play a critical role in the exchange of momentum, heat, and gases between the atmosphere and the ocean. These exchanges are fundamental to understanding weather, climate, and ocean dynamics. Two key approaches to quantify these exchanges are the **eddy covariance method** and the **bulk flux method**.
 
-## Eddy Covariance Method {.small-gap}
+## Eddy Covariance Method
 
 The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or CO₂ concentration.
 
@@ -15,14 +15,15 @@ The eddy covariance method is a direct measurement technique used to estimate fl
 - **Complexity**: Sensitive to sensor alignment, platform motion (e.g., ship or buoy), and environmental noise.
 
 ### Governing Equation:
-The flux of a scalar quantity \( Q \) is given by:
-\[
+The flux of a scalar quantity $Q$ is given by:
+
+$$
 F_Q = \overline{w'q'}
-\]
+$$
 Where:
-- \( w' \): Vertical velocity fluctuation
-- \( q' \): Scalar quantity fluctuation (e.g., temperature, humidity)
-- \( \overline{w'q'} \): Time-averaged covariance of \( w' \) and \( q' \)
+- $w'$: Vertical velocity fluctuation
+- $q'$: Scalar quantity fluctuation (e.g., temperature, humidity)
+- $\overline{w'q'}$: Time-averaged covariance of $w'$ and $q'$
 
 ### Advantages:
 - Provides high accuracy for turbulent fluxes.

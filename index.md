@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to Air-Sea Interactions Notes
+title: Introduction to Air-Sea Interactions
 ---
 
 *Marcel du Plessis*
