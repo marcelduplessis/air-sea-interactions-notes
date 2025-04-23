@@ -171,8 +171,9 @@
 
   <!-- Main Content -->
   <main id="main-content">
-    {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}
-    {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}
+    {{ content 
+        | replace: "<h1>", "<h1 class='large-gap'>" 
+        | replace: "<h2>", "<h2 class='small-gap'>" }}
   </main>
 
   <script>
