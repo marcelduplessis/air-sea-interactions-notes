@@ -45,7 +45,20 @@ This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface
 
 {% include youtube.html id="e5DO-gq-5XE" %}
 
-<h3>Observations:</h3>
+<h3>Observational methods:</h3>
+
+There are several ways to obtain eddy covariance measurements at sea. The most common is using ship-based observations, while others include moored buoys, drifting spar buoys, and autonomous vehicles. Each come with their own set of complications.
+
+**Ship-based eddy covariance flux measurements**:
+
+Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
+
+<div style="text-align: center;">
+  <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 80%; margin: 30px 0;">
+  <p><em>Image of an eddy covariance setup on the Celtic Explorer. Source: Dr. Brian Ward</a></em></p>
+</div>
+
+<h3>Motion correction:</h3>
 
 <h3>Advantages:</h3>
 
@@ -57,7 +70,7 @@ This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface
 - Requires expensive instrumentation.
 - Challenging to deploy in harsh marine environments.
 
----
+The exchange of momentum and energy between the atmosphere and ocean is difficult to measure directly over the ocean. Instead, oceanographers and meteorologist often rely on bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
 
 <h2>Bulk Flux Method</h2>
 
