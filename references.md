@@ -8,6 +8,10 @@ title: References
 [CGE+19] Cronin, M.F., Gentemann, C.L., Edson, J., Ueki, I., Bourassa, M., Brown, S., Clayson, C.A., Fairall, C.W., Farrar, J.T., Gille, S.T. and Gulev, S., 2019. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6, p.430. URL: <a href="https://doi.org/10.3389/fmars.2019.00430">https://doi.org/10.3389/fmars.2019.00430</a>.
 </div>
 
+<div id="CS01" class="reference">
+[CS01] Cronin, M. F., and J. Sprintall, 2001, Wind and buoyancy-forced upper ocean. In: J. Steele, S. Thorpe, and K. Turekian (eds.) Encyclopedia of Ocean Sciences, Vol. 6, 3219-3227. URL: <a href="https://www.pmel.noaa.gov/people/cronin/encycl/ms0157.pdf">https://www.pmel.noaa.gov/people/cronin/encycl/ms0157.pdf</a>.
+</div>
+
 <div id="DTR+19" class="reference">
 [DTR+19] Davis, R.E., Talley, L.D., Roemmich, D., Owens, W.B., Rudnick, D.L., Toole, J., Weller, R., McPhaden, M.J. and Barth, J.A., 2019. 100 years of progress in ocean observing systems. Meteorological Monographs, 59, pp.3-1. URL: <a href="https://doi.org/10.1175/AMSMONOGRAPHS-D-18-0014.1">https://doi.org/10.1175/AMSMONOGRAPHS-D-18-0014.1</a>.
 </div>

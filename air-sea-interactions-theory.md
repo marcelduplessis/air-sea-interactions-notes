@@ -39,6 +39,11 @@ Thye play a central role in weather, climate regulation, and ocean circulation. 
 
 **Net Heat Flux** = (Incoming Solar) - (Outgoing Longwave + Latent + Sensible)
 
+<div style="text-align: center;">
+  <img src="assets/images/noaa-flux-basic.png" alt="noaa-flux-basic" style="width: 80%; margin: 30px 0;">
+  <p><em>Wind and buoyancy forces acting on the upper ocean mixed layer. Solar radiation ($$Q_{sw}$$), net longwave radiation ($$Q_{lw}$$), latent heat flux ($$Q_{lat}$$), and sensible heat flux ($$Q_{sen}$$) combine to form the net surface heat flux ($$Q_{net}$$). $$Q_{pen}$$ is the solar radiation penetrating the base of the mixed layer. Source: [[CS01](/references/#CS01)]</em></p>
+</div>
+
 4. Momentum Exchange
 
     Wind Stress: The frictional force of wind blowing across the sea surface transfers momentum to the ocean, driving surface currents and waves.
