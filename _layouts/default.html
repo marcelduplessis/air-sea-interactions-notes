@@ -12,22 +12,41 @@
     }
 
     header {
-      background-color: #ddd; /* Light gray */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-      z-index: 2;
+        background-color: #ddd; /* Light gray */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        height: 50px;
+        box-sizing: border-box;
     }
 
-    header .left {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+    .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+    }
+    
+    header .left,
+    header .right {
+        flex: 0 0 auto;
+    }
+    
+    header .center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
     }
 
     #toggle-nav {
@@ -125,7 +144,7 @@
   <!-- Sidebar -->
   <nav id="sidebar">
     <div class="photo">
-      <img src="{{ "/assets/images/airsea-pic.jpg" | relative_url }}" alt="Photo">
+      <img src="{{ '/assets/images/airsea-pic.jpg' | relative_url }}" alt="Photo">
     </div>
     <div class="contents-heading">
       <h4>Air-sea Interactions - OC4920</h4>
