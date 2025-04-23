@@ -1,3 +1,14 @@
+body {
+    counter-reset: h1; /* Start h1 at 0 when the page loads */
+  }
+  
+  h1 {
+    counter-reset: h2; /* Reset h2 every time you get a new h1 */
+  }
+  
+  h2 {
+    counter-reset: h3; /* Reset h3 every time you get a new h2 */
+  }
   
   h1::before {
     counter-increment: h1;
