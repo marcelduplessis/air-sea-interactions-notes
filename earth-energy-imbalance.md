@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Earth's energy imbalance
+title: Global energy distribution and air-sea interactions
 ---
-
-# Global energy distribution and air-sea interactions
 
 *“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- BFK18
 
