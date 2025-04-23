@@ -41,7 +41,9 @@ The flux of the scalar quantity \\( c \\) is given by:
 
 If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( \mu mol \\) \\( mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
 
-This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can clearly visualise the turbulent eddies in the marine atmospheric boundary layer.
+### Marine Atmospheric Boundary Layer Turbulence
+
+This video shows a Large Eddy Simulation of the marine atmospheric boundary layer. It demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can visualise the turbulent eddies in various parameters on display to get a sense of the small-scale nature of the atmopsheric eddies that generate turbulent air-sea exchange.
 
 {% include youtube.html id="e5DO-gq-5XE" %}
 
