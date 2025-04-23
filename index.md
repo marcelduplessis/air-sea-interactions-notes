@@ -3,7 +3,7 @@ layout: default
 title: Notes on air-sea interactions
 ---
 
-# Introduction to Air-Sea Interactions Notes {.large-gap}
+# Introduction to Air-Sea Interactions Notes{.large-gap}
 
 
 Marcel du Plessis
