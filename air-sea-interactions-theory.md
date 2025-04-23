@@ -52,9 +52,9 @@ Wind Stress: The frictional force of wind blowing across the sea surface transfe
 
 Quantified as:
         
-$$ \tau = \rho_a C_D U^2$$
+\\[ \tau = \rho_a C_D U^2 \\]
 
-where $\tau$ is wind stress, $\rho_a$ is air density, $C_D$​ is drag coefficient, and $U$ is wind speed taken from a reference height of 10 meters above the sea surface.
+where \\( \tau \\) is wind stress, $\rho_a$ is air density, $C_D$​ is drag coefficient, and $U$ is wind speed taken from a reference height of 10 meters above the sea surface.
 
 <h3> Mass exchange: </h3>
 
