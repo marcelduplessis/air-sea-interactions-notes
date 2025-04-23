@@ -171,16 +171,16 @@ Under MOST, the transfer coefficient \\( C_H \\)​ is not constant, but varies 
 
 Where:
 
-- \\( \phi_H )\\ = stability correction function for heat
-- \\( z )\\ = measurement height
-- \\( z_0 )\\ = roughness length
-- \\( d )\\ = displacement height
+- \\( \phi_H \\) = stability correction function for heat
+- \\( z \\) = measurement height
+- \\( z_0 \\) = roughness length
+- \\( d \\) = displacement height
 
 Effect of Stability:
 
-- Unstable (\\( L < 0 \\)): \\( \phi_H < 0)\\ → larger \\( CH \\) → enhanced heat flux
-- Stable (\\( L > 0 \\)): \\( \phi_H > 0)\\ → smaller \\( CH \\)​ → suppressed heat flux
-- Neutral (\\( |L| \\) → ∞): \\( \phi_H = 0)\\, logarithmic profile applies
+- Unstable (\\( L < 0 \\)): \\( \phi_H < 0 \\) → larger \\( CH \\) → enhanced heat flux
+- Stable (\\( L > 0 \\)): \\( \phi_H > 0 \\) → smaller \\( CH \\)​ → suppressed heat flux
+- Neutral (\\( |L| \\) → ∞): \\( \phi_H = 0 \\), logarithmic profile applies
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
@@ -188,7 +188,7 @@ The variation of fluxes between the ocean and the atmosphere is very sensitive t
 
 The international TOGA-COARE field program which took place in the western Pacific warm pool over 4 months from November 1992 to February 1993 (Fairall et al. 1996a, 1996b, 1997) spurred the development of the COARE algorithm. The COARE algorithm was developed to provide a consistent and accurate method for estimating these fluxes under a wide range of atmospheric and oceanic conditions. This resulted in the COARE algorithm commonly used in models today. The COARE algorithm is based on a bulk formula approach.
 
-The COARE algorithm has undergone a series of improvements focusing on the exchange parameters \\( C_D, C_H, and C_E \\), which depend on the sea state that encompasses breaking waves and turbulence. 
+The COARE algorithm has undergone a series of improvements focusing on the exchange parameters \\( C_D, C_H, C_E \\), which depend on the sea state that encompasses breaking waves and turbulence. 
 
 History of COARE development:
 
@@ -219,6 +219,3 @@ History of COARE development:
 | **Complexity**         | High                   | Moderate               |
 | **Accuracy**           | High (turbulent fluxes)| Moderate               |
 | **Deployment**         | Research-grade         | Operational            |
-
-
-Understanding air-sea interactions through these methods provides critical insights into processes like ocean-atmosphere coupling, climate variability, and energy transfer in the Earth system.
