@@ -139,7 +139,7 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
 - \\( \tau \\): wind stress
 - \\( C_D \\)​: drag coefficient
 
-To do this, we apply the Monin-Obukhov Similarity Theory (MOST).
+The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and C_E \\). So let's learn about them. First, we need to understand  the Monin-Obukhov Similarity Theory (MOST).
 
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
