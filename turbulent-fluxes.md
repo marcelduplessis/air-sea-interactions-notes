@@ -104,7 +104,7 @@ The bulk flux method is an indirect approach that estimates air-sea fluxes using
 
 The bulk flux transfer of heat, momentum, moisture and gases follows the gradient-transfer theory, eddy diffusivity theory, or mixing length theory which assumes that the flux is proportional to and directed down the local gradient. For instance, take the turbulent flux of temperature:
 
-\\[ F = \overline{w' \theta'} = -K \frac{\partial \theta}{\partial \z} \\]
+\\[ F = \overline{w' \theta'} = -K \frac{\partial \theta}{\partial z} \\]
 
 Parameter \\( K \\) is prescribed to increase with the intensity of turbulence, with varies with height above the ground, mean wind shear and surface heating by the sun. 
 
@@ -145,9 +145,9 @@ The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and 
 
 MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface (the surface layer). It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity.
 
-The Monin-Obukhov length, \\( L \\), is a atmospheric stability parameter. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
+The Monin-Obukhov length, \\( L \\), is an atmospheric stability parameter. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
 
-//[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} //]
+\\[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} \\]
 
 Where:
 - \\( u_* \\) = friction velocity
