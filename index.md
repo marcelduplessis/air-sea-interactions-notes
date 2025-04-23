@@ -29,7 +29,6 @@ These notes are created to be stand-alone for the air-sea interactions module of
 
 ## Learning Objectives
 
-<ul>
 - Understand how the Earth's energy is distributed and by which mechanisms
 - Differentiate the difference between direct and indirect fluxes
 - Define the variables required to observe air-sea interactions
@@ -37,11 +36,8 @@ These notes are created to be stand-alone for the air-sea interactions module of
 - Explain the different ways that air-sea fluxes can be observed
 - Define basics on modeling air-sea fluxes
 - Have a global understanding of international efforts to understand air-sea interactions
-</ul>
-
 
 ## Reading list
-
 
 <div id="BFK18" class="reference">
 [BFK18] Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers in Operational Oceanography", E. Chassignet, A. Pascual, J. Tintoré, and J. Verron, Eds., GODAE OceanView, 27-74, URL: <a href="https://doi.org/10.17125/gov2018ch02">https://doi.org/10.17125/gov2018ch02</a>.
@@ -50,4 +46,11 @@ These notes are created to be stand-alone for the air-sea interactions module of
 <div id="TFK09" class="reference">
 [TFK09] Trenberth, K.E., Fasullo, J.T. and Kiehl, J., 2009. Earth's global energy budget. Bulletin of the american meteorological society, 90(3), pp.311-324. URL: <a href="https://doi.org/10.1175/2008BAMS2634.1">https://doi.org/10.1175/2008BAMS2634.1</a>.
 </div>
+
+<style>
+.reference {
+    text-indent: -3em; /* Negative indent for the first line */
+    padding-left: 3em; /* Indent for subsequent lines */
+}
+</style>
 
