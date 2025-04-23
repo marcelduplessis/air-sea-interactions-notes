@@ -149,7 +149,6 @@ The Monin-Obukhov length, \\( L \\), is an atmospheric stability parameter. It r
 
 \\[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} \\]
 
-Where:
 - \\( u_* \\) = friction velocity
 - \\( \kappa \\) = von Kármán constant (≈ 0.4)
 - \\( g \\) = acceleration due to gravity
@@ -158,11 +157,11 @@ Where:
 
 The interpretation of \\( L \\) can be summarised below:
 
-| Stability    | Sign of L | Description                         |
-|--------------|-----------|-------------------------------------|
-| **Stable**   | L>0       | Buoyancy suppresses turbulence      |
-| **Neutral**  | L→∞       | No buoyant effects, shear-dominated |
-| **Accuracy** | L<0       | Buoyancy enhances turbulence        |
+| Stability      | Sign of L      | Description                         |
+|----------------|----------------|-------------------------------------|
+| **Stable**     | L>0            | Buoyancy suppresses turbulence      |
+| **Neutral**    | L→∞            | No buoyant effects, shear-dominated |
+| **Accuracy**   | L<0            | Buoyancy enhances turbulence        |
 
 <h3>Transfer Coefficient Under MOST</h3>
 
