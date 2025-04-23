@@ -24,4 +24,7 @@ body {
     counter-increment: h3;
     content: counter(h1) "." counter(h2) "." counter(h3) " ";
   }
-  
+
+.start-h1-1 { counter-reset: h1 0; }
+.start-h1-2 { counter-reset: h1 1; }
+.start-h1-3 { counter-reset: h1 2; }
