@@ -3,7 +3,7 @@ layout: default
 title: Basics of Air-Sea Interactions Theory
 ---
 
-# Basics of Air-Sea Interactions Theory
+# Basics of Air-Sea Interactions Theory {.large-gap}
 
 Air-sea interactions play a critical role in the exchange of momentum, heat, and gases between the atmosphere and the ocean. These exchanges are fundamental to understanding weather, climate, and ocean dynamics. Two key approaches to quantify these exchanges are the **eddy covariance method** and the **bulk flux method**.
 
