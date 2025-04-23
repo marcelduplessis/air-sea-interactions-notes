@@ -10,7 +10,7 @@ There are two key approaches to quantify air-sea exchanges: the **eddy covarianc
 
 <h2>Eddy Covariance</h2>
 
-The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration.
+The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. The transfer of heat, moisture, and other scalars between the atmosphere and the surface is mediated by turbulent eddies. It therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration at scales much faster than the time evolution of eddies in the marine atmospheric boundary layer.
 
 <h3>Key Features:</h3>
 
@@ -40,6 +40,12 @@ The flux of the scalar quantity $q$ is given by:
 </div>
 
 If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( µmol mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
+
+This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can clearly visualise the turbulent eddies in the marine atmospheric boundary layer.
+
+{% include youtube.html id="e5DO-gq-5XE" %}
+
+<h3>Observations:</h3>
 
 <h3>Advantages:</h3>
 
