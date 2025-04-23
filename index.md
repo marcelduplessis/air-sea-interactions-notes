@@ -54,8 +54,8 @@ These notes are created to be stand-alone for the air-sea interactions module of
 
 <style>
 .reference {
-    text-indent: 0em; /* Negative indent for the first line */
-    padding-left: 6em; /* Indent for subsequent lines */
+    text-indent: -3em; /* Negative indent for the first line */
+    padding-left: 3em; /* Indent for subsequent lines */
 }
 </style>
 
