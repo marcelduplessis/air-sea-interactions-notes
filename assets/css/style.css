@@ -40,3 +40,6 @@ a:hover {
 .container > div > h2 {
     margin-top: 0;
 }
+.large-gap {
+    margin-top: 50px; /* Adjust the value as needed */
+    }
