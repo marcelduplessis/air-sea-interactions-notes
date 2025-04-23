@@ -6,7 +6,11 @@ title: Turbulent Heat Fluxes
 
 <h1> Turbulent fluxes </h1>
 
-There are two key approaches to quantify air-sea exchanges: the **eddy covariance method** and the **bulk flux method**.
+There are two key approaches to quantify air-sea exchanges: the **eddy covariance method** and the **bulk flux method**. In this section, we outline the main components of each and how to observe them. At the end, you should be able to:
+
+- Compare and constrast the eddy covariance and bulk flux method for obtaining air-sea heat fluxes
+- Discuss the advantages and disadvantages of the two methods
+- Outline the main instrumentation required to obtain each estimation of the flux
 
 <h2>Eddy Covariance</h2>
 
