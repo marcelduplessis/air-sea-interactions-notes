@@ -66,7 +66,9 @@
         </style>       
     </nav>
     <main>
-        <h1 class="large-gap">{{ page.title }}</h1>
+        <div class="content">
+            {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}           
+        </div>
         <div class="content">
             {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}           
         </div>

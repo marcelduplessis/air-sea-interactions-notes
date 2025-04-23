@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Global energy distribution and air-sea interactions
+title: Global energy distribution
 ---
+
+<h1> Global energy distribution </h1>
 
 *“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [BFK18](/air-sea-interactions-notes/#BFK18)
 
