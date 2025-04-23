@@ -14,26 +14,26 @@ The eddy covariance method is a direct measurement technique used to estimate fl
 
 <h3>Governing Equation:</h3>
 
-If we are interested in a quantity \\( q \\), it can be separated into its mean and fluctating parts:
+If we are interested in a quantity \\( c \\), it can be separated into its mean and fluctating parts:
 
-\\[ q = \overline{q} - q' \\]
+\\[ q = \overline{c} - c' \\]
 
-\\( \overline{q} \\) is the mean component, while \\( q' \\) is the flucutating term.
+\\( \overline{c} \\) is the mean component, while \\( c' \\) is the flucutating term.
 
-The flux of the scalar quantity $q$ is given by:
+The flux of the scalar quantity \\( c \\) is given by:
 
-\\[ F = \overline{w'q'} \\]
+\\[ F = \overline{w'c'} \\]
 
-- \\( w' \\): Vertical velocity fluctuation
-- \\( q' \\): Scalar quantity fluctuation (e.g., temperature, humidity)
-- \\( \overline{w'q'} \\): Time-averaged covariance of \\( w' \\) and \\( q' \\)
+- \\( w' \\): Vertical wind speed fluctuation
+- \\( c' \\): Scalar quantity fluctuation (e.g., temperature, humidity)
+- \\( \overline{w'c'} \\): Time-averaged covariance of \\( w' \\) and \\( c' \\)
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-schematic.jpg" alt="eddy covariance schematic" style="width: 80%; margin: 30px 0;">
   <p><em>Schematic of the transport of a quantity c by turbulent motion. Source: Source: <a href="/references/#BA10">[BA10]</a></em></p>
 </div>
 
-If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( µmol mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
+If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( \mu mol \\) \\( mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
 
 This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can clearly visualise the turbulent eddies in the marine atmospheric boundary layer.
 
