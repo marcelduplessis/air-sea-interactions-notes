@@ -13,12 +13,14 @@
 
     header {
       background-color: #ddd; /* Light gray */
-      color: black;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      position: relative;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
       z-index: 2;
     }
 
@@ -52,31 +54,32 @@
       fill: black;
     }
 
-    .page-body {
-      position: relative;
-    }
-
-    nav {
+    #sidebar {
       position: fixed;
-      top: 0;
+      top: 50px;
       left: 0;
-      height: 100%;
       width: 250px;
+      height: calc(100% - 50px);
       background-color: #f4f4f4;
       padding: 20px;
       overflow-y: auto;
-      transform: translateX(-100%);
-      transition: transform 0.3s ease;
-      z-index: 1;
+      transition: width 0.3s ease;
     }
 
-    nav.open {
-      transform: translateX(0);
+    #sidebar.closed {
+      width: 0;
+      padding: 0;
+      overflow: hidden;
     }
 
     main {
-      padding: 20px 10% 20px 10%;
+      margin-top: 60px;
+      margin-left: 250px;
+      padding: 20px 10%;
       transition: margin-left 0.3s ease;
+    }
+
+    #sidebar.closed + main {
       margin-left: 0;
     }
 
@@ -142,19 +145,23 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="page-body">
-    <main>
-      {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}
-      {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}
-    </main>
-  </div>
+  <main id="main-content">
+    {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}
+    {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}
+  </main>
 
   <script>
     const toggleBtn = document.getElementById("toggle-nav");
     const sidebar = document.getElementById("sidebar");
+    const main = document.getElementById("main-content");
 
     toggleBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("open");
+      sidebar.classList.toggle("closed");
+      if (sidebar.classList.contains("closed")) {
+        main.style.marginLeft = "0";
+      } else {
+        main.style.marginLeft = "250px";
+      }
     });
   </script>
 
