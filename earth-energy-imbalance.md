@@ -1,5 +1,6 @@
 ---
 layout: default
+chapter: 1
 title: Global energy distribution
 ---
 
