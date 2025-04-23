@@ -9,12 +9,12 @@ Air-sea interactions play a critical role in the exchange of momentum, heat, and
 
 The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or CO₂ concentration.
 
-<h2>Key Features:<h2>
+<h2>Key Features:</h2>
 - **Direct Measurement**: Captures turbulent fluxes by resolving small-scale eddies.
 - **High Temporal Resolution**: Requires fast-response sensors (e.g., sonic anemometers, infrared gas analyzers).
 - **Complexity**: Sensitive to sensor alignment, platform motion (e.g., ship or buoy), and environmental noise.
 
-<h2>Governing Equation:<h2>
+<h2>Governing Equation:</h2>
 The flux of a scalar quantity $Q$ is given by:
 
 $$
