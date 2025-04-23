@@ -39,6 +39,8 @@ The flux of the scalar quantity $q$ is given by:
   <p><em>Schematic of the transport of a quantity c by turbulent motion. Source: Source: <a href="/references/#BA10">[BA10]</a></em></p>
 </div>
 
+If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( µmol mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
+
 <h3>Advantages:</h3>
 
 - Provides high accuracy for turbulent fluxes.
