@@ -15,7 +15,7 @@ I quite like this quote because when we talk about scales of interest it really 
 The Earth's atmosphere receives its heat through solar radiation, which acts primarily in the wavelength range of 0.25-4 micrometres (µm). Meanwhile, outgoing longwave radiation falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 µm.
 
 <div style="text-align: center;">
-  <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 60%;">
+  <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
   <p><em>Radiation spectrum. Source: <a href="https://science.nasa.gov/ems/">https://science.nasa.gov/ems/</a></em></p>
 </div>
 
@@ -28,7 +28,7 @@ Joule is a unit of energy that measures the energy required to create heat.
 Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 W m$`^{-2}`$ of solar power arrives as primarily shortwave radiation. 102 W m$`^{-2}`$ of this shortwave radiation is reflected back to space, with about 239 W m$`^{-2}`$ entering the earth’s atmosphere.
 
 <div style="text-align: center;">
-  <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%;">
+  <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
   <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: [TFK09]</em></p>
 </div>
 
@@ -64,7 +64,7 @@ The figure shows a slight imbalance at the top of the atmosphere (TOA), indicati
 The satellite observed brightness temperature by the Atmospheric Infrared Sounder (AIRS) at an infrared wavelength senses the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
 
 <div style="text-align: center;">
-  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 60%;">
+  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 60%; margin: 30px 0;">
   <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
 </div>
 
@@ -91,7 +91,7 @@ The absorption spectrum of a greenhouse gas like carbon dioxide or methane shows
 The absorption spectrum of greenhouse gases plays a crucial role in the Earth's energy balance and climate system. By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming. Understanding the absorption spectrum of greenhouse gases is therefore essential for understanding the causes and impacts of climate change, and for developing strategies to mitigate its effects.
 
 <div style="text-align: center;">
-  <img src="assets/images/ghg.png" alt="ghg" style="width: 60%;">
+  <img src="assets/images/ghg.png" alt="ghg" style="width: 60%; margin: 30px 0;">
   <p><em> Amount of energy absorbed by greenhouse gases in various wavelength regions, from ultraviolet radiation on the left, to visible light in the middle, to infrared radiation on the right. This figure was prepared by Robert A. Rohde for the Global Warming Art project.</em></p>
 </div>
 
@@ -106,7 +106,7 @@ Equator and tropics receive excess incoming radiation over outgoing, mid-latitud
 Energy measured in Watts per meter squared (W m-2).
 
 <div style="text-align: center;">
-  <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%;">
+  <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 30px 0;">
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
@@ -121,7 +121,7 @@ However, this view of global heat distribution is a smoothed picture. What we ex
 Another major factor infleuncing the way that heat is distribution around the global is seen in the figure below by [RALS17]. We do we see the large surface to air temperature differences that exist over land but not over the ocean?
 
 <div style="text-align: center;">
-  <img src="assets/images/diurnal-temp-range.png" alt="heat-range" style="width: 60%;">
+  <img src="assets/images/diurnal-temp-range.png" alt="heat-range" style="width: 60%; margin: 30px 0;">
   <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
 </div>
 
