@@ -1,51 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    <style>
-        body {
-            display: flex;
-        }
-        nav {
-            max-width: 250px; /* Ensures it doesn't grow beyond 450px */
-            min-width: 250px; /* Ensures it doesn't shrink below 450px */
-            width: 250px;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        main {
-            flex-grow: 1;
-            padding: 20px;
-            padding-right: 15%;
-            padding-left: 10%;
-        }
-        .photo {
-            margin-bottom: 20px;
-        }
-        .large-gap {
-            margin-top: 100px; /* Adjust the value as needed */
-        }
-        .small-gap {
-            margin-top: 50px; /* Adjust the value as needed */
-        }
-    </style>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #toggle-nav {
+      background: #555;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #github-link {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .page-body {
+      display: flex;
+      flex: 1;
+      height: 100%;
+    }
+
+    nav {
+      width: 250px;
+      min-width: 250px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      transition: width 0.3s ease;
+      overflow: hidden;
+    }
+
+    nav.collapsed {
+      width: 0;
+      padding: 0;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 20px 10% 20px 10%;
+      transition: margin-left 0.3s ease;
+    }
+
+    .no-bullets {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .no-bullets li {
+      margin: 5px 0;
+    }
+  </style>
 </head>
-<body class="start-h1-{{ page.chapter }}"></body>
+
 <body class="{% if page.no_heading_numbers %}no-heading-numbers{% else %}start-h1-{{ page.chapter | default: 0 }}{% endif %}">
-<body>
+
+  <!-- Top Toolbar -->
+  <header>
+    <div class="left">
+      <button id="toggle-nav">☰</button>
+      <span>{{ page.title }}</span>
+    </div>
+    <a id="github-link" href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank">View on GitHub</a>
+  </header>
+
+  <!-- Sidebar + Main Content -->
+  <div class="page-body">
     <nav id="sidebar">
-        <button id="toggle-nav">☰ Menu</button>
-        <div id="nav-content">
-            <div class="photo">
-                <img src="{{ '/assets/images/airsea-pic.jpg' | relative_url }}" alt="Photo" width="100%">
-            </div>
-            <div class="contents-heading">
-                <h4>Air-sea Interactions - OC4920</h4>
-        </div>       
-        <ul class="no-bullets">
+      <div class="photo">
+        <img src="{{ "/assets/images/airsea-pic.jpg" | relative_url }}" alt="Photo" width="100%">
+      </div>
+      <div class="contents-heading">
+        <h4>Air-sea Interactions - OC4920</h4>
+      </div>
+      <ul class="no-bullets">
             <li><a href="/air-sea-interactions-notes">Introduction to Air-Sea Interactions</a></li>
             <li><a href="/air-sea-interactions-notes/earth-energy-imbalance">Global Energy Distribution</a></li>
             <li><a href="/air-sea-interactions-notes/basics-airsea-interactions-theory">Air-Sea Interactions Theory</a></li>
@@ -58,31 +113,25 @@
             <li><a href="/air-sea-interactions-notes/coding-air-sea-fluxes">Assignment</a></li>
             <!-- Add more notes as needed -->
         </ul>
-        
-        <style>
-            .no-bullets {
-                list-style-type: none;
-                padding: 0;
-            }
-            .no-bullets li {
-                margin: 5px 0;
-            }
-        </style>       
     </nav>
+
     <main>
-        <div class="content">
-            {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}           
-        </div>
-        <div class="content">
-            {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}           
-        </div>
-            
+      {{ content | replace: "<h1>", "<h1 class='large-gap'>" }}
+      {{ content | replace: "<h2>", "<h2 class='small-gap'>" }}
     </main>
-    <script>
-        document.getElementById("toggle-nav").addEventListener("click", function () {
-            var navContent = document.getElementById("nav-content");
-            navContent.style.display = navContent.style.display === "none" ? "block" : "none";
-        });
-    </script>
+  </div>
+
+  <script>
+    document.getElementById("toggle-nav").addEventListener("click", function () {
+      const sidebar = document.getElementById("sidebar");
+      sidebar.classList.toggle("collapsed");
+    });
+  </script>
 </body>
 </html>
+
+<!--
+  This is a Jekyll layout file for a default page structure.
+  It includes a header with a toggle button for the sidebar,
+  a sidebar for navigation, and a main content area.
+  The sidebar can be collapsed to save space.
