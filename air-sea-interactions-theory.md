@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Basics of Air-Sea Interactions Theory
+title: Air-Sea Interactions Theory
 chapter: 2
 ---
 
-<h1> Basics of Air-Sea Interactions Theory </h1>
+<h1> Air-Sea Interactions Theory </h1>
 
 Air-sea interaction refers to the exchange of energy, momentum, and mass between the atmosphere and the ocean.
 
@@ -63,3 +63,10 @@ They play a central role in weather, climate regulation, and ocean circulation. 
     Precipitation: Returns water from the atmosphere to the ocean.
 
     Gas Exchange: Exchange of gases like O₂, CO₂ based on concentration gradients.
+
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
