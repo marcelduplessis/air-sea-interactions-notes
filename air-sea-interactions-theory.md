@@ -43,7 +43,7 @@ They play a central role in weather, climate regulation, and ocean circulation. 
 
 <div style="text-align: center;">
   <img src="assets/images/noaa-flux-basic.png" alt="noaa-flux-basic" style="width: 60%; margin: 30px 0;">
-  <p><em>Wind and buoyancy acts on the ocean surface boundary later. Solar radiation ($Q_{sw}$), net longwave radiation ($Q_{lw}$), latent heat flux ($Q_{lat}$), and sensible heat flux ($Q_{sen}$) combine to form the net surface heat flux ($Q_{net}$). $Q_{pen}$ is the solar radiation penetrating the base of the mixed layer. Source: <a href="/references/#CS01">[CS01]</a></em></p>
+  <p><em>Wind and buoyancy acts on the ocean surface boundary later. Solar radiation (\\(Q_{sw}\\)), net longwave radiation (\\(Q_{lw}\\)), latent heat flux (\\(Q_{lat}\\)), and sensible heat flux (\\(Q_{sen}\\)) combine to form the net surface heat flux (\\( Q_{net}\\)). \\(Q_{pen}\\) is the solar radiation penetrating the base of the mixed layer. Source: <a href="/references/#CS01">[CS01]</a></em></p>
 </div>
 
 <h3> Momentum exchange: </h3>
@@ -54,7 +54,7 @@ Quantified as:
         
 \\[ \tau = \rho_a C_D U^2 \\]
 
-where \\( \tau \\) is wind stress, $\rho_a$ is air density, $C_D$​ is drag coefficient, and $U$ is wind speed taken from a reference height of 10 meters above the sea surface.
+where \\( \tau \\) is wind stress, \\( \rho_a \\) is air density, \\( C_D \\)​ is drag coefficient, and \\( U \\) is wind speed taken from a reference height of 10 meters above the sea surface.
 
 <h3> Mass exchange: </h3>
 
