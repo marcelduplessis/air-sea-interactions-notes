@@ -25,7 +25,7 @@ I would like to acknowledge that my learning of air-sea interactions is thanks t
 These notes are created to be stand-alone for the air-sea interactions module of the OC4920 course. They are based on various material that I have sourced via readings or online. You will find it beneficial to do your own reading around the subject to extend your knowledge beyond what is presented here. There are a number of reading material listed below that you will find helpful.
 
 
-### Reading list
+## Reading list
 
 
 <div id="BFK18" class="reference">
@@ -54,8 +54,8 @@ These notes are created to be stand-alone for the air-sea interactions module of
 
 <style>
 .reference {
-    text-indent: -5em; /* Negative indent for the first line */
-    padding-left: 3em; /* Indent for subsequent lines */
+    text-indent: 0em; /* Negative indent for the first line */
+    padding-left: 6em; /* Indent for subsequent lines */
 }
 </style>
 
