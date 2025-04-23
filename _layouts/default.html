@@ -36,13 +36,15 @@
 <body class="start-h1-{{ page.chapter }}"></body>
 <body class="{% if page.no_heading_numbers %}no-heading-numbers{% else %}start-h1-{{ page.chapter | default: 0 }}{% endif %}">
 <body>
-    <nav>
-        <div class="photo">
-            <img src="{{ "/assets/images/airsea-pic.jpg" | relative_url }}" alt="Photo" width="100%">
-        </div>
-        <div class="contents-heading">
-            <h4>Air-sea Interactions - OC4920</h4>
-        </div>        
+    <nav id="sidebar">
+        <button id="toggle-nav">☰ Menu</button>
+        <div id="nav-content">
+            <div class="photo">
+                <img src="{{ '/assets/images/airsea-pic.jpg' | relative_url }}" alt="Photo" width="100%">
+            </div>
+            <div class="contents-heading">
+                <h4>Air-sea Interactions - OC4920</h4>
+        </div>       
         <ul class="no-bullets">
             <li><a href="/air-sea-interactions-notes">Introduction to Air-Sea Interactions</a></li>
             <li><a href="/air-sea-interactions-notes/earth-energy-imbalance">Global Energy Distribution</a></li>
@@ -76,5 +78,11 @@
         </div>
             
     </main>
+    <script>
+        document.getElementById("toggle-nav").addEventListener("click", function () {
+            var navContent = document.getElementById("nav-content");
+            navContent.style.display = navContent.style.display === "none" ? "block" : "none";
+        });
+    </script>
 </body>
 </html>
