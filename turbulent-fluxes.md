@@ -96,16 +96,43 @@ These platforms are also subject to pitch, roll, and yaw motion. The wind speed 
 - Requires expensive instrumentation.
 - Challenging to deploy in harsh marine environments.
 
-The exchange of momentum and energy between the atmosphere and ocean is difficult to measure directly over the ocean. Instead, oceanographers and meteorologist often rely on bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
+The exchange of momentum and energy between the atmosphere and ocean is difficult to measure directly over the ocean. Instead, oceanographers and meteorologists often rely on bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
 
 <h2>Bulk Flux Method</h2>
 
-The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables.
+The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. To do this, we apply the Monin-Obukhov Similarity Theory (MOST).
 
-<h3>Key Features:</h3>
-- **Parameterization-Based**: Relies on bulk formulas derived from observational data.
-- **Widely Used**: Suitable for operational models and large-scale studies.
-- **Simpler Setup**: Requires standard meteorological measurements (e.g., wind speed, air temperature, sea surface temperature).
+<h3>Monin-Obukhov Similarity Theory:</h3>
+
+MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface (the surface layer). It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity.
+
+The Monin-Obukhov length, \\( L \\), is a atmospheric stability parameter. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
+
+//[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} //]
+
+Where:
+
+    u∗u∗​ = friction velocity
+
+    κκ = von Kármán constant (≈ 0.4)
+
+    gg = acceleration due to gravity
+
+    TT = mean virtual temperature
+
+    w′θv′‾w′θv′​​ = kinematic virtual potential temperature flux
+
+Stability | Sign of LLL | Description
+Stable | L>0L > 0L>0 | Buoyancy suppresses turbulence
+Neutral | L→∞L \to \inftyL→∞ | No buoyant effects, shear-dominated
+Unstable | L<0L < 0L<0 | Buoyancy enhances turbulence
+
+| Stability    | Sign of L | Description                         |
+|--------------|-----------|-------------------------------------|
+| **Stable**   | L>0       | Buoyancy suppresses turbulence      |
+| **Neutral**  | L→∞       | No buoyant effects, shear-dominated |
+| **Accuracy** | L<0       | Buoyancy enhances turbulence        |
+
 
 <h3>Bulk Flux Formulas:</h3>
 1. **Momentum Flux (Wind Stress)**:
@@ -138,6 +165,11 @@ The bulk flux method is an indirect approach that estimates air-sea fluxes using
     - \( C_E \): Latent heat transfer coefficient
     - \( q_s, q_a \): Specific humidity at the surface and air
 
+<h3>Key Features:</h3>
+- **Parameterization-Based**: Relies on bulk formulas derived from observational data.
+- **Widely Used**: Suitable for operational models and large-scale studies.
+- **Simpler Setup**: Requires standard meteorological measurements (e.g., wind speed, air temperature, sea surface temperature).
+
 <h3>Advantages:</h3>
 - Computationally efficient.
 - Applicable over large spatial and temporal scales.
@@ -148,8 +180,8 @@ The bulk flux method is an indirect approach that estimates air-sea fluxes using
 
 <h2>Comparison of Methods</h2>
 
-| Feature                | Eddy Covariance         | Bulk Flux              |
-|------------------------|-------------------------|------------------------|
+| Feature                | Eddy Covariance        | Bulk Flux              |
+|------------------------|------------------------|------------------------|
 | **Measurement Type**   | Direct                 | Indirect               |
 | **Complexity**         | High                   | Moderate               |
 | **Accuracy**           | High (turbulent fluxes)| Moderate               |
