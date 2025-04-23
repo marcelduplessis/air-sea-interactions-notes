@@ -21,9 +21,9 @@ $$
 F_Q = \overline{w'q'}
 $$
 Where:
-- $w'$: Vertical velocity fluctuation
-- $q'$: Scalar quantity fluctuation (e.g., temperature, humidity)
-- $\overline{w'q'}$: Time-averaged covariance of $w'$ and $q'$
+- $$w'$$: Vertical velocity fluctuation
+- $$q'$$: Scalar quantity fluctuation (e.g., temperature, humidity)
+- $$\overline{w'q'}$$: Time-averaged covariance of $$w'$$ and $$q'$$
 
 ### Advantages:
 - Provides high accuracy for turbulent fluxes.
