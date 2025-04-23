@@ -49,16 +49,36 @@ This youtube video by NCAR VAPOR demonstrates how winds, convection, and surface
 
 There are several ways to obtain eddy covariance measurements at sea. The most common is using ship-based observations, while others include moored buoys, drifting spar buoys, and autonomous vehicles. Each come with their own set of complications.
 
+**Primary instruments:**
+
+The fundamental instruments needed to obtain eddy covariance measurements are: 
+
+- 3-dimensional sonic anemometer for x, y, and z direction wind speeds and fast response temperature.
+- Infrared gas analysers for water vapour and \\( CO_2 \\) concentrations.
+
+<div style="text-align: center;">
+  <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 70%; margin: 30px 0 0px 0;">
+  <p><em>Sensors installed on an eddy covariance mast tower in preperature for the Benguela Flux Experiment. Source: Dr. Brian Ward</em></p>
+</div>
+
 **Ship-based eddy covariance flux measurements**:
 
 Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
 
 <div style="text-align: center;">
-  <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 80%; margin: 30px 0;">
-  <p><em>Image of an eddy covariance setup on the Celtic Explorer. Source: Dr. Brian Ward</a></em></p>
+  <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 80%; margin: 30px 0 0px 0;">
+  <p><em>Image of an eddy covariance setup on the Celtic Explorer. Source: Dr. Brian Ward</em></p>
 </div>
 
-<h3>Motion correction:</h3>
+<h3>Sources of errors:</h3>
+
+**Flow distortion**:
+
+Air-sea flux measurements require a platform, typically a vessel or a buoy. The presence of the platform superstructure and the instrument themself cause a distortion of the wind field and lead to acceleration or deceleration of the wind speed. This can lead to errors in the wind speed in the order of 10%, even at well exposed measurement locations, (e.g Yelland et al., 2002; Popinet et al., 2004).
+
+**Motion correction**:
+
+These platforms are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed form the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
 
 <h3>Key Features:</h3>
 
