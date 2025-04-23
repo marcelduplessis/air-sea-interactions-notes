@@ -100,7 +100,46 @@ The exchange of momentum and energy between the atmosphere and ocean is difficul
 
 <h2>Bulk Flux Method</h2>
 
-The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. To do this, we apply the Monin-Obukhov Similarity Theory (MOST).
+The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. 
+
+The bulk flux transfer of heat, momentum, moisture and gases follows the gradient-transfer theory, eddy diffusivity theory, or mixing length theory which assumes that the flux is proportional to and directed down the local gradient. For instance, take the turbulent flux of temperature:
+
+\\[ F = \overline{w' \theta'} = -K \frac{\partial \theta}{\partial \z} \\]
+
+Parameter \\( K \\) is prescribed to increase with the intensity of turbulence, with varies with height above the ground, mean wind shear and surface heating by the sun. 
+
+The bulk formula is used to estimate the turbulent heat fluxes (latent and sensible) and the frictional force of wind blowing across the sea surface transfering momentum to the ocean, driving surface currents and waves (momentum flux). 
+
+<h3>Bulk Flux Formulas:</h3>
+
+**Sensible heat flux**:
+    
+\\[ Q_{sen} = \rho_a c_p C_H U (\theta_s - \theta_a) \\]
+    
+- \\( Q_{sen} \\): Sensible heat flux
+- \\( \rho_a \\): air density
+- \\( c_p \\): specific heat capacity of air at constant pressure
+- \\( C_H \\): bulk transfer coefficient for heat
+- \\( U \\): wind speed at reference height of 10 m above sea level
+- \\( \theta_s, \theta_a \\): potential temperature at surface skin and 2 m above sea level
+
+**Latent heat flux**:
+
+\\[ Q_{lat} = \rho_a L_v C_E U (q_s - q_a) \\]
+    
+- \\( Q_{lat} \\): latent heat flux
+- \\( L_v \\): latent heat of vaporization
+- \\( C_E \\): latent heat transfer coefficient
+- \\( q_s, q_a \\): specific humidity at the surface and air at 2 m above sea level
+
+**Momentum flux**:
+        
+\\[ \tau = \rho_a C_D U^2 \\]
+
+- \\( \tau \\): wind stress
+- \\( C_D \\)​: drag coefficient
+
+To do this, we apply the Monin-Obukhov Similarity Theory (MOST).
 
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
@@ -124,30 +163,6 @@ The interpretation of \\( L \\) can be summarised below:
 | **Stable**   | L>0       | Buoyancy suppresses turbulence      |
 | **Neutral**  | L→∞       | No buoyant effects, shear-dominated |
 | **Accuracy** | L<0       | Buoyancy enhances turbulence        |
-
-<h3>Bulk Flux Formulas:</h3>
-
-**Sensible Heat Flux**:
-    
-\\[ Q_sen = \rho c_p C_H U (\theta_s - \theta_a) \\]
-    
-Where:
-- \\( Q_sen \\): Sensible heat flux
-- \\( \rho \\): air density
-- \\( c_p \\): specific heat capacity of air at constant pressure
-- \\( C_H \\): bulk transfer coefficient for heat
-- \\( U \\): wind speed at reference height
-- \\( \theta_s, \theta_a \\): potential temperature at surface and reference height
-
-**Latent Heat Flux**:
-
-\\[ Q_lat = \rho L_v C_E U (q_s - q_a) \\]
-    
-Where:
-- \\( Q_lat \\): latent heat flux
-- \\( L_v \\): latent heat of vaporization
-- \\( C_E \\): latent heat transfer coefficient
-- \\( q_s, q_a \\): specific humidity at the surface and air
 
 <h3>Transfer Coefficient Under MOST</h3>
 
