@@ -5,16 +5,16 @@ title: Basics of Air-Sea Interactions Theory
 
 Air-sea interactions play a critical role in the exchange of momentum, heat, and gases between the atmosphere and the ocean. These exchanges are fundamental to understanding weather, climate, and ocean dynamics. Two key approaches to quantify these exchanges are the **eddy covariance method** and the **bulk flux method**.
 
-<h1>Eddy Covariance</h1>
+<h2>Eddy Covariance</h2>
 
 The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. It relies on high-frequency measurements of wind velocity, temperature, and scalar quantities like humidity or CO₂ concentration.
 
-<h2>Key Features:</h2>
+<h3>Key Features:</h3>
 - **Direct Measurement**: Captures turbulent fluxes by resolving small-scale eddies.
 - **High Temporal Resolution**: Requires fast-response sensors (e.g., sonic anemometers, infrared gas analyzers).
 - **Complexity**: Sensitive to sensor alignment, platform motion (e.g., ship or buoy), and environmental noise.
 
-<h2>Governing Equation:</h2>
+<h3>Governing Equation:</h3>
 The flux of a scalar quantity $Q$ is given by:
 
 $$
@@ -25,26 +25,26 @@ Where:
 - $$q'$$: Scalar quantity fluctuation (e.g., temperature, humidity)
 - $$\overline{w'q'}$$: Time-averaged covariance of $$w'$$ and $$q'$$
 
-### Advantages:
+<h3>Advantages:</h3>
 - Provides high accuracy for turbulent fluxes.
 - Useful for research-grade measurements.
 
-### Limitations:
+<h3>Limitations:</h3>
 - Requires expensive instrumentation.
 - Challenging to deploy in harsh marine environments.
 
 ---
 
-<h1>Bulk Flux Method</h1>
+<h2>Bulk Flux Method</h2>
 
 The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables.
 
-### Key Features:
+<h3>Key Features:</h3>
 - **Parameterization-Based**: Relies on bulk formulas derived from observational data.
 - **Widely Used**: Suitable for operational models and large-scale studies.
 - **Simpler Setup**: Requires standard meteorological measurements (e.g., wind speed, air temperature, sea surface temperature).
 
-### Bulk Flux Formulas:
+<h3>Bulk Flux Formulas:</h3>
 1. **Momentum Flux (Wind Stress)**:
     \[
     \tau = \rho_a C_d U^2
@@ -75,17 +75,15 @@ The bulk flux method is an indirect approach that estimates air-sea fluxes using
     - \( C_E \): Latent heat transfer coefficient
     - \( q_s, q_a \): Specific humidity at the surface and air
 
-### Advantages:
+<h3>Advantages:</h3>
 - Computationally efficient.
 - Applicable over large spatial and temporal scales.
 
-### Limitations:
+<h3>Limitations:</h3>
 - Accuracy depends on the quality of parameterizations.
 - Assumes steady-state and horizontally homogeneous conditions.
 
----
-
-## Comparison of Methods
+<h2>Comparison of Methods</h2>
 
 | Feature                | Eddy Covariance         | Bulk Flux              |
 |------------------------|-------------------------|------------------------|
@@ -94,6 +92,5 @@ The bulk flux method is an indirect approach that estimates air-sea fluxes using
 | **Accuracy**           | High (turbulent fluxes)| Moderate               |
 | **Deployment**         | Research-grade         | Operational            |
 
----
 
 Understanding air-sea interactions through these methods provides critical insights into processes like ocean-atmosphere coupling, climate variability, and energy transfer in the Earth system.
