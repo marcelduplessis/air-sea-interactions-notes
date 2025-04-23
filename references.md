@@ -20,6 +20,22 @@ title: References
 [DTR+19] Davis, R.E., Talley, L.D., Roemmich, D., Owens, W.B., Rudnick, D.L., Toole, J., Weller, R., McPhaden, M.J. and Barth, J.A., 2019. 100 years of progress in ocean observing systems. Meteorological Monographs, 59, pp.3-1. URL: <a href="https://doi.org/10.1175/AMSMONOGRAPHS-D-18-0014.1">https://doi.org/10.1175/AMSMONOGRAPHS-D-18-0014.1</a>.
 </div>
 
+<div id="EJW+13" class="reference">
+[EJW+13] Edson, J. B., et al. (2013). On the exchange of momentum over the open ocean. J. Phys. Oceanogr., 43(8), 1589–1610. URL: <a href="https://doi.org/10.1175/JPO-D-12-0173.1">https://doi.org/10.1175/JPO-D-12-0173.1</a>.
+</div>
+
+<div id="FBR+96" class="reference">
+[FBR+96] Fairall, C. W., Bradley, E. F., Rogers, D. P., Edson, J. B., & Young, G. S. (1996). Bulk parameterization of air–sea fluxes for Tropical Ocean–Global Atmosphere Coupled-Ocean Atmosphere Response Experiment. Journal of Geophysical Research: Oceans, 101(C2), 3747–3764. URL: <a href="https://doi.org/10.1029/95JC03205">https://doi.org/10.1029/95JC03205</a>.
+</div>
+
+<div id="FBG+96" class="reference">
+[FBG+96] Fairall, C. W., Bradley, E. F., Godfrey, J. S., Wick, G. A., Edson, J. B., & Young, G. S. (1996). Cool-skin and warm-layer effects on sea surface temperature. J. Geophys. Res., 101(C1), 1295–1308. URL: <a href="https://doi.org/10.1029/95JC03190">https://doi.org/10.1029/95JC03190</a>.
+</div>
+
+<div id="FBH+03" class="reference">
+[FBH+03] Fairall, C. W., Bradley, E. F., Hare, J. E., Grachev, A. A., & Edson, J. B. (2003). Bulk parameterization of air–sea fluxes: Updates and verification for the COARE algorithm. J. Climate, 16(4), 571–591. URL: <a href="https://doi.org/10.1175/1520-0442(2003)016<0571:BPOASF>2.0.CO;2">https://doi.org/10.1175/1520-0442(2003)016<0571:BPOASF>2.0.CO;2</a>.
+</div>
+
 <div id="GF19" class="reference">
 [GF19] Foltz, G.R., 2019. Wind-and buoyancy-forced upper ocean. Encyclopedia of ocean sciences, 1, pp.113-121. URL: <a href="https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf">https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf</a>.
 </div>

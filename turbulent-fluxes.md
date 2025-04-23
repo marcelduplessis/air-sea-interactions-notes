@@ -115,7 +115,9 @@ Where:
 - \\( \kappa \\) = von Kármán constant (≈ 0.4)
 - \\( g \\) = acceleration due to gravity
 - \\( T \\) = mean virtual temperature
-- \\( \overline{w' \theta'_v} \\) = mean virtual temperature
+- \\( \overline{w' \theta'_v} \\) = kinematic virtual potential temperature flux
+
+The interpretation of \\( L \\) can be summarised below:
 
 | Stability    | Sign of L | Description                         |
 |--------------|-----------|-------------------------------------|
@@ -123,37 +125,64 @@ Where:
 | **Neutral**  | L→∞       | No buoyant effects, shear-dominated |
 | **Accuracy** | L<0       | Buoyancy enhances turbulence        |
 
-
 <h3>Bulk Flux Formulas:</h3>
-1. **Momentum Flux (Wind Stress)**:
-    \[
-    \tau = \rho_a C_d U^2
-    \]
-    Where:
-    - \( \tau \): Wind stress
-    - \( \rho_a \): Air density
-    - \( C_d \): Drag coefficient
-    - \( U \): Wind speed at a reference height
 
-2. **Sensible Heat Flux**:
-    \[
-    Q_H = \rho_a C_p C_H U (T_s - T_a)
-    \]
-    Where:
-    - \( Q_H \): Sensible heat flux
-    - \( C_p \): Specific heat capacity of air
-    - \( C_H \): Sensible heat transfer coefficient
-    - \( T_s, T_a \): Sea surface and air temperatures
+**Sensible Heat Flux**:
+    
+\\[ Q_sen = \rho c_p C_H U (\theta_s - \theta_a) \\]
+    
+Where:
+- \\( Q_sen \\): Sensible heat flux
+- \\( \rho \\): air density
+- \\( c_p \\): specific heat capacity of air at constant pressure
+- \\( C_H \\): bulk transfer coefficient for heat
+- \\( U \\): wind speed at reference height
+- \\( \theta_s, \theta_a \\): potential temperature at surface and reference height
 
-3. **Latent Heat Flux**:
-    \[
-    Q_E = \rho_a L_v C_E U (q_s - q_a)
-    \]
-    Where:
-    - \( Q_E \): Latent heat flux
-    - \( L_v \): Latent heat of vaporization
-    - \( C_E \): Latent heat transfer coefficient
-    - \( q_s, q_a \): Specific humidity at the surface and air
+**Latent Heat Flux**:
+
+\\[ Q_lat = \rho L_v C_E U (q_s - q_a) \\]
+    
+Where:
+- \\( Q_lat \\): latent heat flux
+- \\( L_v \\): latent heat of vaporization
+- \\( C_E \\): latent heat transfer coefficient
+- \\( q_s, q_a \\): specific humidity at the surface and air
+
+<h3>Transfer Coefficient Under MOST</h3>
+
+Under MOST, the transfer coefficient \\( C_H \\)​ is not constant, but varies with stability:
+
+\\[ C_H = \left( \frac{\kappa}{\ln\left(\frac{z - d}{z_0}\right) - \psi_H\left(\frac{z - d}{L}\right)} \right)^2 \\]
+
+Where:
+
+- \\( \phi_H )\\ = stability correction function for heat
+- \\( z )\\ = measurement height
+- \\( z_0 )\\ = roughness length
+- \\( d )\\ = displacement height
+
+Effect of Stability:
+
+- Unstable (\\( L < 0 \\)): \\( \phi_H < 0)\\ → larger \\( CH \\) → enhanced heat flux
+- Stable (\\( L > 0 \\)): \\( \phi_H > 0)\\ → smaller \\( CH \\)​ → suppressed heat flux
+- Neutral (\\( |L| \\) → ∞): \\( \phi_H = 0)\\, logarithmic profile applies
+
+<h3>Coupled Ocean Atmosphere Response Experiment</h3>
+
+The variation of fluxes between the ocean and the atmosphere is very sensitive to the choice of parameterization. Therefore, to thoroughly test the transfer coefficients and refine them for the Tropical Oceans, the Coupled Ocean-Atmosphere Response Experiment (COARE) was conduction. COARE was a large-scale field study conducted in the western Pacific Ocean from 1992-1993, with the objective to improve our understanding of the interaction between the ocean and atmosphere, particularly in the tropics, where the exchange of heat, moisture, and momentum between the two can significantly impact weather and climate.
+
+The international TOGA-COARE field program which took place in the western Pacific warm pool over 4 months from November 1992 to February 1993 (Fairall et al. 1996a, 1996b, 1997) spurred the development of the COARE algorithm. The COARE algorithm was developed to provide a consistent and accurate method for estimating these fluxes under a wide range of atmospheric and oceanic conditions. This resulted in the COARE algorithm commonly used in models today. The COARE algorithm is based on a bulk formula approach.
+
+The COARE algorithm has undergone a series of improvements focusing on the exchange parameters \\( C_D, C_H, and C_E \\), which depend on the sea state that encompasses breaking waves and turbulence. 
+
+History of COARE development:
+
+- COARE 1.0 (1994): Introduced the basic formulation of the algorithm, including the effects of stability, gustiness, and the cool-skin layer [[FBR+96](/references/#FBR+96)]
+- COARE 2.0 (1996-1997): Improved roughness length formulations, better treatment of stability, and updates to the cool-skin parameterization [[FBG+96](/references/#FBR+96)]
+- COARE 3.0 (2003): Significant improvements in the representation for low-wind speed regimes, surface roughness for different sea states, and high-wind conditions. It became the default standard in many operational and climate models [[FBH+03](/references/#FBH+03)]
+- COARE 3.5 (2011): Enhanced performance in low-wind and very high-wind (storm) regimes. Adjustments to roughness length at high wind speeds [[EJW+13](/references/#EJW+13)]  
+- COARE 4.0 (Developmental): Under ongoing development/testing. Aims to further refine high-wind performance, enhance sea state coupling, and incorporate wave models and more advanced turbulence treatments.
 
 <h3>Key Features:</h3>
 - **Parameterization-Based**: Relies on bulk formulas derived from observational data.
