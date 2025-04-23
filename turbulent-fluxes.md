@@ -111,21 +111,11 @@ The Monin-Obukhov length, \\( L \\), is a atmospheric stability parameter. It re
 //[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} //]
 
 Where:
-
-    u∗u∗​ = friction velocity
-
-    κκ = von Kármán constant (≈ 0.4)
-
-    gg = acceleration due to gravity
-
-    TT = mean virtual temperature
-
-    w′θv′‾w′θv′​​ = kinematic virtual potential temperature flux
-
-Stability | Sign of LLL | Description
-Stable | L>0L > 0L>0 | Buoyancy suppresses turbulence
-Neutral | L→∞L \to \inftyL→∞ | No buoyant effects, shear-dominated
-Unstable | L<0L < 0L<0 | Buoyancy enhances turbulence
+- \\( u_* \\) = friction velocity
+- \\( \kappa \\) = von Kármán constant (≈ 0.4)
+- \\( g \\) = acceleration due to gravity
+- \\( T \\) = mean virtual temperature
+- \\( \overline{w' \theta'_v} \\) = mean virtual temperature
 
 | Stability    | Sign of L | Description                         |
 |--------------|-----------|-------------------------------------|
