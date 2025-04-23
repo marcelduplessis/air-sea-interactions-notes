@@ -47,3 +47,7 @@ These notes are created to be stand-alone for the air-sea interactions module of
 [BFK18] Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers in Operational Oceanography", E. Chassignet, A. Pascual, J. Tintoré, and J. Verron, Eds., GODAE OceanView, 27-74, URL: <a href="https://doi.org/10.17125/gov2018ch02">https://doi.org/10.17125/gov2018ch02</a>.
 </div>
 
+<div id="TFK09" class="reference">
+[TFK09] Trenberth, K.E., Fasullo, J.T. and Kiehl, J., 2009. Earth's global energy budget. Bulletin of the american meteorological society, 90(3), pp.311-324. URL: <a href="https://doi.org/10.1175/2008BAMS2634.1">https://doi.org/10.1175/2008BAMS2634.1</a>.
+</div>
+

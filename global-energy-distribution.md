@@ -25,7 +25,7 @@ Joule is a unit of energy that measures the energy required to create heat.
 
 ### What are some consequences of this energy uptake on Earth?
 
-Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 W m$`^{-2}`$ of solar power arrives as primarily shortwave radiation. 102 W m$`^{-2}`$ of this shortwave radiation is reflected back to space, with about 239 W m$`^{-2}`$ entering the earth’s atmosphere.
+Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 W m$$^{-2}$$ of solar power arrives as primarily shortwave radiation. 102 W m$$^{-2}$$ of this shortwave radiation is reflected back to space, with about 239 W m$$^{-2}$$ entering the earth’s atmosphere.
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
@@ -35,14 +35,14 @@ Fusion keeps the solar system warm, so presently the vast majority of the heatin
 The Earth's energy budget involves the balance between incoming solar radiation and outgoing terrestrial radiation. This balance is crucial for maintaining the climate system.
 
 ### Components of the Energy Budget
-Incoming Solar Radiation (Solar In) represents the solar energy that enters the Earth's atmosphere of approximately 341.3 W m$^{-2}$. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (101.9 W m$^{-2}$). The remaining solar radiation is absorbed by the atmosphere and the Earth's surface, approximately 238.5 W m$^{-2}$.
+Incoming Solar Radiation (Solar In) represents the solar energy that enters the Earth's atmosphere of approximately 341.3 W m$$^{-2}$$. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (101.9 W m$$^{-2}$$). The remaining solar radiation is absorbed by the atmosphere and the Earth's surface, approximately 238.5 W m$$^{-2}$$.
 
-The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$^{-2}$. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
+The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$$^{-2}$$. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
 
 **The Stefan-Boltzmann law**\
 $$j^* = \sigma T^4$$
 
-$$j^*$$ is the black-body radiant emittance, $$\sigma$$ has a value of 5.670374419 $$\times$$ 10$^{−8}$ W (m$^{2}$ x K$^4$), which represents the constant of proportionality between these two variables.
+$$j^*$$ is the black-body radiant emittance, $$\sigma$$ has a value of 5.670374419 $$\times$$ 10$$^{−8}$$ W (m$$^{2}$$ x K$$^4$$), which represents the constant of proportionality between these two variables.
 
 ### Summary of the Energy Flow Processes
 
@@ -70,9 +70,9 @@ The satellite observed brightness temperature by the Atmospheric Infrared Sounde
 
 We can obtain beautiful images of the Earth's brightness temperature. In the image below, the average temperatures in April, 2003 are shown, observed by AIRS at an infrared wavelength that senses either the Earth's surface or any intervening cloud. Similar to a photograph of the planet taken with the camera shutter held open for a month, stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
 
-The Earth's brightness temperature reflects thermal radiation emitted by the Earth. This temperature is estimated at around -18 C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
+The Earth's brightness temperature reflects thermal radiation emitted by the Earth. This temperature is estimated at around -18 $$\degree$$C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
 
-Earth's average temperature is around 15 C, based on surface measurements from weather stations, ships, and buoys over many decades. This temperature reflects the actual average temperature of the Earth's surface, which is influenced by various factors, including solar radiation, atmospheric circulation, ocean currents, and land surface characteristics.
+Earth's average temperature is around 15 $$\degree$$C, based on surface measurements from weather stations, ships, and buoys over many decades. This temperature reflects the actual average temperature of the Earth's surface, which is influenced by various factors, including solar radiation, atmospheric circulation, ocean currents, and land surface characteristics.
 
 The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. 
 
@@ -103,14 +103,14 @@ But also varies from season to season, day-to-night and longitude-by-longitude.
 
 Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun.
 
-Energy measured in Watts per meter squared (W m-2).
+Energy measured in Watts per meter squared (W m$$^{-2}$$).
 
 <div style="text-align: center;">
   <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 30px 0;">
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
-The global heat redistribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 N and 35 S would get warmer every year.
+The global heat redistribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 $$\degree$$N and 35 $$\degree$$S would get warmer every year.
 
 However, this view of global heat distribution is a smoothed picture. What we experiene on Earth differs as we encounter seasons and weather. For instance, take this video from NASA of the monthly net radiation for each month of the year. We can see (and feel) the strong seasonal aspect to this global heat distribution, where summer months are associated with much higher temperatures than winter months.
 
@@ -125,7 +125,7 @@ Another major factor infleuncing the way that heat is distribution around the gl
   <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
 </div>
 
-The reason for this has got to do with specific heat capacity of dry air being 1000 J kg-1 K-1, and seawater 4000 J kg-1K-1. For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 J m-2 K-1, equal to about 3 meters of seawater. As a case study, if we applied 100 W m-2 heating applied to the atmosphere for a day, it would warm at about a degree Kelvin. On the otherhand, if we had an ocean surface mixed layer of 30 meters, it would only warm by about 0.1 K. 
+The reason for this has got to do with specific heat capacity of dry air being 1000 J kg$$^{-1}$$ K$$^{-1}$$, and seawater 4000 J kg$$^{-1}$$ K$$^{-1}$$. For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 J m$$^{-2}$$ K$$^{-1}$$, equal to about 3 meters of seawater. As a case study, if we applied 100 W m$$^{-2}$$ heating applied to the atmosphere for a day, it would warm at about a degree Kelvin. On the otherhand, if we had an ocean surface mixed layer of 30 meters, it would only warm by about 0.1 K. 
 
 
 ### Atmospheric sensible heat transport (3PW)
@@ -159,15 +159,7 @@ The reason for this has got to do with specific heat capacity of dry air being 1
 Heat redistribution allows for the ocean to continuously absorb atmospheric heat
 
 
-
 ## General readings for this section
 
-- BFK18
-- TFK09
-
-## Learning Goals
-
-After working through this section, learners should be able to:
-
-- Understand the Earth's energy budget
-- Have a basic understanding of the Earth's energy imbalance
+- [[BFK18](/air-sea-interactions-notes/#BFK18)]
+- [[TFK09](/air-sea-interactions-notes/#TFK09)]
