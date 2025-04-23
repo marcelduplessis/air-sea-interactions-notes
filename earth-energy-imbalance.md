@@ -3,7 +3,7 @@ layout: default
 title: Global energy distribution and air-sea interactions
 ---
 
-*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- BFK18
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [BFK18](/references/#BFK18)
 
 I quite like this quote because when we talk about scales of interest it really depends on your application. Each has their relative importance and necessity to understand and be curious about.
 
