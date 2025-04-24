@@ -45,7 +45,11 @@ If we imagine a simultaneous measurement the water vapour concentration \\( q \\
 
 This video shows a Large Eddy Simulation of the marine atmospheric boundary layer. It demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can visualise the turbulent eddies in various parameters on display to get a sense of the small-scale nature of the atmopsheric eddies that generate turbulent air-sea exchange.
 
+
+
 {% include youtube.html id="e5DO-gq-5XE" %}
+
+
 
 <h3>Observational methods:</h3>
 
@@ -59,7 +63,7 @@ The fundamental instruments needed to obtain eddy covariance measurements are:
 - Infrared gas analysers for water vapour and \\( CO_2 \\) concentrations.
 
 <div style="text-align: center;">
-  <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 70%; margin: 30px 0 0px 0;">
+  <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 50%; margin: 30px 0 0px 0;">
   <p><em>Sensors installed on an eddy covariance mast tower in preperature for the Benguela Flux Experiment. Source: Dr. Brian Ward</em></p>
 </div>
 
