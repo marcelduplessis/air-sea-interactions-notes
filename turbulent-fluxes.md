@@ -86,6 +86,17 @@ Air-sea flux measurements require a platform, typically a vessel or a buoy. The 
 
 These platforms are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed form the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
 
+<h3>Sea temperature corrections</h3>
+
+The potential temperature variable used in the turbulent flux equations \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
+
+#### Cool skin
+
+#### Warm layer
+
+<h3>Relative wind corrections</h3>
+
+
 <h3>Key Features:</h3>
 
 - **Direct Measurement**: Captures turbulent fluxes by resolving small-scale atmospheric eddies.
