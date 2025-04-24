@@ -3,7 +3,7 @@ layout: default
 title: Air-Sea Heat Fluxes in Climate and Numerical Weather Models
 ---
 
-<h1> Air-Sea Heat Fluxes in Climate and Numerical Weather Models </h1>
+<h1> Fluxes in Climate and Numerical Weather Models </h1>
 
 <h2> Applications in Climate and Numerical Weather Models (NWMs) </h2> 
 
@@ -23,7 +23,7 @@ title: Air-Sea Heat Fluxes in Climate and Numerical Weather Models
 
 <h2> Developments Over Time </h2>
 
-<h3> Parameterization Techniques
+<h3> Parameterization Techniques </h3>
 
 - Bulk formulae: widely used; require inputs like SST, air temp, humidity, wind speed.
 - COARE (Coupled Ocean-Atmosphere Response Experiment) algorithms: a benchmark for bulk fluxes.

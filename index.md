@@ -39,11 +39,11 @@ These notes are created to be stand-alone for the air-sea interactions module of
 
 ## Module Plan
 
-This module consistes of:
+This module consistes of xx sessions of 1h 45min. It will require work to be done beyond the sessions. This will be communicated in good time. 
 
 - xx lectures
 - An assingment that focuses on data analysis and interpretation 
-- A groupwork reading and presentation assignment
+- A groupwork reading and presentation
 
 ## Reading list
 
