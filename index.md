@@ -37,6 +37,14 @@ These notes are created to be stand-alone for the air-sea interactions module of
 - Define basics on modeling air-sea fluxes
 - Have a global understanding of international efforts to understand air-sea interactions
 
+## Module Plan
+
+This module consistes of:
+
+- xx lectures
+- An assingment that focuses on data analysis and interpretation 
+- A groupwork reading and presentation assignment
+
 ## Reading list
 
 <div id="BFK18" class="reference">
