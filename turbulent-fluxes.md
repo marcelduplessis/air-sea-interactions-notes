@@ -64,7 +64,7 @@ The fundamental instruments needed to obtain eddy covariance measurements are:
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 50%; margin: 30px 0 0px 0;">
-  <p><em>Sensors installed on an eddy covariance mast tower in preperature for the Benguela Flux Experiment. Source: Dr. Brian Ward</em></p>
+  <p><em>Sensors installed on an eddy covariance mast in preperatation for the Benguela Flux Experiment. Key sensors for determining the net heat budget include the sonic anemometer, infrared gas analyser, and radiometers. Source: Dr. Brian Ward</em></p>
 </div>
 
 **Ship-based eddy covariance flux measurements**:
@@ -72,8 +72,8 @@ The fundamental instruments needed to obtain eddy covariance measurements are:
 Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
 
 <div style="text-align: center;">
-  <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 80%; margin: 30px 0 0px 0;">
-  <p><em>Image of an eddy covariance setup on the Celtic Explorer. Source: Dr. Brian Ward</em></p>
+  <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 60%; margin: 30px 0 0px 0;">
+  <p><em>Image of an eddy covariance setup on a ship. You will notice different anemometers are installed for redundency. This is an important way to validate measurements. Source: Dr. Brian Ward</em></p>
 </div>
 
 <h3>Sources of errors:</h3>
