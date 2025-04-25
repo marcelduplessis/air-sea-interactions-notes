@@ -41,14 +41,25 @@ Yet, the Earth's energy budget involves the balance between incoming solar radia
 
 ### Measuring Earth's brightness temperature
 
-The satellite observed brightness temperature by the Atmospheric Infrared Sounder (AIRS) at an infrared wavelength senses the temperature of the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
+The brightness temperature of the Earth is measured by the Atmospheric Infrared Sounder (AIRS). Launched into Earth-orbit on May 4, 2002 aboard NASA's Aqua satellite, the AIRS provides data critical to the monitoring of Earth’s atmosphere. AIRS sees infrared wavelengths to sense the temperature of the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions. 
+
+To see how this works on a daily bases, I show an example of how AIRS captured the infrared image below of Hurricane Helene on Friday, Sept. 27, 2024. One of the largest storms to develop in the Gulf of Mexico in the last century.
+
+airs-infrared-hurricane
 
 <div style="text-align: center;">
-  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 60%; margin: 30px 0;">
+  <img src="assets/images/airs-infrared-hurricane.png" alt="AIRS-brightness-temp-hurricane" style="width: 70%; margin: 30px 0;">
+  <p><em> Infrared image of Hurricane Helene September 27 after landfall. Credit: NASA/JPL-Caltech. Source: [https://airs.jpl.nasa.gov/news/287/nasas-airs-instrument-captures-hurricane-helene/](https://airs.jpl.nasa.gov/news/287/nasas-airs-instrument-captures-hurricane-helene/)</em></p>
+</div>
+
+If we average these kinds of images for long enough periods, we remove the weather component of these image and provide an image of the Earth's brightness temperature that represents climatic scale. In the image below, the average temperatures is shown for April, 2003. This image is similar to taking a photograph of the planet taken with the camera shutter held open for a month. The stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
+
+<div style="text-align: center;">
+  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 70%; margin: 30px 0;">
   <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
 </div>
 
-We can obtain beautiful images of the Earth's brightness temperature. In the image below, the average temperatures in April, 2003 are shown, observed by AIRS at an infrared wavelength that senses either the Earth's surface or any intervening cloud. Similar to a photograph of the planet taken with the camera shutter held open for a month, stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
+
 
 The Earth's brightness temperature reflects thermal radiation emitted by the Earth. This temperature is estimated at around -18 $$\degree$$C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
 
