@@ -32,6 +32,23 @@ Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed, 
   <p><em>Albedo of the Earth's surface.</em></p>
 </div>
 
+<h3>Shortwave penetrative radiation</h3>
+
+Shortwave radiation can penetrate tens of meters into the ocean, unlike longwave radiation (which is absorbed in the top microns).
+
+**Penetration is highly wavelength-dependent:**
+
+- Blue/green light (shorter wavelengths) penetrates deepest (up to ~100 m in clear water).
+- Red/infrared light is absorbed within the top few meters
+
+In the clearest seawater, around 75% of entering Qsw is absorbed by 10 m depth. Meanwhile, in biologically productive or turbid waters will extinguish around 95% by 10 m.
+
+<div style="text-align: center;">
+  <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0;">
+  <p><em>Albedo of the Earth's surface.</em></p>
+</div>
+
+
 <h2>Emissivity</h2>
 
 Emissivity is a measure of how efficiently a surface emits radiation compared to a perfect blackbody (which has an emissivity of 1). Emissivity is governed by Plank's law.
