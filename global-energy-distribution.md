@@ -63,7 +63,7 @@ As the Earth's brightness temperature reflects thermal radiation emitted by the 
 
 However, as you may have guess, this is not the average temperature of Earth. In fact, Earth's average temperature is around 15 $$\degree$$C based on surface measurements from weather stations, ships, and buoys over many decades. The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. The Earth's atmosphere acts like a blanket, trapping some of the thermal radiation emitted by the Earth's surface and re-radiating it back towards the surface. This causes the surface temperature to be higher than the brightness temperature measured from space. 
 
-**An imbalance**
+## An imbalance
 
 The global annual mean of Earth's energy budget shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
 
