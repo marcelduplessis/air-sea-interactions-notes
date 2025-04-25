@@ -12,7 +12,7 @@ We have come to learn that the Earth's energy distribution is fundamentally infl
 
 Furthermore, air-sea exchanges play a critical role in prediction across a wide range of timescales — from daily weather to long-term climate. These exchanges influence key phenomena such as floods, droughts, storm intensity, and storm tracks. As a result, protecting people, property, and natural resources from extreme weather events and the impacts of climate variability and change depends on our ability to produce accurate and useful forecasts. This includes predictions beyond the traditional 1–10-day range, extending to sub-seasonal, seasonal, and even decadal timescales. Achieving this requires a strong understanding of the physical processes governing air-sea interactions and the factors that drive their variability.
 
-<h2> Key Components Involved </h2>
+<h2> What are the key components involved? </h2>
 
 - **Atmosphere:** The lower part (troposphere) is most relevant for interactions. The part of direct relevance for air-sea interactions is the marine atmospheric boundary layer, often abbreviated to MABL.
 - **Ocean Surface Layer:** The uppermost layer (~10–100 m), also known as the mixed layer or ocean boundary layer, is directly influenced by atmospheric forcing across the air-sea interface.
