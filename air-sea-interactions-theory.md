@@ -15,7 +15,7 @@ Furthermore, air-sea exchanges play a critical role in prediction across a wide 
 <h2> What are the key components involved? </h2>
 
 - **Atmosphere:** The lower part (troposphere) is most relevant for interactions. The part of direct relevance for air-sea interactions is the marine atmospheric boundary layer, often abbreviated to MABL.
-- **Ocean Surface Layer:** The uppermost layer (~10–100 m), also known as the mixed layer or ocean boundary layer, is directly influenced by atmospheric forcing across the air-sea interface.
+- **Ocean mixed layer:** The uppermost layer (~10–100 m), also known as the mixed layer or ocean boundary layer, is directly influenced by atmospheric forcing across the air-sea interface.
 
 <div style="text-align: center;">
   <img src="assets/images/mabl-obl-schematic.jpg" alt="boundary layer schematic" style="width: 70%; margin: 30px 0;">
