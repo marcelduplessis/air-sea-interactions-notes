@@ -62,10 +62,10 @@ The below figure shows an example for three commonly used water types in ocean m
 
 <h3>Global estimates of net shortwave radiation</h3>
 
-The climatological estimate of shortwave radiation based on ship meteorological reports is shown below. The data is from the National Oceanography Centre surface flux climatology Version 1.1.
+The climatological estimate of shortwave radiation shows clear patterns of shortwave radiation reaching the surface. See if you identify key ocean and atmosphere features in these patterns?
 
 <div style="text-align: center;">
-  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 80%; margin: 30px 0 0px 0;">
+  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports is shown below. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
