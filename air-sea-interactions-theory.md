@@ -6,16 +6,11 @@ chapter: 2
 
 <h1> Air-Sea Interactions Theory </h1>
 
-Air-sea interaction refers to the exchange of energy, momentum, and mass between the atmosphere and the ocean.
-
 **Why should we care about air-sea interactions?**
 
-They play a central role in weather, climate regulation, and ocean circulation. Air-sea exchanges are vital for the prediction weather to the climate system, especially with links to floods, droughts, storm intensity, and storm tracks. Therefore, the protection of people, property, and environmental resources from extreme weather, seasonal patterns, and climate change drives the need for predictions of weather, ocean, and climate patterns that have skill and value at timescales longer than traditional 1-10-day forecasts, including outlooks spanning weeks to decades. To do this, we need a solid grasp on the processes associated with air-sea exchange and what drives their variability.
+We have come to learn that the Earth's energy distribution is fundamentally influenced by the ocean motion and the exchange of energy between the ocean and atmosphere. The ocean stores and transports vast amounts of heat, and air-sea fluxes (like latent heat, sensible heat, and radiative fluxes) govern how energy is exchanged between the ocean and atmosphere. This exchange is central to weather patterns, climate systems, and the global energy balance.
 
-<div style="text-align: center;">
-  <img src="assets/images/air-sea-interaction-img.jpg" alt="Air-sea interactions schematic" style="width: 80%; margin: 30px 0;">
-  <p><em>Air-sea interactions schematic. Source: <a href="WHOI">https://www2.whoi.edu/site/casimas/</a></em></p>
-</div>
+Furthermore, air-sea exchanges play a critical role in prediction across a wide range of timescales — from daily weather to long-term climate. These exchanges influence key phenomena such as floods, droughts, storm intensity, and storm tracks. As a result, protecting people, property, and natural resources from extreme weather events and the impacts of climate variability and change depends on our ability to produce accurate and useful forecasts. This includes predictions beyond the traditional 1–10-day range, extending to sub-seasonal, seasonal, and even decadal timescales. Achieving this requires a strong understanding of the physical processes governing air-sea interactions and the factors that drive their variability.
 
 <h2> Key Components Involved </h2>
 
@@ -24,7 +19,7 @@ They play a central role in weather, climate regulation, and ocean circulation. 
 
 <div style="text-align: center;">
   <img src="assets/images/mabl-obl-schematic.jpg" alt="boundary layer schematic" style="width: 70%; margin: 30px 0;">
-  <p><em>Structure and processes in the marine boundary layers. MABL, marine atmospheric boundary layer; OBL, oceanic boundary layer. Source: <a href="Boundary Layer Dynamics (1997)">https://nap.nationalacademies.org/read/5710/chapter/3</a></em></p>
+  <p><em>Structure and processes in the marine boundary layers. MABL, marine atmospheric boundary layer; OBL, oceanic boundary layer. Source: <a href="https://nap.nationalacademies.org/read/5710/chapter/3">Boundary Layer Dynamics (1997)</a></em></p>
 </div>
 
 <h2> Energy Exchange Processes </h2>
@@ -42,8 +37,8 @@ They play a central role in weather, climate regulation, and ocean circulation. 
 **Net Heat Flux** = (Incoming Solar) - (Outgoing Longwave + Latent + Sensible)
 
 <div style="text-align: center;">
-  <img src="assets/images/noaa-flux-basic.png" alt="noaa-flux-basic" style="width: 60%; margin: 30px 0;">
-  <p><em>Wind and buoyancy acts on the ocean surface boundary later. Solar radiation (\\(Q_{sw}\\)), net longwave radiation (\\(Q_{lw}\\)), latent heat flux (\\(Q_{lat}\\)), and sensible heat flux (\\(Q_{sen}\\)) combine to form the net surface heat flux (\\( Q_{net}\\)). \\(Q_{pen}\\) is the solar radiation penetrating the base of the mixed layer. Source: <a href="/references/#CS01">[CS01]</a></em></p>
+  <img src="assets/images/air-sea-interaction-img.jpg" alt="Air-sea interactions schematic" style="width: 80%; margin: 30px 0;">
+  <p><em>Air-sea interactions schematic. Source: <a href="WHOI">https://www2.whoi.edu/site/casimas/</a></em></p>
 </div>
 
 <h3> Mass exchange: </h3>
