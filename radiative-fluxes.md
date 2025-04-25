@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Radiative fluxes
-chapter: 4
+chapter: 3
 ---
 
-<h1> Radiation Fluxes </h1>
+<h1> Radiation fluxes </h1>
 
 The radiative fluxes in the earth system are often partitioned into shortwave and longwave components. These names refer to the wavelength of the electromagnetic waves which constitute the radiation. Radiative energy that reaches the ocean surface can do different things, depending on the temperature of the ocean and its albedo. 
 
