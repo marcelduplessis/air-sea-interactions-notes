@@ -25,24 +25,19 @@ Joule is a unit of energy that measures the energy required to create heat.
 
 ### What are some consequences of this energy uptake on Earth?
 
-Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 \\( W \\) \\( m^{-2}\\) of solar power arrives as primarily shortwave radiation. 102 \\( W \\) \\( m^{-2}\\) of this shortwave radiation is reflected back to space, with about 239 \\( W \\) \\( m^{-2}\\) entering the earth’s atmosphere.
+Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 \\( W \\) \\( m^{-2}\\) of solar power arrives as primarily shortwave radiation. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (102 \\( W \\) \\( m^{-2}\\)), with about 239 \\( W \\) \\( m^{-2}\\) entering the earth’s atmosphere.
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: [TFK09]</em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a><a>[[TFK09](/references/#TFK09)]</em></p>
 </div>
 
-The Earth's energy budget involves the balance between incoming solar radiation and outgoing terrestrial radiation. This balance is crucial for maintaining the climate system.
-
-### Components of the Energy Budget
-Incoming Solar Radiation (Solar In) represents the solar energy that enters the Earth's atmosphere of approximately 341.3 W m$$^{-2}$$. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (101.9 W m$$^{-2}$$). The remaining solar radiation is absorbed by the atmosphere and the Earth's surface, approximately 238.5 W m$$^{-2}$$.
-
-The Earth emits longwave radiation back to space, balancing the absorbed solar radiation of about 238.5 W m$$^{-2}$$. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
+Yet, the Earth's energy budget involves the balance between incoming solar radiation and outgoing radiation. This balance is crucial for maintaining the climate system. So the 239 \\( W \\) \\( m^{-2}\\) is emitted as longwave radiation back to space, balancing the absorbed solar radiation. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
 
 **The Stefan-Boltzmann law**\
-$$j^* = \sigma T^4$$
+\\[j^* = \sigma T^4\\]
 
-$$j^*$$ is the black-body radiant emittance, $$\sigma$$ has a value of 5.670374419 $$\times$$ 10$$^{−8}$$ W (m$$^{2}$$ x K$$^4$$), which represents the constant of proportionality between these two variables.
+\\(j^*\\) is the black-body radiant emittance, \\(\sigma\\) has a value of 5.670374419 \\(\times\\) \\(10^{−8}\\) \\(W \\m^{-2}\\) x \\(K^4\\), which represents the constant of proportionality between these two variables.
 
 ### Summary of the Energy Flow Processes
 
