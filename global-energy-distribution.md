@@ -100,7 +100,7 @@ Consider this video of the monthly averaged net radiation, you can see the seaso
 Another major factor infleuncing the way that heat is distribution around the global is seen in the figure below by [RALS17]. Why do we see the large differences in temperature between the Earth's surface and air just above it? Why are these larger over land compared to the ocean?
 
 <div style="text-align: center;">
-  <img src="assets/images/diurnal-temp-range.png" alt="heat-range" style="width: 60%; margin: 30px 0;">
+  <img src="assets/images/diurnal-temp-range.jpg" alt="heat-range" style="width: 80%; margin: 30px 0;">
   <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
 </div>
 
@@ -115,34 +115,28 @@ The global energy distribution has important implications for setting large temp
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
-#### 1. Atmospheric sensible heat transport (3PW)
+#### Atmospheric sensible heat transport (3PW)
 
 - Hadley Cells ascend near the equator, move poleward where they descend and return back toward the equator.
-- Conversion of thermal energy to mechanical energy that drives the Hadley cell, much like a Carnot cycle (Pauluis, 2011). 
+- Conversion of thermal energy to mechanical energy that drives the Hadley cell, much like a Carnot cycle. 
 - These cells do not move directly from equator to pole, but are veered by the Coriolis force, so they have dominantly zonal winds at the surface. E.g. equatorial easterlies and mid-latitude westerlies.
 
 {% include youtube.html id="mKcU-hIoPf4" %}
 
-### 2. Ocean sensible heat transport (2 PW)
+### Ocean sensible heat transport (2 PW)
 
 - Warm seawater moves poleward, and colder seawater moves equatorward.
 - Unlike the atmosphere, oceans are heated and cooled at the surface, so they are not like heat engines. Instead, it must come from other sources, e.g., winds and tides.
 - Meridional heat transport is poleward when zonally averaged, but the Atlantic is northward at all latitudes, and the Indian Ocean is southward at all latitudes.
-- Wind-driven circulation and thermohaline circulation are not distinct. We will begin to disentangle this in this course.
 
 {% include youtube.html id="CCmTY0PKGDs" %}
 
-#### 3. Ocean latent heat transport (1 PW)
+#### Ocean latent heat transport (1 PW)
 
 - Atmosphere/ocean latent heat transport is moist air moving poleward and dry air and liquid water in oceans and rivers moving equatorward.
 - Vaporization releases heat that is transported from the location where evaporates to where the precipitation occurs - this is known as the  “steam cycle”.
 - Moist air carries a lot of heat as it takes 560 times as much energy to evaporate water as to warm it by 1 degree. 
 - Thus, although the hydrological cycle transports only a small mass of water it carries a lot of heat.
-
-## Ocean heat content
-
-Heat redistribution allows for the ocean to continuously absorb atmospheric heat
-
 
 ## General readings for this section
 
