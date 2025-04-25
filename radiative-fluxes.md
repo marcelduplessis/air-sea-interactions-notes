@@ -28,7 +28,7 @@ where:
 Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed, not reflected. However, changes in surface conditions (waves, foam, ice, etc.) can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight. The figure below shows the strong albedo change between the ocean, ice, and land.
 
 <div style="text-align: center;">
-  <img src="assets/images/albedo.png" alt="albedo" style="width: 80%; margin: 30px 0;">
+  <img src="assets/images/albedo.png" alt="albedo" style="width: 80%; margin: 30px 0  0px 0;">
   <p><em>Albedo of the Earth's surface.</em></p>
 </div>
 
@@ -56,10 +56,9 @@ where:
 The below figure shows an example for three commonly used water types in ocean models. \\( k \\) is approximated to 1.
 
 <div style="text-align: center;">
-  <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0;">
-  <p><em>Albedo of the Earth's surface.</em></p>
+  <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
+  <p><em>Penetration depth of shortwave radiation based on different water types and the light attenuation coefficient approximated to 1.</em></p>
 </div>
-
 
 <h2>Emissivity</h2>
 
