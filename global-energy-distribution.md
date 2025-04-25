@@ -37,7 +37,7 @@ Yet, the Earth's energy budget involves the balance between incoming solar radia
 **The Stefan-Boltzmann law**\
 \\[j^* = \sigma T^4\\]
 
-\\(j^*\\) is the black-body radiant emittance, \\(\sigma\\) has a value of 5.670374419 \\(\times\\) \\(10^{−8}\\) \\(W \\m^{-2}\\) x \\(K^4\\), which represents the constant of proportionality between these two variables.
+\\(j^*\\) is the black-body radiant emittance, \\(\sigma\\) has a value of 5.670374419 \\(\times\\) \\(10^{−8}\\) \\(W \\) \\(m^{-2}\\) x \\(K^4\\), which represents the constant of proportionality between these two variables.
 
 ### Measuring Earth's brightness temperature
 
@@ -55,7 +55,7 @@ airs-infrared-hurricane
 If we average these kinds of images for long enough periods, we remove the weather component of these image and provide an image of the Earth's brightness temperature that represents climatic scale. In the image below, the average temperatures is shown for April, 2003. This image is similar to taking a photograph of the planet taken with the camera shutter held open for a month. The stationary features are captured while those obscured by moving clouds are blurred. Many continental features stand out boldly, such as our planet's vast deserts, and India, now at the end of its long, clear dry season. Also obvious are the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and associated high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. The highest latitudes of Europe and Eurasia are completely obscured by clouds, while Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
 
 <div style="text-align: center;">
-  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 70%; margin: 30px 0;">
+  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 100%; margin: 30px 0;">
   <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
 </div>
 
@@ -89,13 +89,26 @@ The enhanced greenhouse effect means that global annual mean of Earth's energy b
 
 ## Global redistribution of energy
 
-Latitude-by-latitude, the energy budget is not in balance.
+So far, we have only looked at a global view of things. But actually, latitude-by-latitude, the energy budget is not in balance. If like me, you've spend some time in the polar regions and the tropics, you'll have felt the difference. Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun. But the energy distribution of Earth also varies from season to season, day-to-night and longitude-by-longitude.
 
-But also varies from season to season, day-to-night and longitude-by-longitude.
+Consider this video of the monthly averaged net radiation, you can see the seasonal shifts in energy reaching the surface of the Earth.
 
-Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun.
+<video src="assets/images/nasa-month-net-radiation.mp4" width="800" height="600" controls>
+  Monthly net radiation. Source: NASA.
+</video>
 
-The energy in the Earth system is transported around in the following ways:
+Another major factor infleuncing the way that heat is distribution around the global is seen in the figure below by [RALS17]. Why do we see the large differences in temperature between the Earth's surface and air just above it? Why are these larger over land compared to the ocean?
+
+<div style="text-align: center;">
+  <img src="assets/images/diurnal-temp-range.png" alt="heat-range" style="width: 60%; margin: 30px 0;">
+  <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
+</div>
+
+This has got to do with specific heat capacity of dry air being \\( 1000 \\) \\(J \\) \\( kg^{-1} \\) \\( K^{-1} \\), and seawater \\( 4000 \\) \\(J \\) \\( kg^{-1} \\) \\( K^{-1} \\). For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 \\(J \\) \\( m^{-2} \\) \\( K^{-1} \\), equal to about 3 meters of seawater. 
+
+As a case study, if we applied 100 \\(W \\) \\( m^{-2} \\) heating to the atmosphere for one day, it would warm at about 1 \\(K \\). On the otherhand, the ocean with a mixed layer of 30 meters would only warm by about 0.1 \\(K \\).
+
+Despite the differences in energy reaching the Earth's surface and atmosphere, this heat is transported the globe by motion in the ocean and atmosphere. This is crucial for keeping the tropics from runaway heating and the polar regions from excessive cooling.  in the following ways:
 
 - **Latent Heat Flux**: Energy transported through the evaporation and condensation of water.
 - **Sensible Heat Flux**: Direct heat transfer from the Earth's surface to the atmosphere.
@@ -112,18 +125,9 @@ The global heat redistribution has important implications for setting large temp
 
 However, this view of global heat distribution is a smoothed picture. What we experiene on Earth differs as we encounter seasons and weather. For instance, take this video from NASA of the monthly net radiation for each month of the year. We can see (and feel) the strong seasonal aspect to this global heat distribution, where summer months are associated with much higher temperatures than winter months.
 
-<video src="assets/images/nasa-month-net-radiation.mp4" width="800" height="600" controls>
-  Monthly net radiation. Source: NASA.
-</video>
 
-Another major factor infleuncing the way that heat is distribution around the global is seen in the figure below by [RALS17]. We do we see the large surface to air temperature differences that exist over land but not over the ocean?
 
-<div style="text-align: center;">
-  <img src="assets/images/diurnal-temp-range.png" alt="heat-range" style="width: 60%; margin: 30px 0;">
-  <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
-</div>
-
-The reason for this has got to do with specific heat capacity of dry air being 1000 J kg$$^{-1}$$ K$$^{-1}$$, and seawater 4000 J kg$$^{-1}$$ K$$^{-1}$$. For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 J m$$^{-2}$$ K$$^{-1}$$, equal to about 3 meters of seawater. As a case study, if we applied 100 W m$$^{-2}$$ heating applied to the atmosphere for a day, it would warm at about a degree Kelvin. On the otherhand, if we had an ocean surface mixed layer of 30 meters, it would only warm by about 0.1 K. 
+ 
 
 
 ### Atmospheric sensible heat transport (3PW)
