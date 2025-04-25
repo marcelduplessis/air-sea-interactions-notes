@@ -39,24 +39,9 @@ Yet, the Earth's energy budget involves the balance between incoming solar radia
 
 \\(j^*\\) is the black-body radiant emittance, \\(\sigma\\) has a value of 5.670374419 \\(\times\\) \\(10^{−8}\\) \\(W \\m^{-2}\\) x \\(K^4\\), which represents the constant of proportionality between these two variables.
 
-### Summary of the Energy Flow Processes
-
-- **Atmospheric Absorption**: Solar radiation absorbed by atmospheric components like water vapor, clouds, and aerosols.
-- **Surface Absorption**: Solar radiation absorbed by the Earth's surface, contributing to heating the land and oceans.
-- **Surface Emission**: The Earth's surface emits longwave radiation, which is partly absorbed by the atmosphere and partly escapes to space.
-- **Back Radiation**: Longwave radiation emitted by the atmosphere back to the Earth's surface, contributing to the greenhouse effect.
-
-The energy in the Earth system is transported around in the following ways:
-
-- **Latent Heat Flux**: Energy transported through the evaporation and condensation of water.
-- **Sensible Heat Flux**: Direct heat transfer from the Earth's surface to the atmosphere.
-- **Ocean Heat Transport**: Movement of heat within the ocean, affecting global climate patterns.
-
-The figure shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
-
 ### Measuring Earth's brightness temperature
 
-The satellite observed brightness temperature by the Atmospheric Infrared Sounder (AIRS) at an infrared wavelength senses the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
+The satellite observed brightness temperature by the Atmospheric Infrared Sounder (AIRS) at an infrared wavelength senses the temperature of the Earth's surface or any intervening cloud. It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions.
 
 <div style="text-align: center;">
   <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 60%; margin: 30px 0;">
@@ -77,6 +62,10 @@ This causes the surface temperature to be higher than the brightness temperature
 
 Additionally, the surface temperature can be affected by other factors that are not detected by thermal sensors in space, such as local weather patterns and the influence of the ocean currents.
 
+**An imbalance**
+
+The global annual mean of Earth's energy budget shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
+
 ## Greenhouse gas absorption
 
 The absorption spectrum of greenhouse gases refers to the specific wavelengths of electromagnetic radiation that are absorbed by these gases in the Earth's atmosphere. When sunlight passes through the atmosphere and reaches the Earth's surface, it includes a range of wavelengths, from ultraviolet to visible to infrared radiation. Some of these wavelengths are absorbed by the Earth's surface and then re-emitted as longer-wavelength infrared radiation, which is absorbed by greenhouse gases in the atmosphere.
@@ -90,6 +79,13 @@ The absorption spectrum of greenhouse gases plays a crucial role in the Earth's 
   <p><em> Amount of energy absorbed by greenhouse gases in various wavelength regions, from ultraviolet radiation on the left, to visible light in the middle, to infrared radiation on the right. This figure was prepared by Robert A. Rohde for the Global Warming Art project.</em></p>
 </div>
 
+## Summary of the Energy Flow Processes
+
+- **Atmospheric Absorption**: Solar radiation absorbed by atmospheric components like water vapor, clouds, and aerosols.
+- **Surface Absorption**: Solar radiation absorbed by the Earth's surface, contributing to heating the land and oceans.
+- **Surface Emission**: The Earth's surface emits longwave radiation, which is partly absorbed by the atmosphere and partly escapes to space.
+- **Back Radiation**: Longwave radiation emitted by the atmosphere back to the Earth's surface, contributing to the greenhouse effect.
+
 ## Global redistribution of energy
 
 Latitude-by-latitude, the energy budget is not in balance.
@@ -97,6 +93,12 @@ Latitude-by-latitude, the energy budget is not in balance.
 But also varies from season to season, day-to-night and longitude-by-longitude.
 
 Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun.
+
+The energy in the Earth system is transported around in the following ways:
+
+- **Latent Heat Flux**: Energy transported through the evaporation and condensation of water.
+- **Sensible Heat Flux**: Direct heat transfer from the Earth's surface to the atmosphere.
+- **Ocean Heat Transport**: Movement of heat within the ocean, affecting global climate patterns.
 
 Energy measured in Watts per meter squared (W m$$^{-2}$$).
 
