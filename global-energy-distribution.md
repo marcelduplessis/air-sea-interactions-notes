@@ -19,13 +19,13 @@ The Earth's atmosphere receives its heat through solar radiation, which acts pri
   <p><em>Radiation spectrum. Source: <a href="https://science.nasa.gov/ems/">https://science.nasa.gov/ems/</a></em></p>
 </div>
 
-Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 watts of solar power per square meter (1 watt = 1 J/s).
+Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 watts of solar power per square meter (1 \\( watt\\) = 1 \\( J \\) \\( s^{-1}\\)).
 
 Joule is a unit of energy that measures the energy required to create heat.
 
 ### What are some consequences of this energy uptake on Earth?
 
-Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 W m$$^{-2}$$ of solar power arrives as primarily shortwave radiation. 102 W m$$^{-2}$$ of this shortwave radiation is reflected back to space, with about 239 W m$$^{-2}$$ entering the earth’s atmosphere.
+Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 \\( W \\) \\( m^{-2}\\) of solar power arrives as primarily shortwave radiation. 102 \\( W \\) \\( m^{-2}\\) of this shortwave radiation is reflected back to space, with about 239 \\( W \\) \\( m^{-2}\\) entering the earth’s atmosphere.
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
