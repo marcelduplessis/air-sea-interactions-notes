@@ -108,48 +108,31 @@ This has got to do with specific heat capacity of dry air being \\( 1000 \\) \\(
 
 As a case study, if we applied 100 \\(W \\) \\( m^{-2} \\) heating to the atmosphere for one day, it would warm at about 1 \\(K \\). On the otherhand, the ocean with a mixed layer of 30 meters would only warm by about 0.1 \\(K \\).
 
-Despite the differences in energy reaching the Earth's surface and atmosphere, this heat is transported the globe by motion in the ocean and atmosphere. This is crucial for keeping the tropics from runaway heating and the polar regions from excessive cooling.  in the following ways:
-
-- **Latent Heat Flux**: Energy transported through the evaporation and condensation of water.
-- **Sensible Heat Flux**: Direct heat transfer from the Earth's surface to the atmosphere.
-- **Ocean Heat Transport**: Movement of heat within the ocean, affecting global climate patterns.
-
-Energy measured in Watts per meter squared (W m$$^{-2}$$).
+The global energy distribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 \\( \degree \\)N and 35 \\( \degree \\)S would get warmer every year. If the whole system is to be in balance, there must be an exchange of energy between the excessive regions toward the deficient ones. There are three primary mechanisms that account for about 5.7 PW of poleward energy transport in each hemisphere. 
 
 <div style="text-align: center;">
   <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 30px 0;">
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
-The global heat redistribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 $$\degree$$N and 35 $$\degree$$S would get warmer every year.
-
-However, this view of global heat distribution is a smoothed picture. What we experiene on Earth differs as we encounter seasons and weather. For instance, take this video from NASA of the monthly net radiation for each month of the year. We can see (and feel) the strong seasonal aspect to this global heat distribution, where summer months are associated with much higher temperatures than winter months.
-
-
-
- 
-
-
-### Atmospheric sensible heat transport (3PW)
+#### 1. Atmospheric sensible heat transport (3PW)
 
 - Hadley Cells ascend near the equator, move poleward where they descend and return back toward the equator.
 - Conversion of thermal energy to mechanical energy that drives the Hadley cell, much like a Carnot cycle (Pauluis, 2011). 
 - These cells do not move directly from equator to pole, but are veered by the Coriolis force, so they have dominantly zonal winds at the surface. E.g. equatorial easterlies and mid-latitude westerlies.
 
-
 {% include youtube.html id="mKcU-hIoPf4" %}
 
-### Ocean sensible heat transport (2 PW)
+### 2. Ocean sensible heat transport (2 PW)
 
 - Warm seawater moves poleward, and colder seawater moves equatorward.
 - Unlike the atmosphere, oceans are heated and cooled at the surface, so they are not like heat engines. Instead, it must come from other sources, e.g., winds and tides.
 - Meridional heat transport is poleward when zonally averaged, but the Atlantic is northward at all latitudes, and the Indian Ocean is southward at all latitudes.
 - Wind-driven circulation and thermohaline circulation are not distinct. We will begin to disentangle this in this course.
 
-
 {% include youtube.html id="CCmTY0PKGDs" %}
 
-### Ocean latent heat transport (1 PW)
+#### 3. Ocean latent heat transport (1 PW)
 
 - Atmosphere/ocean latent heat transport is moist air moving poleward and dry air and liquid water in oceans and rivers moving equatorward.
 - Vaporization releases heat that is transported from the location where evaporates to where the precipitation occurs - this is known as the  “steam cycle”.
