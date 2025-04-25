@@ -59,19 +59,9 @@ If we average these kinds of images for long enough periods, we remove the weath
   <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
 </div>
 
+As the Earth's brightness temperature reflects thermal radiation emitted by the Earth, we can estimate the Earth's temperature if all this heat escaped back into space. This temperature is estimated at around -18 $$\degree$$C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
 
-
-The Earth's brightness temperature reflects thermal radiation emitted by the Earth. This temperature is estimated at around -18 $$\degree$$C (global average). This temperature is mainly determined by the temperature of the Earth's atmosphere, which radiates thermal energy out into space, and the Earth's surface, which absorbs solar radiation and re-radiates some of it as thermal energy.
-
-Earth's average temperature is around 15 $$\degree$$C, based on surface measurements from weather stations, ships, and buoys over many decades. This temperature reflects the actual average temperature of the Earth's surface, which is influenced by various factors, including solar radiation, atmospheric circulation, ocean currents, and land surface characteristics.
-
-The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. 
-
-The Earth's atmosphere acts like a blanket, trapping some of the thermal radiation emitted by the Earth's surface and re-radiating it back towards the surface. 
-
-This causes the surface temperature to be higher than the brightness temperature measured from space. 
-
-Additionally, the surface temperature can be affected by other factors that are not detected by thermal sensors in space, such as local weather patterns and the influence of the ocean currents.
+However, as you may have guess, this is not the average temperature of Earth. In fact, Earth's average temperature is around 15 $$\degree$$C based on surface measurements from weather stations, ships, and buoys over many decades. The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. The Earth's atmosphere acts like a blanket, trapping some of the thermal radiation emitted by the Earth's surface and re-radiating it back towards the surface. This causes the surface temperature to be higher than the brightness temperature measured from space. 
 
 **An imbalance**
 
