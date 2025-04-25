@@ -6,23 +6,32 @@ chapter: 4
 
 <h1> Radiative Fluxes in Air-Sea Interaction </h1>
 
-<h2>Surface Albedo and Emissivity</h2>
+The radiative fluxes in the earth system are often partitioned into shortwave and longwave components. These names refer to the wavelength of the electromagnetic waves which constitute the radiation. Radiative energy that reaches the ocean surface can do different things, depending on the temperature of the ocean and its albedo. 
 
-Outgoing shortwave radiation
+<h2>Shortwave radiation</h2>
+
+As we’ve seen, shortwave radiation is the primary driver of heating on Earth. Its distribution plays a crucial role in shaping weather patterns and the global climate system. Now, let’s explore the factors that determine how solar radiation is absorbed by the ocean. 
+
+<h3>Surface Albedo</h3>
+
+Shortwave radiation is emitted by the Sun arrives at the Earth’s surface in 8 minutes, on its path it is scattered, absorbed and reflected. As we have learned, the incoming shortwave radiation at the top of the atmosphere is 342 W m\\(^{-2}\\). However, the global average absorbed shortwave radiation by the ocean surface is approximately 170–180 W m\\(^{-2}\\). This value can vary depending on latitude, season, cloud cover, and albedo.
+
+In terms of the radiation that reaches the ocean surface, the total absorbed by the ocean depends on the albedo:
 
 \\[ Q_{\text{SW}\uparrow} = \alpha \cdot Q_{\text{SW}\downarrow} \\]
 
+where:
+- \\( Q_{\text{SW}\downarrow} \\)​: Incoming shortwave radiation — sunlight reaching the ocean surface.
+- \\( Q_{\text{SW}\uparrow} \\): Reflected shortwave radiation — sunlight reflected back upward from the surface.
+- \\( \alpha \\) Albedo — the fraction of incoming sunlight that is reflected by the surface.
 
+Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed, not reflected. However, changes in surface conditions (waves, foam, ice, etc.) can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight.
 
-<h2>In-Situ Measurements</h2>
+<h2>Emissivity</h2>
 
-<h3>Pyranometers</h3>
+Emissivity is a measure of how efficiently a surface emits radiation compared to a perfect blackbody (which has an emissivity of 1). Emissivity is governed by Plank's law.
 
-(measuring SW downwelling)
-
-<h3>Pyrgeometers</h3>
-
-(measuring LW downwelling)
+The ocean surface has a high emissivity, typically around 0.97–0.99 in the infrared range. That means it emits almost as much longwave radiation as a perfect blackbody.
 
 <h4>Outgoing longwave radiation</h4>
 
@@ -34,6 +43,22 @@ where:
 \\( \sigma \\) is the Stefan–Boltzmann constant (5.67 \\( \times \\) 10−8 \\( W \\) \\( m^{-2} \\) \\( K^{-4} \\)),
 
 \\( T_s \\)​ is the skin temperature in Kelvin.
+
+The ocean emits infrared radiation (longwave radiation) because it's warmer than the atmosphere above it — and this emission follows Planck’s Law.
+
+The atmosphere also emits longwave radiation downward toward the ocean surface (called downwelling longwave radiation), also governed by Planck's Law, depending on the atmosphere's temperature.
+
+These radiative energy exchanges — especially net longwave radiation (outgoing minus incoming) — are a key part of the surface energy budget.
+
+<h2>In-Situ Measurements</h2>
+
+<h3>Pyranometers</h3>
+
+(measuring SW downwelling)
+
+<h3>Pyrgeometers</h3>
+
+(measuring LW downwelling)
 
 <h3>Ship-based radiation platforms</h3>
 
