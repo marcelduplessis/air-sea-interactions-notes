@@ -53,11 +53,20 @@ where:
 - \\( e^{-h} \\): exponential decay with depth. As you go deeper, less radiation is left because the water absorbs and scatters it.
 - \\( k \\): the light attenuation coefficient (units: m⁻¹). It depends on water clarity, chlorophyll, and other optical properties.
 
-The below figure shows an example for three commonly used water types in ocean models. \\( k \\) is approximated to 1.
+The below figure shows an example for three commonly used water types in ocean models (Paulson and Simpson, 1977). \\( k \\) is approximated to 1.
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
-  <p><em>Penetration depth of shortwave radiation based on different water types and the light attenuation coefficient approximated to 1.</em></p>
+  <p><em>Penetration depth of shortwave radiation based on three different water types from Paulson and Simpson (1977) and the light attenuation coefficient approximated to 1.</em></p>
+</div>
+
+<h3>Global estimates of net shortwave radiation</h3>
+
+The climatological estimate of shortwave radiation based on ship meteorological reports is shown below. The data is from the National Oceanography Centre surface flux climatology Version 1.1.
+
+<div style="text-align: center;">
+  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 80%; margin: 30px 0 0px 0;">
+  <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports is shown below. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
 <h2>Longwave radiation</h2>
