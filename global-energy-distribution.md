@@ -15,7 +15,7 @@ I quite like this quote because when we talk about scales of interest it really 
 The Earth's atmosphere receives its heat through solar radiation, which acts primarily in the wavelength range of 0.25-4 micrometres (µm). Meanwhile, outgoing longwave radiation falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 µm.
 
 <div style="text-align: center;">
-  <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
+  <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 70%; margin: 30px 0;">
   <p><em>Radiation spectrum. Source: <a href="https://science.nasa.gov/ems/">https://science.nasa.gov/ems/</a></em></p>
 </div>
 
@@ -28,8 +28,8 @@ Joule is a unit of energy that measures the energy required to create heat.
 Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 \\( W \\) \\( m^{-2}\\) of solar power arrives as primarily shortwave radiation. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (102 \\( W \\) \\( m^{-2}\\)), with about 239 \\( W \\) \\( m^{-2}\\) entering the earth’s atmosphere.
 
 <div style="text-align: center;">
-  <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="/references/#TFK09">[TFK09]<a></em></p>
+  <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 30px 0;">
+  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
 Yet, the Earth's energy budget involves the balance between incoming solar radiation and outgoing radiation. This balance is crucial for maintaining the climate system. So the 239 \\( W \\) \\( m^{-2}\\) is emitted as longwave radiation back to space, balancing the absorbed solar radiation. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
