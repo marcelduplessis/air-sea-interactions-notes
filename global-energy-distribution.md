@@ -29,7 +29,7 @@ Fusion keeps the solar system warm, so presently the vast majority of the heatin
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="Radiation spectrum" style="width: 60%; margin: 30px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a>[[TFK09](/references/#TFK09)]<a></em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="/references/#TFK09">[TFK09]<a></em></p>
 </div>
 
 Yet, the Earth's energy budget involves the balance between incoming solar radiation and outgoing radiation. This balance is crucial for maintaining the climate system. So the 239 \\( W \\) \\( m^{-2}\\) is emitted as longwave radiation back to space, balancing the absorbed solar radiation. The Stefan–Boltzmann law describes the power radiated from a black body in terms of its temperature.
