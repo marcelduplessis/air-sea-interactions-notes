@@ -63,22 +63,22 @@ As the Earth's brightness temperature reflects thermal radiation emitted by the 
 
 However, as you may have guess, this is not the average temperature of Earth. In fact, Earth's average temperature is around 15 $$\degree$$C based on surface measurements from weather stations, ships, and buoys over many decades. The main reason for the difference between these two temperature measurements is the effect of the Earth's atmosphere. The Earth's atmosphere acts like a blanket, trapping some of the thermal radiation emitted by the Earth's surface and re-radiating it back towards the surface. This causes the surface temperature to be higher than the brightness temperature measured from space. 
 
-## An imbalance
-
-The global annual mean of Earth's energy budget shows a slight imbalance at the top of the atmosphere (TOA), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. Improvements in satellite data and reanalysis methods have refined estimates of the energy budget components. There are sure to be updates.
-
 ## Greenhouse gas absorption
 
-The absorption spectrum of greenhouse gases refers to the specific wavelengths of electromagnetic radiation that are absorbed by these gases in the Earth's atmosphere. When sunlight passes through the atmosphere and reaches the Earth's surface, it includes a range of wavelengths, from ultraviolet to visible to infrared radiation. Some of these wavelengths are absorbed by the Earth's surface and then re-emitted as longer-wavelength infrared radiation, which is absorbed by greenhouse gases in the atmosphere.
+The absorption spectrum of greenhouse gases refers to the specific wavelengths of electromagnetic radiation that are absorbed by these gases in the Earth's atmosphere. When solar radiation passes through the atmosphere and reaches the Earth's surface, it includes a range of wavelengths, from ultraviolet to visible to infrared radiation (see above). Some of these wavelengths are absorbed by the Earth's surface and then re-emitted as longer-wavelength infrared radiation (section before this), which are absorbed by greenhouse gases in the atmosphere.
 
 The absorption spectrum of a greenhouse gas like carbon dioxide or methane shows the specific wavelengths at which it absorbs infrared radiation. These gases have several strong absorption bands in the infrared region, which correspond to specific molecular vibrations. Carbon dioxide, for example, absorbs infrared radiation at wavelengths of around 2.7, 4.3, and 15 micrometers, while methane absorbs at around 3.3 micrometers. These absorption bands are often referred to as "windows" or "transmission bands", where the greenhouse gases allow some of the infrared radiation to pass through and escape into space.
 
-The absorption spectrum of greenhouse gases plays a crucial role in the Earth's energy balance and climate system. By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming. Understanding the absorption spectrum of greenhouse gases is therefore essential for understanding the causes and impacts of climate change, and for developing strategies to mitigate its effects.
+The absorption spectrum of greenhouse gases plays a crucial role in the Earth's energy balance and climate system. By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming.
 
 <div style="text-align: center;">
-  <img src="assets/images/ghg.png" alt="ghg" style="width: 60%; margin: 30px 0;">
+  <img src="assets/images/ghg.png" alt="ghg" style="width: 70%; margin: 30px 0;">
   <p><em> Amount of energy absorbed by greenhouse gases in various wavelength regions, from ultraviolet radiation on the left, to visible light in the middle, to infrared radiation on the right. This figure was prepared by Robert A. Rohde for the Global Warming Art project.</em></p>
 </div>
+
+## An imbalance
+
+The enhanced greenhouse effect means that global annual mean of Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 \\( W \\) \\( m^{-2}\\), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. 
 
 ## Summary of the Energy Flow Processes
 
