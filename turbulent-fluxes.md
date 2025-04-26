@@ -20,7 +20,7 @@ The eddy covariance method is a direct measurement technique -- sometimes called
 
 If we are interested in a quantity \\( c \\), it can be separated into its mean and fluctating parts:
 
-\\[ q = \overline{c} - c' \\]
+\\[ c = \overline{c} - c' \\]
 
 \\( \overline{c} \\) is the mean component, while \\( c' \\) is the flucutating term.
 
