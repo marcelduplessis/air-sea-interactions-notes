@@ -66,7 +66,7 @@ The climatological estimate of shortwave radiation shows clear patterns of short
 
 <div style="text-align: center;">
   <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
-  <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports is shown below. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
+  <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
 <h2>Longwave radiation</h2>
@@ -127,34 +127,70 @@ For the ocean, emissivity in the infrared range is high, typically between 0.97 
 
 Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more with temperature, moisture, and cloud conditions.
 
+<div style="text-align: center;">
+  <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
+  <p><em>The climatological estimate of net longwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
+</div>
+
 <h2>In-Situ Measurements</h2>
 
 <h3>Pyranometers</h3>
 
-(measuring SW downwelling)
+To measure the downwelling shortwave radiation at sea, we use pyranometers. 
+
+- A pyranometer is a sensor that measures hemispherical solar irradiance (i.e., radiation from the entire sky dome) on a flat surface. 
+- It typically measures radiation over the wavelength range of approximately 300–2800 nano meters — capturing the bulk of shortwave radiation from the sun.
+
+**How pyranometers work**
+
+The sensing element is usually a thermopile that generates a voltage proportional to the net radiant energy it absorbs.
+
+The sensor surface is protected by glass domes that:
+- Transmit shortwave radiation
+- Block longwave radiation
+- Protect against environmental contaminants (e.g., salt spray, dust)
+
+The output signal (a small voltage, in microvolts) is converted to irradiance (W/m²) using a calibration factor.
+
+**Measuring shortwave radiation at sea**
+
+At sea, pyranometers are often installed:
+
+- On buoys (e.g., TAO/TRITON array in the tropical Pacific)
+- On ship masts (carefully sited to minimize shading and reflection)
+
+They measure the downwelling shortwave radiation QSW↓​ — i.e., the radiation coming from the atmosphere and sky to the ocean surface.
+
+<div style="text-align: center;">
+  <img src="assets/images/spn1.png" alt="spn1" style="width: 80%; margin: 30px 0 0px 0;">
+  <p><em>SPN1 Pyranometer. Source: <a href="https://delta-t.co.uk/product/spn1/">Delta T</a></em></p>
+</div>
+
+**Key considerations**
+
+- Tilt corrections: The platform (ship or buoy) may tilt due to waves, causing measurement errors. Some systems apply real-time corrections using motion sensors (IMUs).
+- Shading: Structures (like masts) can shade the sensor. Good installation minimizes this.
+- Reflections (albedo): At the sea surface, some shortwave radiation is reflected back into the atmosphere. Pyranometers measure incoming radiation only; separate instruments (e.g., up-looking pyranometers) are needed to measure reflected radiation and calculate surface albedo.
+- Salt spray and contamination: Can reduce transmission through the domes. Regular cleaning or self-cleaning domes are used on autonomous platforms.
 
 <h3>Pyrgeometers</h3>
 
-(measuring LW downwelling)
+To measure the downwelling longwave radiation we use pyrgeomters. A pyrgeometer measures thermal infrared radiation, typically >4 µm.
 
-<h3>Ship-based radiation platforms</h3>
+It detects the infrared energy emitted by the atmosphere, clouds, and sometimes the sea surface itself.
 
-(e.g., RVs, fixed buoys like TAO, PIRATA)
+<div style="text-align: center;">
+  <img src="assets/images/pyrgeometer.png" alt="spn1" style="width: 80%; margin: 30px 0 0px 0;">
+  <p><em>Kipp & Zonen pyrgeometer.</em></p>
+</div>
 
-<h2>Satellite Observations</h2>
+The core part is a thermopile sensor with a dome-shaped window made of a material (e.g. silicon or germanium) that transmits longwave radiation.
 
-<h3>CERES</h3>
+It senses temperature differences between the detector and incoming infrared energy.
 
-(on NASA Terra/Aqua): Measures SW & LW radiative fluxes at TOA and surface (via model assimilation).
+It usually has:
+- A blackened surface to absorb radiation.
+- A temperature sensor (often a thermistor) to record the instrument’s body temperature.
 
-<h3>MODIS, VIIRS</h3>
-
-Provide cloud properties & surface temperature, used in flux derivations.
-
-<h2>Radiative Transfer Models</h2>
-
-- Use satellite-derived inputs (clouds, aerosols, SST, humidity) to compute fluxes
-- Examples: LBLRTM, RRTM, SBDART
-
-<h2>Limitations</h2>
+The net signal is used to calculate downwelling longwave radiation using an energy balance formula.
 
