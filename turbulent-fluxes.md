@@ -6,15 +6,15 @@ title: Turbulent Heat Fluxes
 
 <h1> Turbulent fluxes </h1>
 
-There are two key approaches to quantify air-sea exchanges: the **eddy covariance method** and the **bulk flux method**. In this section, we outline the main components of each and how to observe them. At the end, you should be able to:
+The two most commonly applied approaches to quantifying air-sea exchanges: the **eddy covariance method** and the **bulk flux method**. This section outlines the basic theory of each, and how to observe them. At the end, you should be able to:
 
-- Compare and constrast the eddy covariance and bulk flux method for obtaining air-sea heat fluxes
+- Compare and constrast the eddy covariance and bulk flux method for obtaining air-sea exchange
 - Discuss the advantages and disadvantages of the two methods
 - Outline the main instrumentation required to obtain each estimation of the flux
 
 <h2>Eddy Covariance</h2>
 
-The eddy covariance method is a direct measurement technique used to estimate fluxes of momentum, heat, and gases at the air-sea interface. The transfer of heat, moisture, and other scalars between the atmosphere and the surface is mediated by turbulent eddies. It therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration at scales much faster than the time evolution of eddies in the marine atmospheric boundary layer.
+The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 Hz.
 
 <h3>Governing Equation:</h3>
 
