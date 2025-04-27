@@ -182,13 +182,17 @@ where:
 
 The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily sensible heat (temperature) and latent heat (moisture) are exchanged between the ocean surface and the atmosphere through turbulence and molecular diffusion.
 
-To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity): \\( z_{0m} = \frac{c_0}{g} u_*^2 + \frac{c_1 \nu}{u_*} \\)
+To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity): 
+
+\\[ z_{0m} =  \\]
 
 where:
 - \\( c_0, c_1 \\) are constants
 - \\( g \\) is gravity,
 - \\( \nu \\) is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
 - \\( u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
+
+\frac{c_0}{g} u_*^2 + \frac{c_1 \nu}{u_*}
 
 Then roughness Reynolds number \\( Re_* \\)​ is determined
 
@@ -199,12 +203,7 @@ Re_* = \frac{u_* z_{0m}}{\nu}
 Once you have \\( Re_* \\)​, you use an empirical relation to find the ratio between \\( z_{0m} \\)​ and \\( z_{0h}, z_{0q} \\):
 
 \\[
-\log\left( \frac{z_{0m}}{z_{0h}} \right) = A + B Re_*^{-2/3}
-\\]
-
-- Roughness length for latent heat
-\\[
-\log\left( \frac{z_{0m}}{z_{0q}} \right) = A + B Re_*^{-2/3}
+\log\left( \frac{z_{0m}}{z_{0h,q}} \right) = A + B Re_*^{-2/3}
 \\]
 
 A and B are empirical constants:
