@@ -184,15 +184,13 @@ The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily se
 
 To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity): 
 
-\\[ z_{0m} = \frac{c_0}{g} u_*{^2} + \\]
+\\[ z_{0m} = \frac{c_0}{g} u_*{^2} + \frac{c_1 \nu}{u_*}\\]
 
 where:
 - \\( c_0, c_1 \\) are constants
 - \\( g \\) is gravity,
 - \\( \nu \\) is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
 - \\( u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
-
-  + \frac{c_1 \nu}{u_*}
 
 Then roughness Reynolds number \\( Re_* \\)​ is determined
 
@@ -212,7 +210,11 @@ In COARE 3.5, typical values are:
 - A=2.67
 - B=0.5
 
-Solve for \\( z_{0h}, z_{0q} \\).
+Solve for \\( z_{0h}, z_{0q} \\):
+
+\[
+z_{0h} = z_{0m} \exp\left( - (A + B Re_*^{-2/3}) \right)
+\]
 
 For calm seas the roughness length is small, meaning the friction between the atmosphere and the ocean is lower, while in a storm or choppy seas the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
