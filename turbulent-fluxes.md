@@ -86,17 +86,6 @@ Air-sea flux measurements require a platform, typically a vessel or a buoy. The 
 
 These platforms are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed form the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
 
-<h3>Sea temperature corrections</h3>
-
-The potential temperature variable used in the turbulent flux equations \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
-
-#### Cool skin
-
-#### Warm layer
-
-<h3>Relative wind corrections</h3>
-
-
 <h3>Key Features:</h3>
 
 - **Direct Measurement**: Captures turbulent fluxes by resolving small-scale atmospheric eddies.
@@ -184,7 +173,7 @@ The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily se
 
 To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity): 
 
-\\[ z_{0m} = \frac{c_0}{g} u_*{^2} + \frac{c_1 \nu}{u_*}\\]
+\\[ z_{0m} = \frac{c_0}{g} u_*{^2} + \frac{c_1 \nu}{u_*} \\]
 
 where:
 - \\( c_0, c_1 \\) are constants
@@ -257,15 +246,22 @@ The interpretation of \\( L \\) can be summarised below:
 | **Neutral**         | L→∞            | No buoyant effects, shear-dominated |
 | **Accuracy**        | L<0            | Buoyancy enhances turbulence        |
 
-<h3>Transfer Coefficient Under MOST</h3>
+<h3>Skin temperature corrections</h3>
 
-Under MOST, the transfer coefficient \\( C_H \\)​ is not constant, but varies with stability:
+The potential temperature variable used in the turbulent flux equations \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
 
-Effect of Stability:
+#### Cool skin
 
-- Unstable (\\( L < 0 \\)): \\( \phi_H < 0 \\) → larger \\( CH \\) → enhanced heat flux
-- Stable (\\( L > 0 \\)): \\( \phi_H > 0 \\) → smaller \\( CH \\)​ → suppressed heat flux
-- Neutral (\\( \abs L \abs \\) → ∞): \\( \phi_H = 0 \\), logarithmic profile applies
+If net flux is cooling the surface:
+
+\\[ 
+  \delta T_{cool} = 0.2 \times (Q_{net} / (\rho c_p u_*))
+\\]
+
+
+#### Warm layer
+
+<h3>Relative wind corrections</h3>
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
