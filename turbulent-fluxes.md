@@ -168,7 +168,7 @@ The bulk transfer coefficients for heat,
 **Bulk transfer coefficient for sensible and latent heat (with stability correction)**
 
 \\[
-C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
+C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0h} \right) - \psi_h \right)^2}
 \\]
 
 \\[
@@ -176,28 +176,36 @@ C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
 \\]
 
 where:
-\\( \kappa \\) is the von Karman constant ~0.41
-\\( z_0 \\) is the roughness length scale
-\\( \psi_h, \psi_q \\) stability correction function for heat, and water vapour
+- \\( \kappa \\) is the von Karman constant ~0.41
+- \\( z_{0h}, and z_{0q} \\) are the roughness length scale for heat and moisture
+- \\( \psi_h, \psi_q \\) stability correction function for heat, and moisture
 
 **Roughness length**
 
-The roughness length \\( z_0 \\) is an empirical estimate that represents the height at which the wind speed is theoretically zero due to friction with the surface.
+The roughness lengths \\( z_{0h}, and z_{0q} \\) describes how easily sensible heat (temperature) and latent heat (moisture) are exchanged between the ocean surface and the atmosphere through turbulence and molecular diffusion.
 
-When you have a smooth surface (e.g., calm seas), the roughness length is small, meaning the friction between the atmosphere and the ocean is lower.
+To determine these, first the the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, (\\( z_{0m} \\)) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity):
 
-When you have a rougher surface (e.g., in a storm or choppy seas), the roughness length is larger, and there is more friction between the ocean and atmosphere.
+\\[
+z_{0m} = \frac{c_0}{g} u_*^2 + \frac{c_1 \nu}{u_*}
+\\]
 
-In bulk flux models like COARE, the scalar roughness lengths (for heat and moisture) are related to the momentum roughness length \\( z0m \\)​ through empirical relationships based on the roughness Reynolds number \\( Re_* \\)​.
+where:
+- (\\ c_0, c_1 \\) are constants
+- (\\ g \\) is gravity,
+- ν is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
+- (\\ u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
 
-The same basic form is used for both sensible heat (temperature) and latent heat (moisture).
+For calm seas the roughness length is small, meaning the friction between the atmosphere and the ocean is lower, while in a storm or choppy seas the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
-- Roughness Reynolds number
+Then roughness Reynolds number \\( Re_* \\)​ is determined
+
 \\[
 Re_* = \frac{u_* z_{0m}}{\nu}
 \\]
 
-- Roughness length for sensible heat
+Once you have \\( Re_* \\)​, you use an empirical relation to find the ratio between \\( z_{0m} \\)​ and \\( z_{0h}, z_{0q} \\):
+
 \\[
 \log\left( \frac{z_{0m}}{z_{0h}} \right) = A + B Re_*^{-2/3}
 \\]
@@ -213,10 +221,7 @@ In COARE 3.5, typical values are:
 - A=2.67
 - B=0.5
 
-where:
-- u∗​ = friction velocity,
-- z0m = roughness length for momentum,
-- ν = kinematic viscosity of air.
+Solve for \\( z_{0h}, z_{0q} \\).
 
 The stability correction function for heat \\( \psi_h \\):
 
