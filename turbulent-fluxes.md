@@ -161,6 +161,47 @@ where:
 
 The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and C_E \\). So let's learn about them. First, we need to understand  the Monin-Obukhov Similarity Theory (MOST).
 
+<h3>Bulk flux transfer coefficients:</h3>
+
+<h3>Sensible heat flux \\( C_H \\)</h3>
+
+**Bulk transfer coefficient for sensible heat (with stability correction)**
+
+\\[
+C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
+\\]
+
+**If stability correction is neglected (neutral conditions)**
+
+\\[
+C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) \right)^2}
+\\]
+
+The roughness length \\( z_0 \\) is an empirical estimate that can be approximated as:
+
+\[
+z_0 = \frac{c_1 u_*^2}{g} + c_2 \frac{\nu}{u_*}
+\]
+
+**or simpler form based on 10-meter wind speed**
+
+\[
+z_0 = \alpha \cdot U_{10}^{2}
+\]
+
+The stability correction function for heat \( \psi_h \\):
+
+\text{For unstable conditions } (\zeta < 0):
+\[
+\psi_h(\zeta) = 2 \ln\left( \frac{1 + (1 - 16\zeta)^{1/4}}{2} \right)
+\]
+
+\text{For stable conditions } (\zeta > 0):
+\[
+\psi_h(\zeta) = -5\zeta
+\]
+
+
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
 MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface (the surface layer). It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity.
