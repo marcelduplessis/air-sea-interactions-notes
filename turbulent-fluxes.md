@@ -175,12 +175,48 @@ C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
 C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
 \\]
 
+where:
+\\( \kappa \\) is the von Karman constant ~0.41
+\\( z_0 \\) is the roughness length scale
+\\( \psi_h, \psi_q \\) stability correction function for heat, and water vapour
+
+**Roughness length**
 
 The roughness length \\( z_0 \\) is an empirical estimate that represents the height at which the wind speed is theoretically zero due to friction with the surface.
 
 When you have a smooth surface (e.g., calm seas), the roughness length is small, meaning the friction between the atmosphere and the ocean is lower.
 
 When you have a rougher surface (e.g., in a storm or choppy seas), the roughness length is larger, and there is more friction between the ocean and atmosphere.
+
+In bulk flux models like COARE, the scalar roughness lengths (for heat and moisture) are related to the momentum roughness length \\( z0m \\)​ through empirical relationships based on the roughness Reynolds number \\( Re_* \\)​.
+
+The same basic form is used for both sensible heat (temperature) and latent heat (moisture).
+
+- Roughness Reynolds number
+\\[
+Re_* = \frac{u_* z_{0m}}{\nu}
+\\]
+
+- Roughness length for sensible heat
+\\[
+\log\left( \frac{z_{0m}}{z_{0h}} \right) = A + B Re_*^{-2/3}
+\\]
+
+- Roughness length for latent heat
+\\[
+\log\left( \frac{z_{0m}}{z_{0q}} \right) = A + B Re_*^{-2/3}
+\\]
+
+A and B are empirical constants:
+
+In COARE 3.5, typical values are:
+- A=2.67
+- B=0.5
+
+where:
+- u∗​ = friction velocity,
+- z0m = roughness length for momentum,
+- ν = kinematic viscosity of air.
 
 The stability correction function for heat \\( \psi_h \\):
 
