@@ -177,17 +177,11 @@ C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
 C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) \right)^2}
 \\]
 
-The roughness length \\( z_0 \\) is an empirical estimate that can be approximated as:
+The roughness length \\( z_0 \\) is an empirical estimate that represents the height at which the wind speed is theoretically zero due to friction with the surface.
 
-\[
-z_0 = \frac{c_1 u_*^2}{g} + c_2 \frac{\nu}{u_*}
-\]
+When you have a smooth surface (e.g., calm seas), the roughness length is small, meaning the friction between the atmosphere and the ocean is lower.
 
-**or simpler form based on 10-meter wind speed**
-
-\[
-z_0 = \alpha \cdot U_{10}^{2}
-\]
+When you have a rougher surface (e.g., in a storm or choppy seas), the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
 The stability correction function for heat \( \psi_h \\):
 
