@@ -191,7 +191,7 @@ To determine these, first the roughness length for momentum (\\( z_{0m} \\)) mus
 where:
 - \\( c_0, c_1 \\) are constants
 - \\( g \\) is gravity,
-- ν is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
+- \\( \nu \\) is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
 - \\( u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
 
 Then roughness Reynolds number \\( Re_* \\)​ is determined
