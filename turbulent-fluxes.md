@@ -182,18 +182,12 @@ When you have a smooth surface (e.g., calm seas), the roughness length is small,
 
 When you have a rougher surface (e.g., in a storm or choppy seas), the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
-The stability correction function for heat \( \psi_h \\):
+The stability correction function for heat \\( \psi_h \\):
 
-\text{For unstable conditions } (\zeta < 0):
-\[
+For unstable conditions \\( (\zeta < 0) \\):
+\\[
 \psi_h(\zeta) = 2 \ln\left( \frac{1 + (1 - 16\zeta)^{1/4}}{2} \right)
-\]
-
-\text{For stable conditions } (\zeta > 0):
-\[
-\psi_h(\zeta) = -5\zeta
-\]
-
+\\]
 
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
