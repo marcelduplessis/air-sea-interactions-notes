@@ -163,7 +163,7 @@ The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and 
 
 <h3>Bulk flux transfer coefficients:</h3>
 
-<h3>Sensible heat flux \\( C_H \\)</h3>
+The bulk transfer coefficients for heat, 
 
 **Bulk transfer coefficient for sensible heat (with stability correction)**
 
@@ -176,6 +176,13 @@ C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
 \\[
 C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) \right)^2}
 \\]
+
+**Bulk transfer coefficient for latent heat flux**
+
+\\[
+C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
+\\]
+
 
 The roughness length \\( z_0 \\) is an empirical estimate that represents the height at which the wind speed is theoretically zero due to friction with the surface.
 
