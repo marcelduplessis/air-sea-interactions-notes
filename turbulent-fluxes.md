@@ -163,12 +163,10 @@ The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and 
 
 <h3>Bulk flux transfer coefficients:</h3>
 
-The bulk transfer coefficients for heat, 
-
-**Bulk transfer coefficient for sensible and latent heat (with stability correction)**
+**Bulk transfer coefficient for sensible and latent heat (with stability correction):**
 
 \\[
-C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0h} \right) - \psi_h \right)^2}
+C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0h}} \right) - \psi_h \right)^2}
 \\]
 
 \\[
@@ -177,18 +175,18 @@ C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
 
 where:
 - \\( \kappa \\) is the von Kármán constant (≈ 0.4)
-- \\( z_{0h}, and z_{0q} \\) are the roughness length scale for heat and moisture
-- \\( \psi_h, \psi_q \\) stability correction function for heat, and moisture
+- \\( z_{0h} \\), and \\( z_{0q} \\) are the roughness length scale for heat and moisture
+- \\( \psi_h \\), and \\( \psi_q \\) stability correction function for heat, and moisture
 
 **Roughness length**
 
-The roughness lengths \\( z_{0h}, and z_{0q} \\) describes how easily sensible heat (temperature) and latent heat (moisture) are exchanged between the ocean surface and the atmosphere through turbulence and molecular diffusion.
+The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily sensible heat (temperature) and latent heat (moisture) are exchanged between the ocean surface and the atmosphere through turbulence and molecular diffusion.
 
-To determine these, first the the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, (\\( z_{0m} \\)) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity):
+To determine these, first the the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity):
 
-\\[
+\[
 z_{0m} = \frac{c_0}{g} u_*^2 + \frac{c_1 \nu}{u_*}
-\\]
+\]
 
 where:
 - \\( c_0, c_1 \\) are constants
