@@ -165,19 +165,11 @@ The fluxes are sensitive to the choice of exchange parameters \\( C_D, C_H, and 
 
 The bulk transfer coefficients for heat, 
 
-**Bulk transfer coefficient for sensible heat (with stability correction)**
+**Bulk transfer coefficient for sensible and latent heat (with stability correction)**
 
 \\[
 C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) - \psi_h \right)^2}
 \\]
-
-**If stability correction is neglected (neutral conditions)**
-
-\\[
-C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_0} \right) \right)^2}
-\\]
-
-**Bulk transfer coefficient for latent heat flux**
 
 \\[
 C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
