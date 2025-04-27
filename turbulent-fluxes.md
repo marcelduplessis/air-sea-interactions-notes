@@ -194,7 +194,7 @@ where:
 - \\( c_0, c_1 \\) are constants
 - \\( g \\) is gravity,
 - ν is the kinematic viscosity of air that depends slightly on temperature and pressure, but about 1.5 × 10\\( ^{-5}\\) m\\(^{2}\\) s\\(^{-1}\\)
-- (\\ u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
+- \\( u_* \\),​ is friction velocity (depends on wind speed and drag coefficient).
 
 For calm seas the roughness length is small, meaning the friction between the atmosphere and the ocean is lower, while in a storm or choppy seas the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
