@@ -184,9 +184,9 @@ The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily se
 
 To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity)
 
-\\[
+\\(
 z_{0m} = \frac{c_0}{g} u_*^2 + \frac{c_1 \nu}{u_*}
-\\]
+\\)
 
 where:
 - \\( c_0, c_1 \\) are constants
