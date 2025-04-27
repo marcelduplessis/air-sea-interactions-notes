@@ -176,7 +176,7 @@ C_E = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0q}} \right) - \psi_q \right)^2}
 \\]
 
 where:
-- \\( \kappa \\) is the von Karman constant ~0.41
+- \\( \kappa \\) is the von Kármán constant (≈ 0.4)
 - \\( z_{0h}, and z_{0q} \\) are the roughness length scale for heat and moisture
 - \\( \psi_h, \psi_q \\) stability correction function for heat, and moisture
 
@@ -223,47 +223,48 @@ In COARE 3.5, typical values are:
 
 Solve for \\( z_{0h}, z_{0q} \\).
 
-The stability correction function for heat \\( \psi_h \\):
+**Stability function**
 
-For unstable conditions \\( (\zeta < 0) \\):
+The formula for stability function (both sensible and latent heat)
+
+% For stable conditions (i.e. cool ocean, warm atmosphere):
 \\[
-\psi_h(\zeta) = 2 \ln\left( \frac{1 + (1 - 16\zeta)^{1/4}}{2} \right)
+\psi = - \frac{1}{2} \ln\left( \frac{1 + \sqrt{1 + 10 \frac{z}{L}}}{2} \right) + 2 \tan^{-1}\left( \frac{1}{\sqrt{10 \frac{z}{L}}} \right)
 \\]
+
+% For unstable conditions (i.e. warm ocean, cool atmosphere):
+\\[
+\psi = \ln \left( \frac{1 + \sqrt{1 + 10 \frac{z}{L}}}{2} \right)
+\\]
+
+- \\(z\\) = height of measurement (often 10 m).
+
+The Monin-Obukhov length \\(L\\) (for temperature) and \\( L_q \\)​ (for moisture) depend on the surface fluxes and boundary layer stability:
+
+- \\(L\\) (for sensible heat) is related to temperature flux and friction velocity.
+- \\( L_q \\)​ (for latent heat) is related to the moisture flux and wind speed.
 
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
-MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface (the surface layer). It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity.
-
-The Monin-Obukhov length, \\( L \\), is an atmospheric stability parameter. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
+MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface. It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
 
 \\[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} \\]
 
 where: 
-- \\( u_* \\) = friction velocity
-- \\( \kappa \\) = von Kármán constant (≈ 0.4)
-- \\( g \\) = acceleration due to gravity
 - \\( T \\) = mean virtual temperature
 - \\( \overline{w' \theta'_v} \\) = kinematic virtual potential temperature flux
 
 The interpretation of \\( L \\) can be summarised below:
 
-| Stability      | Sign of L      | Description                         |
-|----------------|----------------|-------------------------------------|
-| **Stable**     | L>0            | Buoyancy suppresses turbulence      |
-| **Neutral**    | L→∞            | No buoyant effects, shear-dominated |
-| **Accuracy**   | L<0            | Buoyancy enhances turbulence        |
+| Stability           | Sign of L      | Description                         |
+|---------------------|----------------|-------------------------------------|
+| **Stable**          | L>0            | Buoyancy suppresses turbulence      |
+| **Neutral**         | L→∞            | No buoyant effects, shear-dominated |
+| **Accuracy**        | L<0            | Buoyancy enhances turbulence        |
 
 <h3>Transfer Coefficient Under MOST</h3>
 
 Under MOST, the transfer coefficient \\( C_H \\)​ is not constant, but varies with stability:
-
-\\[ C_H = \left( \frac{\kappa}{\ln\left(\frac{z - d}{z_0}\right) - \psi_H\left(\frac{z - d}{L}\right)} \right)^2 \\]
-
-where: 
-- \\( \phi_H \\) = stability correction function for heat
-- \\( z \\) = measurement height
-- \\( z_0 \\) = roughness length
-- \\( d \\) = displacement height
 
 Effect of Stability:
 
