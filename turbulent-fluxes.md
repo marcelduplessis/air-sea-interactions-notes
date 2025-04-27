@@ -212,9 +212,9 @@ In COARE 3.5, typical values are:
 
 Solve for \\( z_{0h}, z_{0q} \\):
 
-\[
+\\[
 z_{0h} = z_{0m} \exp\left( - (A + B Re_*^{-2/3}) \right)
-\]
+\\]
 
 For calm seas the roughness length is small, meaning the friction between the atmosphere and the ocean is lower, while in a storm or choppy seas the roughness length is larger, and there is more friction between the ocean and atmosphere.
 
