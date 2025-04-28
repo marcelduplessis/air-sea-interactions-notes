@@ -255,9 +255,8 @@ The potential temperature variable used in the turbulent flux equations \\( \the
 If net flux is cooling the surface:
 
 \\[ 
-  \delta T_{cool} = 0.2 \times (Q_{net} / (\rho c_p u_*))
+  \Delta T_{cool} = 0.2 \times \frac{Q_{net}}{\rho c_p u_*}
 \\]
-
 
 #### Warm layer
 
