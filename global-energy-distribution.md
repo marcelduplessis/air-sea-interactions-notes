@@ -6,22 +6,25 @@ title: Global Energy Distribution
 
 <h1> Global Energy Distribution </h1>
 
-*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK18](/air-sea-interactions-notes/#BFK18)]
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK18](/references/#BFK18)]
 
-I quite like this quote because when we talk about scales of interest it really depends on your application. Each has their relative importance and necessity to understand and be curious about.
+I like to start with this quote from Baylor Fox-Kemper because when we talk about scales of interest it really depends on your application. Each has their relative importance and necessity to understand and be curious about. 
 
 ## Global energy budget
 
-The Earth's atmosphere receives its heat through solar radiation, which acts primarily in the wavelength range of 0.25-4 micrometres (µm). Meanwhile, outgoing longwave radiation falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 µm.
+When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. A Watt is J s\\(^{-1}\\), which represents power -- the rate at which energy is transferred or converted. A Watt measures the rate of heat transfer or the rate at which thermal energy is being generated. When we talk about air-sea fluxes, we are talking in W m\\(^{-2}\\), the thermal energy generated per unit area.
+
+Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation from the sun (about 341 W m\\(^{-2}\\)) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces (about 102 W m\\(^{-2}\\)).
+
+This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\m).  Some of this heat is lost by outgoing longwave radiation falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 µm.
 
 <div style="text-align: center;">
   <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 70%; margin: 30px 0;">
   <p><em>Radiation spectrum. Source: <a href="https://science.nasa.gov/ems/">https://science.nasa.gov/ems/</a></em></p>
 </div>
 
-Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 watts of solar power per square meter (1 \\( watt\\) = 1 \\( J \\) \\( s^{-1}\\)).
 
-Joule is a unit of energy that measures the energy required to create heat.
+
 
 ### What are some consequences of this energy uptake on Earth?
 
