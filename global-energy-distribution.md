@@ -14,21 +14,9 @@ I like to start with this quote from Baylor Fox-Kemper because when we talk abou
 
 When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. A Watt is J s\\(^{-1}\\), which represents power -- the rate at which energy is transferred or converted. A Watt measures the rate of heat transfer or the rate at which thermal energy is being generated. When we talk about air-sea fluxes, we are talking in W m\\(^{-2}\\), the thermal energy generated per unit area.
 
-Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation from the sun (about 341 W m\\(^{-2}\\)) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces (about 102 W m\\(^{-2}\\)).
+Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) from the sun of about 341 W m\\(^{-2}\\) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 \\( W \\) \\( m^{-2}\\).
 
-This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\m).  Some of this heat is lost by outgoing longwave radiation falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 µm.
-
-<div style="text-align: center;">
-  <img src="assets/images/em-spectrum.png" alt="Radiation spectrum" style="width: 70%; margin: 30px 0;">
-  <p><em>Radiation spectrum. Source: <a href="https://science.nasa.gov/ems/">https://science.nasa.gov/ems/</a></em></p>
-</div>
-
-
-
-
-### What are some consequences of this energy uptake on Earth?
-
-Fusion keeps the solar system warm, so presently the vast majority of the heating of the Earth and, thus, the motions of the atmosphere and oceans comes from the Sun’s energy. At the top of the atmosphere (~100 km above the earth’s surface), 341 \\( W \\) \\( m^{-2}\\) of solar power arrives as primarily shortwave radiation. Part of the incoming solar radiation is reflected back to space by clouds, aerosols, and the Earth's surface, which accounts for roughly just under a third (102 \\( W \\) \\( m^{-2}\\)), with about 239 \\( W \\) \\( m^{-2}\\) entering the earth’s atmosphere.
+This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\)m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 \\( \mu \\)m.
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 30px 0;">
