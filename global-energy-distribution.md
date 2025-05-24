@@ -20,7 +20,7 @@ This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \m
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 30px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="/references/#TFK09">[TFK09]</a></em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
 The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m\\(^{-2}\\) emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.
@@ -28,7 +28,7 @@ The balance between incoming solar radiation and outgoing radiation is crucial f
 **The Stefan-Boltzmann law**\
 \\[j^* = \epsilon \sigma T^4\\]
 
-\\(j^*\\) is the radiant exitance, which is the power radiated per unit area in the form of electromagnetic radiation, with units W m\\(^{-2}\\). \\(\epsilon\\) is a dimensionless property of the surface of an object that indicates how effectively it radiates energy compared to a perfect black body. The ocean has a high thermal emissivity, typically between 0.96 and 0.99. \\(\sigma\\) is the Stefan-Boltzmann constant that has a value of 5.670374419 \\(\times\\) \\(10^{−8}\\) W m\\(^{-2}\\) x K\\(^4\\). \\(T\\) is the absolute temperature in Kelvin (K).
+\\(j^*\\) is the radiant exitance, which is the power radiated per unit area in the form of electromagnetic radiation, with units W m\\(^{-2}\\). \\(\epsilon\\) is a dimensionless property of the surface of an object that indicates how effectively it radiates energy compared to a perfect black body. The ocean has a high thermal emissivity, typically between 0.96 and 0.99. \\(\sigma\\) is the Stefan-Boltzmann constant that has a value of ~5.67 \\(\times\\) \\(10^{−8}\\) W m\\(^{-2}\\) x K\\(^4\\). \\(T\\) is the absolute temperature in Kelvin (K).
 
 ### Measuring Earth's brightness temperature
 
