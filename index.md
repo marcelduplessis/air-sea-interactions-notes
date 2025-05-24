@@ -4,46 +4,36 @@ title: Introduction to Air-Sea Interactions
 no_heading_numbers: true
 ---
 
-<h1>Introduction to Air-Sea Interactions</h1>
+<h1>Introduction to air-sea interactions</h1>
 
 *Marcel du Plessis*
 
 
-*2025-04-23*
+*2025-05-24*
 
 
 ## Welcome
 
-
 These notes on air-sea interactions were created for the Masters in Marine Science OC4920 course *"Observing the ocean from micro to macro scale"* at the University of Gothenburg. The site is hosted on [GitHub Pages](https://github.com/marcelduplessis/air-sea-interactions-notes) and have been created relatively recently, so if you find a lack of clarity or other errors, please create an GitHub issue [here](https://github.com/marcelduplessis/air-sea-interactions-notes/issues). 
 
-I would like to acknowledge that my learning of air-sea interactions is thanks to the time and efforts of my teachers and collaborators, to whom I am grateful for. These include but not limited to Mathieu Rouault, Brian Ward, Sebastiaan Swart, Sarh Nicholson, Meghan Cronin, and Sabrina Speich. In some ways, the content of this site is thanks to them.
+I'd acknowledge that my learning of air-sea interactions is thanks to the time and efforts of many of my teachers and colleagues. In many ways, the content of this site is thanks to them.
 
-*A note on fluxes:*: these notes focus almost exclusively on **heat exchange**: which can be defined as the transfer of heat between the ocean and the atmosphere, influencing sea surface temperatures and atmospheric circulation. 
+I would also like to add that while air-sea interactions represent the exchange of a wide range of properties across the air-sea interface, the notes presented here focus almost exclusively on air-sea **heat exchange**. 
 
 
 ## Additional Resources
 
-
-These notes are created to be stand-alone for the air-sea interactions module of the OC4920 course. They are based on various material that I have sourced via readings or online. You will find it beneficial to do your own reading around the subject to extend your knowledge beyond what is presented here. There are a number of reading material listed below that you will find helpful.
+These notes are created to be stand-alone for the air-sea interactions module of the OC4920 course. You will find it beneficial to do your own reading around the subject to extend your knowledge beyond what is presented here. There are a number of reading material that you will find helpful, some of which I have listed in the references.
 
 ## Learning Objectives
 
-- Understand how the Earth's energy is distributed and by which mechanisms
-- Differentiate the difference between direct and indirect fluxes
-- Define the variables required to observe air-sea interactions
+- Understand Earth's energy distribution 
+- Differentiate the difference between direct and indirect measurements of air-sea fluxes
+- Define the oceanic and meteorological variables that are required to study air-sea interactions
 - Discuss the main sources of uncertainties in air-sea flux estimates
-- Explain the different ways that air-sea fluxes can be observed
+- Explain the pro's and con's of the different instrumentation used to observe air-sea fluxes
 - Define basics on modeling air-sea fluxes
 - Have a global understanding of international efforts to understand air-sea interactions
-
-## Module Plan
-
-This module consistes of xx sessions of 1h 45min. It will require work to be done beyond the sessions. This will be communicated in good time. 
-
-- xx lectures
-- An assingment that focuses on data analysis and interpretation 
-- A groupwork reading and presentation
 
 ## Reading list
 
