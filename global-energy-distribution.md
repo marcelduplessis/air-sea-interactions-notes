@@ -69,7 +69,12 @@ By absorbing and re-emitting infrared radiation, greenhouse gases help to regula
 
 ## An imbalance
 
-The enhanced greenhouse effect means that global annual mean of Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 \\( W \\) \\( m^{-2}\\), indicating ongoing changes in the climate system. This reflects the significant role of clouds and aerosols in reflecting and absorbing solar radiation, impacting the energy budget. 
+The increase of greenhouse gasses in Earth's atmosphere results in more heat (energy) remaining in the atmosphere. This means that Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 W m\\(^{-2}\\), indicating ongoing changes in the climate system. Climate scientists have been carefully monitoring this since the 1950's, with the most famous observational site the Mauna Loa Observatory in Hawaii.
+
+<div style="text-align: center;">
+  <img src="assets/images/mlo-full-record.png" alt="ghg" style="width: 70%; margin: 30px 0;">
+  <p><em>The Keeling Curve is the record of atmospheric CO2 from the Mauna Loa Observatory, starting in 1958 [https://keelingcurve.ucsd.edu/](https://keelingcurve.ucsd.edu/)</em></p>
+</div>
 
 ## Summary of the Energy Flow Processes
 
