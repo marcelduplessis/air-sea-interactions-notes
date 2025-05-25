@@ -1,5 +1,6 @@
 ---
 layout: default
+mathjax: true
 title: Introduction to Air-Sea Interactions
 no_heading_numbers: true
 ---

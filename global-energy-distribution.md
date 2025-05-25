@@ -100,7 +100,6 @@ The primary reason for the mismatch between incoming and outgoing energy is the 
 The imbalance in energy input across latitudes is a key driver of winds and ocean currents. These systems transport heat from equatorial regions toward the poles. Without this redistribution, the polar regions would continually cool while the tropics would grow ever warmer.
 
 To maintain global energy balance, this poleward energy transfer must equal the surplus at low latitudes. It totals approximately 5.7 petawatts (PW) in each hemisphere and occurs through three main mechanisms:
-<div style="text-align: center;"> <img src="assets/images/heat-redis.png" alt="heat-redis" style="width: 60%; margin: 30px 0;"> <p><em>Global heat redistribution. Source: NASA</em></p> </div>
 
 #### 1. Atmospheric Sensible Heat Transport (~3 PW)
 

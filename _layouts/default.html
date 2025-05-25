@@ -6,10 +6,7 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> 
-  <script id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
+  <style>
     body {
       margin: 0;
       font-family: sans-serif;
@@ -124,6 +121,23 @@
     }
 
   </style>
+  <!-- MathJax CDN -->
+  <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
+  <!-- MathJax Configuration -->
+  <script>
+  window.MathJax = {
+    chtml: {
+      font: 'sans-serif'
+    },
+    options: {
+      enableMenu: false
+    }
+    };
+    </script>
+
 </head>
 
 <body class="{% if page.no_heading_numbers %}no-heading-numbers{% else %}start-h1-{{ page.chapter | default: 0 }}{% endif %}">
