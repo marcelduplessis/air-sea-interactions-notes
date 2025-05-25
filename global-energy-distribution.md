@@ -76,65 +76,64 @@ The increase of greenhouse gasses in Earth's atmosphere results in more heat (en
   <p><em>The Keeling Curve is the record of atmospheric CO2 from the Mauna Loa Observatory, starting in 1958 [https://keelingcurve.ucsd.edu/](https://keelingcurve.ucsd.edu/)</em></p>
 </div>
 
-## Summary of the Energy Flow Processes
-
-- **Atmospheric Absorption**: Solar radiation absorbed by atmospheric components like water vapor, clouds, and aerosols.
-- **Surface Absorption**: Solar radiation absorbed by the Earth's surface, contributing to heating the land and oceans.
-- **Surface Emission**: The Earth's surface emits longwave radiation, which is partly absorbed by the atmosphere and partly escapes to space.
-- **Back Radiation**: Longwave radiation emitted by the atmosphere back to the Earth's surface, contributing to the greenhouse effect.
-
 ## Global redistribution of energy
 
-So far, we have only looked at a global view of things. But actually, latitude-by-latitude, the energy budget is not in balance. If like me, you've spend some time in the polar regions and the tropics, you'll have felt the difference. Equator and tropics receive excess incoming radiation over outgoing, mid-latitudes and polar latitudes emitting more energy back to space than from the sun. But the energy distribution of Earth also varies from season to season, day-to-night and longitude-by-longitude.
+Latitudinal Energy Imbalance
 
-Consider this video of the monthly averaged net radiation, you can see the seasonal shifts in energy reaching the surface of the Earth.
+The Earth's energy budget is not balanced uniformly across latitudes. Near the equator and in the tropics, there is a net energy surplus—these regions receive more incoming shortwave solar radiation than they emit as outgoing longwave radiation. In contrast, the mid-latitudes and polar regions experience a net energy deficit, emitting more longwave radiation to space than they receive from the Sun.
 
-<video src="assets/images/nasa-month-net-radiation.mp4" width="800" height="600" controls>
-  Monthly net radiation. Source: NASA.
-</video>
+This imbalance is not constant and also varies:
 
-Another major factor infleuncing the way that heat is distribution around the global is seen in the figure below by [RALS17]. Why do we see the large differences in temperature between the Earth's surface and air just above it? Why are these larger over land compared to the ocean?
+- Seasonally (due to Earth's tilt),
+- Diurnally (day vs. night),
+- And longitudinally (due to land-ocean distribution, cloud cover, etc.).
 
-<div style="text-align: center;">
-  <img src="assets/images/diurnal-temp-range.jpg" alt="heat-range" style="width: 80%; margin: 30px 0;">
-  <p><em>The difference between the skin temperature and the surface air temperature retrieved from AIRS measurements. The maximum differences are seen over land, for example, in Africa and Australia. Source: [RALS17]</em></p>
-</div>
-
-This has got to do with specific heat capacity of dry air being \\( 1000 \\) \\(J \\) \\( kg^{-1} \\) \\( K^{-1} \\), and seawater \\( 4000 \\) \\(J \\) \\( kg^{-1} \\) \\( K^{-1} \\). For equal parts ocean and air, the ocean is able to hold about 4 times more heat than the air before warming to the same temperature, meaning the ocean will take considerably longer to warm given the same heat applied. In fact, the atmosphere has a total heat capacity near 107 \\(J \\) \\( m^{-2} \\) \\( K^{-1} \\), equal to about 3 meters of seawater. 
-
-As a case study, if we applied 100 \\(W \\) \\( m^{-2} \\) heating to the atmosphere for one day, it would warm at about 1 \\(K \\). On the otherhand, the ocean with a mixed layer of 30 meters would only warm by about 0.1 \\(K \\).
-
-The global energy distribution has important implications for setting large temperature differences between the equator and polar regions, which are important for wind generation and ocean currents. Winds and ocean currents play a major role in moving the surplus heat from the equatorial regions to the polar regions. Without this heat transfer, the polar regions of Earth would get colder every year and regions between ~ 35 \\( \degree \\)N and 35 \\( \degree \\)S would get warmer every year. If the whole system is to be in balance, there must be an exchange of energy between the excessive regions toward the deficient ones. There are three primary mechanisms that account for about 5.7 PW of poleward energy transport in each hemisphere. 
+The primary reason for the mismatch between incoming and outgoing energy is the atmospheric and oceanic circulation systems, which transport heat from energy-surplus regions to energy-deficit regions. This large-scale redistribution helps maintain a relatively stable global climate.
 
 <div style="text-align: center;">
   <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 30px 0;">
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
-#### Atmospheric sensible heat transport (3PW)
+### Poleward Heat Transport and Climate Regulation
 
-- Hadley Cells ascend near the equator, move poleward where they descend and return back toward the equator.
-- Conversion of thermal energy to mechanical energy that drives the Hadley cell, much like a Carnot cycle. 
-- These cells do not move directly from equator to pole, but are veered by the Coriolis force, so they have dominantly zonal winds at the surface. E.g. equatorial easterlies and mid-latitude westerlies.
+The imbalance in energy input across latitudes is a key driver of winds and ocean currents. These systems transport heat from equatorial regions toward the poles. Without this redistribution, the polar regions would continually cool while the tropics would grow ever warmer.
+
+To maintain global energy balance, this poleward energy transfer must equal the surplus at low latitudes. It totals approximately 5.7 petawatts (PW) in each hemisphere and occurs through three main mechanisms:
+<div style="text-align: center;"> <img src="assets/images/heat-redis.png" alt="heat-redis" style="width: 60%; margin: 30px 0;"> <p><em>Global heat redistribution. Source: NASA</em></p> </div>
+
+#### 1. Atmospheric Sensible Heat Transport (~3 PW)
+
+- Dominated by large-scale circulation cells, especially Hadley Cells.
+- Air ascends near the equator, moves poleward at high altitudes, descends in the subtropics, and returns at the surface.
+- This circulation converts thermal energy into mechanical energy, much like a Carnot engine.
+- The Coriolis force deflects surface winds, producing:
+  - Equatorial easterlies,
+  - Mid-latitude westerlies.
 
 {% include youtube.html id="mKcU-hIoPf4" %}
 
-### Ocean sensible heat transport (2 PW)
+#### 2. Ocean Sensible Heat Transport (~2 PW)
 
-- Warm seawater moves poleward, and colder seawater moves equatorward.
-- Unlike the atmosphere, oceans are heated and cooled at the surface, so they are not like heat engines. Instead, it must come from other sources, e.g., winds and tides.
-- Meridional heat transport is poleward when zonally averaged, but the Atlantic is northward at all latitudes, and the Indian Ocean is southward at all latitudes.
+- Surface currents move warm water poleward and cold water equatorward.
+- Unlike the atmosphere, the ocean is primarily heated and cooled at the surface.
+- Oceanic transport is driven by:
+  - Wind stress (Ekman transport),
+  - Thermohaline circulation,
+  - Tides.
+- Meridional (north-south) heat transport is poleward on average, but varies:
+  - In the Atlantic, transport is northward at all latitudes,
+  - In the Indian Ocean, it is southward at all latitudes.
 
 {% include youtube.html id="CCmTY0PKGDs" %}
 
-#### Ocean latent heat transport (1 PW)
+#### 3. Latent Heat Transport (~1 PW)
+- Involves the hydrological cycle: evaporation, transport of water vapor, and precipitation.
+- Moist air carries latent heat as water vapor, which releases energy upon condensation.
+- This process is called the “steam cycle.”
+- Evaporating water takes 560 times more energy than warming it by 1 K—making latent heat a powerful heat carrier.
+- Though the mass of water moved is small, the energy transported is significant.
 
-- Atmosphere/ocean latent heat transport is moist air moving poleward and dry air and liquid water in oceans and rivers moving equatorward.
-- Vaporization releases heat that is transported from the location where evaporates to where the precipitation occurs - this is known as the  “steam cycle”.
-- Moist air carries a lot of heat as it takes 560 times as much energy to evaporate water as to warm it by 1 degree. 
-- Thus, although the hydrological cycle transports only a small mass of water it carries a lot of heat.
 
-## General readings for this section
 
-- [[BFK18](/air-sea-interactions-notes/#BFK18)]
-- [[TFK09](/air-sea-interactions-notes/#TFK09)]
+
