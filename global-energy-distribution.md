@@ -20,7 +20,7 @@ This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \m
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 30px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000--2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
 The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m\\(^{-2}\\) emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.
