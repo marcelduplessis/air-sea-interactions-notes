@@ -12,14 +12,14 @@ I like to start with this quote from Baylor Fox-Kemper because when we talk abou
 
 ## Global energy budget
 
-When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. A Watt is J s\\(^{-1}\\), which represents power -- the rate at which energy is transferred or converted. A Watt measures the rate of heat transfer or the rate at which thermal energy is being generated. When we talk about air-sea fluxes, we are talking in W m\\(^{-2}\\), the thermal energy generated per unit area.
+When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The SI unit of Watts is J s\(^{-1}\), which represents the rate at which thermal energy (heat) is transferred or converted. In the context of air-sea fluxes, we use the units W m\(^{-2}\), which is then the thermal energy generated per meter squared.
 
 Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) from the sun of about 341 W m\\(^{-2}\\) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m\\(^{-2}\\).
 
 This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\)m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 \\( \mu \\)m.
 
 <div style="text-align: center;">
-  <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 30px 0;">
+  <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 10px 0;">
   <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
