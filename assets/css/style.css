@@ -72,6 +72,7 @@ a:hover {
 
 .MJX-TEX {
   font-weight: normal !important; /* Forces normal weight */
+  font-family: 'Helvetica', sans-serif;
   /* Consider adding the font-family if you want it to match your body text */
   /* font-family: 'Georgia', serif !important; /* Example */
 }
