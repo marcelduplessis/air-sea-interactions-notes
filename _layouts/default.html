@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<!-- MathJax Configuration -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  svg: {
+    fontCache: 'global',
+    scale: 1,
+    matchFontHeight: true
+  },
+  options: {
+    renderActions: {
+      addMenu: [],
+      checkLoading: []
     }
+  }
+};
+</script>
+
+<!-- Load MathJax -->
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+<!-- Custom style for MathJax to use Helvetica font -->
+<style>
+.MathJax {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Other styles */
+body {
+margin: 0;
+font-family: sans-serif;
+}
     
     header {
       background-color: #f4f4f4; /* Light gray */
