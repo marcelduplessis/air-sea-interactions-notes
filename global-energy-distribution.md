@@ -15,7 +15,7 @@ I like to start with this quote from Baylor Fox-Kemper because when we talk abou
 
 When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The rate at which thermal energy (heat) is transferred or converted is measured in J s \( ^{-1} \) - or Watts. In air-sea fluxes, we refer to this heat exchange as W m\(^{-2}\), which is then the thermal energy generated per meter squared.
 
-Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) from the sun of about 341 W m\\(^{-2}\\) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m\\(^{-2}\\).
+Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between (1) the incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) - about 341 W m\\(^{-2}\\) - and (2) the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m\\(^{-2}\\).
 
 This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\)m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 \\( \mu \\)m.
 
