@@ -6,6 +6,22 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']]
+      },
+      chtml: {
+        font: 'sans-serif'
+      },
+      options: {
+        enableMenu: false
+      }
+    };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <style>
     body {
       margin: 0;
@@ -120,7 +136,7 @@
       max-width: 100%;
     }
   </style>
-  
+
   <!-- MathJax CDN -->
   <script type="text/javascript" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -181,28 +197,5 @@
       <li><a href="/air-sea-interactions-notes/references">References</a></li>
     </ul>
   </nav>
-
-  <!-- Main Content -->
-  <main id="main-content">
-    {{ content 
-        | replace: "<h1>", "<h1 class='large-gap'>" 
-        | replace: "<h2>", "<h2 class='small-gap'>" }}
-  </main>
-
-  <script>
-    const toggleBtn = document.getElementById("toggle-nav");
-    const sidebar = document.getElementById("sidebar");
-    const main = document.getElementById("main-content");
-
-    toggleBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("closed");
-      if (sidebar.classList.contains("closed")) {
-        main.style.marginLeft = "0";
-      } else {
-        main.style.marginLeft = "250px";
-      }
-    });
-  </script>
-
 </body>
 </html>
