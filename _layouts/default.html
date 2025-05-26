@@ -119,24 +119,8 @@
     .photo img {
       max-width: 100%;
     }
+
   </style>
-
-  <!-- MathJax CDN -->
-  <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-
-  <!-- MathJax Configuration -->
-  <script>
-  window.MathJax = {
-    chtml: {
-      font: 'sans-serif'
-    },
-    options: {
-      enableMenu: false
-    }
-    };
-    </script>
 </head>
 
 <body class="{% if page.no_heading_numbers %}no-heading-numbers{% else %}start-h1-{{ page.chapter | default: 0 }}{% endif %}">
@@ -181,5 +165,28 @@
       <li><a href="/air-sea-interactions-notes/references">References</a></li>
     </ul>
   </nav>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    {{ content 
+        | replace: "<h1>", "<h1 class='large-gap'>" 
+        | replace: "<h2>", "<h2 class='small-gap'>" }}
+  </main>
+
+  <script>
+    const toggleBtn = document.getElementById("toggle-nav");
+    const sidebar = document.getElementById("sidebar");
+    const main = document.getElementById("main-content");
+
+    toggleBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("closed");
+      if (sidebar.classList.contains("closed")) {
+        main.style.marginLeft = "0";
+      } else {
+        main.style.marginLeft = "250px";
+      }
+    });
+  </script>
+
 </body>
 </html>
