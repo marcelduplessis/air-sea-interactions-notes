@@ -1,5 +1,6 @@
 ---
 layout: default
+mathjax: true
 chapter: 1
 title: Global Energy Distribution
 ---
