@@ -13,9 +13,9 @@ I like to start with this quote from Baylor Fox-Kemper because when we talk abou
 
 ## Global energy budget
 
-When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The rate at which thermal energy (heat) is transferred or converted is measured in J s $^{-1}$ - or Watts. In air-sea fluxes, we refer to this heat exchange as W m\(^{-2}\), which is then the thermal energy generated per meter squared.
+When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The rate at which thermal energy (heat) is transferred or converted is measured in J s$^{-1}$ - or Watts. In air-sea fluxes, we refer to this heat exchange as W m$^{-2}$, which is then the thermal energy generated per meter squared.
 
-Globally, the Earth system is in a state of energy balance. The entire the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between (1) the incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) - about 341 W m\\(^{-2}\\) - and (2) the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m\\(^{-2}\\).
+Globally, the Earth system is in a state of energy balance. The entire the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m$^{-2}$. This reflects the balance between (1) the incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) - about 341 W m$^{-2}$ - and (2) the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m$^{-2}$.
 
 This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\)m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 \\( \mu \\)m.
 
@@ -24,12 +24,12 @@ This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \m
   <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
-The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m\\(^{-2}\\) emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.
+The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m$^{-2}$ emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.
 
 **The Stefan-Boltzmann law**\
 \\[j^* = \epsilon \sigma T^4\\]
 
-\\(j^*\\) is the radiant exitance, which is the power radiated per unit area in the form of electromagnetic radiation, with units W m\\(^{-2}\\). \\(\epsilon\\) is a dimensionless property of the surface of an object that indicates how effectively it radiates energy compared to a perfect black body. The ocean has a high thermal emissivity, typically between 0.96 and 0.99. \\(\sigma\\) is the Stefan-Boltzmann constant that has a value of ~5.67 \\(\times\\) \\(10^{−8}\\) W m\\(^{-2}\\) x K\\(^4\\). \\(T\\) is the absolute temperature in Kelvin (K).
+\\(j^*\\) is the radiant exitance, which is the power radiated per unit area in the form of electromagnetic radiation, with units W m$^{-2}$. \\(\epsilon\\) is a dimensionless property of the surface of an object that indicates how effectively it radiates energy compared to a perfect black body. The ocean has a high thermal emissivity, typically between 0.96 and 0.99. \\(\sigma\\) is the Stefan-Boltzmann constant that has a value of ~5.67 \\(\times\\) \\(10^{−8}\\) W m$^{-2}$ x K\\(^4\\). \\(T\\) is the absolute temperature in Kelvin (K).
 
 ### Measuring Earth's brightness temperature
 
@@ -70,7 +70,7 @@ By absorbing and re-emitting infrared radiation, greenhouse gases help to regula
 
 ## An imbalance
 
-The increase of greenhouse gasses in Earth's atmosphere results in more heat (energy) remaining in the atmosphere. This means that Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 W m\\(^{-2}\\), indicating ongoing changes in the climate system. Climate scientists have been carefully monitoring this since the 1950's, with the most famous observational site the Mauna Loa Observatory in Hawaii.
+The increase of greenhouse gasses in Earth's atmosphere results in more heat (energy) remaining in the atmosphere. This means that Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 W m$^{-2}$, indicating ongoing changes in the climate system. Climate scientists have been carefully monitoring this since the 1950's, with the most famous observational site the Mauna Loa Observatory in Hawaii.
 
 <div style="text-align: center;">
   <img src="assets/images/mlo-full-record.png" alt="ghg" style="width: 70%; margin: 30px 0;">
