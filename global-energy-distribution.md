@@ -13,7 +13,7 @@ I like to start with this quote from Baylor Fox-Kemper because when we talk abou
 
 ## Global energy budget
 
-When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The rate at which thermal energy (heat) is transferred or converted is measured in J s$^{-1}$ - or Watts. In the context of air-sea fluxes, we use the units W m\(^{-2}\), which is then the thermal energy generated per meter squared.
+When we talk about heat, we are referring to Joules, which is the amount of heat energy transferred or contained. Heat itself is energy. The rate at which thermal energy (heat) is transferred or converted is measured in J s\( ^{-1} \) - or Watts. In the context of air-sea fluxes, we use the units W m\(^{-2}\), which is then the thermal energy generated per meter squared.
 
 Globally, over the year, the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m\\(^{-2}\\). This reflects the balance between incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) from the sun of about 341 W m\\(^{-2}\\) and the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m\\(^{-2}\\).
 
