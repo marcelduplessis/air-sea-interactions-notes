@@ -173,6 +173,11 @@ MOST provides a framework to describe the vertical structure of the turbulent at
 
 \\( T \\) is the mean virtual temperature in K and \\( \overline{w' \theta'_v} \\) is the kinematic virtual potential temperature flux in K m s\\(^{-1}\\). This is a classic chicken-and-egg scenario, where you need the flux ($\overline{w'\theta'_v}$) to calculate the Monin-Obukhov length ($L$), and the Monin-Obukhov length to calculate the flux. The solution is to use an iterative approach. You start with an initial guess for $L$ (often assuming neutral conditions, i.e., $L \to \infty$), compute the fluxes using the profile equations with this guess, then use those fluxes to update your estimate of $L$. This process is repeated until the values converge.
 
+<div style="text-align: center;">
+  <img src="assets/images/lhf-shf-map.png" alt="lhf-shf-map" style="width: 100%; margin: 30px 0 0px 0;">
+  <p><em>The climatological estimate of sensible (left) and latent (right) heat flux based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
+</div>
+
 <h3>Skin temperature corrections</h3>
 
 A critical source of error in the turbulent flux equations is the potential temperature variable used to define the surface skin temperature \\( \theta_s \\). We require a value that represents the skin temperature of the surface ocean, but this is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface "bulk"  temperature, typically measured a 1-5 meters below the sea surface (e.g. from a ship thermosalinograph). These two temperature can different by several tenths of a degree due to the diurnal heating of the ocean surface.
@@ -187,9 +192,14 @@ Although the warm layer effect is the dominant correction, there is also a cool 
 
 The cool skin correction estimates the temperature difference between the bulk temperature and the true skin temperature, allowing flux algorithms to use a more representative surface value. The bulk flux algorithm includes a sub-model for the cool skin effect, originally based on Saunders (1967) and refined by Fairall et al. (1996) for the COARE algorithms. The cool skin temperature depression is calculated as a function of the net upward heat flux at the surface (including sensible, latent, and longwave radiative fluxes), wind speed (through friction velocity), and the molecular properties of seawater. The correction is typically negative, meaning the skin temperature is cooler than the bulk temperature. The algorithm subtracts this cool skin correction from the measured bulk SST to estimate the skin temperature used in flux calculations.
 
+<div style="text-align: center;">
+  <img src="assets/images/cool-skin.png" alt="cool-skin" style="width: 100%; margin: 30px 0 0px 0;">
+  <p><em>Schematic showing (a) idealized nighttime vertical temperature deviations from the foundation SST and (b) idealized daytime vertical temperature deviations from the foundation SST in the upper ocean. From Donlon and the GHRSST-PP Science Team (2005). Courtesy of C. J. Donlon. Data source: <a href="https://link.springer.com/article/10.1007/s10872-007-0063-0">Kawai and Wada (2007)</a></em></p>
+</div>
+
 <h3>Relative wind corrections</h3>
 
-Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocity between the air and the sea surface. If the ocean surface is moving (due to currents), the effective wind speed felt at the interface is different from the wind speed measured relative to a fixed point on the ocean surface. Relative wind corrections account for the motion of the ocean surface (surface currents) and the motion of the air (wind) to determine the effective wind speed at the air-sea interface following \\( \vec{U}_{\text{rel}} = \vec{U}_{\text{air}} - \vec{U}_{\text{surface current}} \\).
+Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocity between the air and the sea surface. If the ocean surface is moving (due to currents), the effective wind speed felt at the interface is different from the wind speed measured relative to a fixed point on the ocean surface. Relative wind corrections account for the motion of the ocean surface (surface currents) and the motion of the air (wind) to determine the effective wind speed at the air-sea interface.
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
