@@ -17,7 +17,7 @@ When we talk about heat, we are referring to Joules, which is the amount of heat
 
 Globally, the Earth system is in a state of energy balance. The entire the Earth system - land surfaces, oceans, and atmosphere - absorbs an average of about 239 W m$^{-2}$. This reflects the balance between (1) the incoming solar (also called shortwave) radiation at the top of the atmosphere (~100 km above the earth’s surface) - about 341 W m$^{-2}$ - and (2) the shortwave radiation reflected by clouds, the atmosphere, and the Earth surfaces, which accounts for roughly just under a third at 102 W m$^{-2}$.
 
-This shortwave radiation acts primarily in the wavelength range of 0.25-4 \\( \mu \\)m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 \\( \mu \\)m.
+This shortwave radiation acts primarily in the wavelength range of 0.25-4 $\mu$m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 $\mu$m.
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 10px 0;">
@@ -33,7 +33,7 @@ The balance between incoming solar radiation and outgoing radiation is crucial f
 
 ### Measuring Earth's brightness temperature
 
-The brightness temperature of the Earth is the temperature that a surface would need to have to emit the observed radiation intensity at a given wavelength or frequency. It is not a physical temperature but a radiometric one inferred from observed radiation. This is reflective of the outgoing longwave radiation. We can measure this from space using the Atmospheric Infrared Sounder (AIRS). The AIRS satellite detects infrared wavelengths in the range of 3.7 to 15.4 \\( \mu \\)m. It measures the intensity of radiation at these wavelengths to study atmospheric temperature, humidity, trace gases, and cloud properties. AIRS has 2378 spectral channels across this range, allowing for a detailed analysis of the atmosphere. 
+The brightness temperature of the Earth is the temperature that a surface would need to have to emit the observed radiation intensity at a given wavelength or frequency. It is not a physical temperature but a radiometric one inferred from observed radiation. This is reflective of the outgoing longwave radiation. We can measure this from space using the Atmospheric Infrared Sounder (AIRS). The AIRS satellite detects infrared wavelengths in the range of 3.7 to 15.4 $\mu$m. It measures the intensity of radiation at these wavelengths to study atmospheric temperature, humidity, trace gases, and cloud properties. AIRS has 2378 spectral channels across this range, allowing for a detailed analysis of the atmosphere. 
 
 Launched into Earth-orbit on May 4, 2002 aboard NASA's Aqua satellite, the AIRS provides data critical to the monitoring of Earth’s atmosphere. AIRS sees infrared wavelengths to sense the temperature of the Earth's surface or any intervening cloud (see image below). It reflects variations in the earth system’s latitude, altitude, and components (clouds, atmosphere, upper ocean, land, ice) responsible for infrared emissions. 
 
@@ -59,7 +59,7 @@ If we take a global average of the brightness temperature (outgoing longwave rad
 
 Greenhouse gases, including carbon dioxide, methane, water vapour, and others, absorb and re-emit outgoing longwave radiation at specific wavelengths in the Earth's atmosphere. This selective absorption occurs in particular bands of the infrared region of the electromagnetic spectrum, contributing to the greenhouse effect. 
 
-The absorption spectrum (below) of a greenhouse gas like carbon dioxide or methane shows the specific wavelengths at which it absorbs infrared radiation. Carbon dioxide, for example, absorbs infrared radiation at wavelengths of around 2.7, 4.3, and 15 \\( \mu \\)m, while methane absorbs at around 3.3 \\( \mu \\)m. These absorption bands are often referred to as "windows" or "transmission bands", where the greenhouse gases allow some of the infrared radiation to pass through and escape into space.
+The absorption spectrum (below) of a greenhouse gas like carbon dioxide or methane shows the specific wavelengths at which it absorbs infrared radiation. Carbon dioxide, for example, absorbs infrared radiation at wavelengths of around 2.7, 4.3, and 15 $\mu$m, while methane absorbs at around 3.3 $\mu$m. These absorption bands are often referred to as "windows" or "transmission bands", where the greenhouse gases allow some of the infrared radiation to pass through and escape into space.
 
 By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming.
 
