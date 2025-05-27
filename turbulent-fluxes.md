@@ -193,9 +193,9 @@ Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocit
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
-The variation of fluxes between the ocean and the atmosphere is very sensitive to the choice of parameterization. Therefore, to thoroughly test the transfer coefficients and refine them for the Tropical Oceans, the Coupled Ocean-Atmosphere Response Experiment (COARE) was conduction. COARE was a large-scale field study conducted in the western Pacific Ocean from 1992-1993, with the objective to improve our understanding of the interaction between the ocean and atmosphere, particularly in the tropics, where the exchange of heat, moisture, and momentum between the two can significantly impact weather and climate.
+The variation of fluxes between the ocean and the atmosphere is very sensitive to the choice of parameterization. Therefore, to thoroughly test the transfer coefficients and refine them for the Tropical Oceans, the Coupled Ocean-Atmosphere Response Experiment (COARE) was implemented. This is the most well-known and widely used bulk flux algorithm. 
 
-The international TOGA-COARE field program which took place in the western Pacific warm pool over 4 months from November 1992 to February 1993 (Fairall et al. 1996a, 1996b, 1997) spurred the development of the COARE algorithm. The COARE algorithm was developed to provide a consistent and accurate method for estimating these fluxes under a wide range of atmospheric and oceanic conditions. This resulted in the COARE algorithm commonly used in models today. The COARE algorithm is based on a bulk formula approach.
+The international TOGA-COARE field program took place in the western Pacific warm pool over 4 months from November 1992 to February 1993 (Fairall et al. 1996a, 1996b, 1997). The data collected during this program provided a wealth of information about the air-sea interaction in the tropics, which spurred the development of the COARE algorithm. The COARE algorithm provides a consistent and accurate method for estimating heat and momentum fluxes under a wide range of atmospheric and oceanic conditions, and is commonly used in models today.
 
 The COARE algorithm has undergone a series of improvements focusing on the exchange parameters \\( C_D, C_H, C_E \\), which depend on the sea state that encompasses breaking waves and turbulence. 
 
@@ -207,24 +207,3 @@ History of COARE development:
 - COARE 3.5 (2011): Enhanced performance in low-wind and very high-wind (storm) regimes. Adjustments to roughness length at high wind speeds [[EJW+13](/references/#EJW+13)]  
 - COARE 4.0 (Developmental): Under ongoing development/testing. Aims to further refine high-wind performance, enhance sea state coupling, and incorporate wave models and more advanced turbulence treatments.
 
-<h3>Key Features:</h3>
-- **Parameterization-Based**: Relies on bulk formulas derived from observational data.
-- **Widely Used**: Suitable for operational models and large-scale studies.
-- **Simpler Setup**: Requires standard meteorological measurements (e.g., wind speed, air temperature, sea surface temperature).
-
-<h3>Advantages:</h3>
-- Computationally efficient.
-- Applicable over large spatial and temporal scales.
-
-<h3>Limitations:</h3>
-- Accuracy depends on the quality of parameterizations.
-- Assumes steady-state and horizontally homogeneous conditions.
-
-<h2>Comparison of Methods</h2>
-
-| Feature                | Eddy Covariance        | Bulk Flux              |
-|------------------------|------------------------|------------------------|
-| **Measurement Type**   | Direct                 | Indirect               |
-| **Complexity**         | High                   | Moderate               |
-| **Accuracy**           | High (turbulent fluxes)| Moderate               |
-| **Deployment**         | Research-grade         | Operational            |
