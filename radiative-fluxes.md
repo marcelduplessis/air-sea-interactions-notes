@@ -43,16 +43,16 @@ The amount of shortwave radiation that reaches a given depth can be simplified t
 \\[ Q_{pen} = Q_{sw} e^{-kh} \\]
 
 where:
-- \\( Q_{pen} \\): the amount of shortwave radiation that reaches depth hh—i.e., how much of the original solar energy has penetrated to that depth.
+- \\( Q_{pen} \\): the amount of shortwave radiation that reaches depth $h$, in W m$^{-2}$ — i.e., how much of the original solar energy has penetrated to that depth.
 - \\( h \\): depth in the water column, in meters (m). Sometimes it can be non-dimensional if scaled, but generally it's depth.
 - \\( e^{-h} \\): exponential decay with depth. As you go deeper, less radiation is left because the water absorbs and scatters it.
-- \\( k \\): the light attenuation coefficient (units: m⁻¹). It depends on water clarity, chlorophyll, and other optical properties.
+- \\( k \\): the light attenuation coefficient (units: m$^{-1}$). It depends on water clarity, chlorophyll, and other optical properties.
 
-The below figure shows an example for three commonly used water types in ocean models (Paulson and Simpson, 1977). \\( k \\) is approximated to 1.
+The below figure shows an example for three commonly used water types in ocean models from [PS77](/references/#PS77). The attenuation depth is adjusted by the light attenuation coefficient, \\( k \\). In the figure, the attenuation depth (depth where light intensity drops to $1/e$ of surface value) is inversely proportional to $k$. For instance, using Type II ($k = 0.08$ m$^{−1}$) instead of Type I ($k = 0.04$ m$^{−1}$) halves the predicted attenuation depth from 12.5 m to 6.25 m. 
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
-  <p><em>Penetration depth of shortwave radiation based on three different water types from Paulson and Simpson (1977) and the light attenuation coefficient approximated to 1.</em></p>
+  <p><em>Penetration depth of shortwave radiation based on three different water types from [PS77](/references/#PS77) and the light attenuation coefficient approximated to 1.</em></p>
 </div>
 
 <h3>Global estimates of net shortwave radiation</h3>

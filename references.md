@@ -44,6 +44,10 @@ title: References
 [GF19] Foltz, G.R., 2019. Wind-and buoyancy-forced upper ocean. Encyclopedia of ocean sciences, 1, pp.113-121. URL: <a href="https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf">https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf</a>.
 </div>
 
+<div id="PS77" class="reference">
+[PS77] Paulson, C.A. and Simpson, J.J., 1977. Irradiance measurements in the upper ocean. Journal of Physical Oceanography, 7(6), pp.952-956. URL: <a href="https://doi.org/10.1175/1520-0485(1977)007<0952:IMITUO>2.0.CO;2">https://doi.org/10.1175/1520-0485(1977)007<0952:IMITUO>2.0.CO;2</a>.
+</div>
+
 <div id="RALS17" class="reference">
 [RALS17] Ruzmaikin, A., Aumann, H.H., Lee, J. and Susskind, J., 2017. Diurnal cycle variability of surface temperature inferred from AIRS data. Journal of Geophysical Research: Atmospheres, 122(20), pp.10-928. URL: <a href="https://doi.org/10.1002/2016JD026265">https://doi.org/10.1002/2016JD026265</a>.
 </div>
