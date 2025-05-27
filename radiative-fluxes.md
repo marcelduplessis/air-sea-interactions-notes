@@ -215,12 +215,12 @@ It usually has:
 
 The net signal is used to calculate downwelling longwave radiation using an energy balance formula.
 
-**Key considerations:
+**Key considerations:**
 
 - Shipboard: Mounted on masts or platforms away from obstructions and heat sources.
 - Buoys: May be installed on surface buoys with stabilization to reduce tilt and motion effects.
 
-- Recommended practices:
+**Recommended practices:**
     - Horizon should be clear.
     - Avoid shadowing and reflected IR from ship structures.
     - Use gimbals or stabilization platforms if possible.
