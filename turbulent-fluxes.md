@@ -14,7 +14,7 @@ The two most commonly applied approaches to quantifying air-sea exchanges: the *
 
 <h2>Eddy Covariance</h2>
 
-The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or \\( CO_2 \\) concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 Hz.
+The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or CO$_2$ concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 $Hz$.
 
 <h3>Governing Equation:</h3>
 
@@ -28,18 +28,20 @@ The flux of the scalar quantity \\( c \\) is given by:
 
 \\[ F = \overline{w'c'} \\]
 
-- \\( w' \\): Vertical wind speed fluctuation
-- \\( c' \\): Scalar quantity fluctuation (e.g., temperature, humidity)
-- \\( \overline{w'c'} \\): Time-averaged covariance of \\( w' \\) and \\( c' \\)
+where:
+
+- \\( w' \\): vertical wind speed fluctuation
+- \\( c' \\): scalar quantity fluctuation (e.g., temperature, humidity)
+- \\( \overline{w'c'} \\): time-averaged covariance of \\( w' \\) and \\( c' \\)
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-schematic.jpg" alt="eddy covariance schematic" style="width: 100%; margin: 30px 0 5px 0;">
-  <p><em>Schematic of the transport of a quantity c by turbulent motion. Source: <a href="/references/#BA10">[BA10]</a></em></p>
+  <p><em>Schematic of the transport of a quantity c by turbulent motion. Source: <a href="/air-sea-interactions-notes/references/#BA10">[Burba and Anderson (2010)]</a></em></p>
 </div>
 
 ### Frozen Taylor hypothesis
 
-If we imagine a simultaneous measurement the water vapour concentration \\( q \\) (\\( \mu mol \\) \\( mol^{-1} \\)) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
+If we imagine a simultaneous measurement of the water vapour concentration \\( q \\) ($\mu$mol mol$^{-1}$) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
 
 ### Marine Atmospheric Boundary Layer Turbulence
 
