@@ -189,7 +189,7 @@ The cool skin correction estimates the temperature difference between the bulk t
 
 <h3>Relative wind corrections</h3>
 
-Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocity between the air and the sea surface. If the ocean surface is moving (due to currents), the effective wind speed felt at the interface is different from the wind speed measured relative to a fixed point on the ocean surface. Relative wind corrections account for the motion of the ocean surface (surface currents) and the motion of the air (wind) to determine the effective wind speed at the air-sea interface following $\vec{U}_{\text{rel}} = \vec{U}_{\text{air}} - \vec{U}_{\text{surface current}}$
+Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocity between the air and the sea surface. If the ocean surface is moving (due to currents), the effective wind speed felt at the interface is different from the wind speed measured relative to a fixed point on the ocean surface. Relative wind corrections account for the motion of the ocean surface (surface currents) and the motion of the air (wind) to determine the effective wind speed at the air-sea interface following \\( \vec{U}_{\text{rel}} = \vec{U}_{\text{air}} - \vec{U}_{\text{surface current}} \\).
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
