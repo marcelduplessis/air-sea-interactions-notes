@@ -25,12 +25,7 @@ where:
 - \\( Q_{\text{SW}\uparrow} \\): Reflected shortwave radiation — sunlight reflected back upward from the surface.
 - \\( \alpha \\) Albedo — the fraction of incoming sunlight that is reflected by the surface.
 
-Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed, not reflected. However, changes in surface conditions (waves, foam, ice, etc.) can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight. The figure below shows the strong albedo change between the ocean, ice, and land.
-
-<div style="text-align: center;">
-  <img src="assets/images/albedo.png" alt="albedo" style="width: 80%; margin: 30px 0  0px 0;">
-  <p><em>Albedo of the Earth's surface.</em></p>
-</div>
+$\alpha$ varies between 0 and 1, with 0 representing complete absorption and 1 representing complete reflection. The albedo of the ocean surface is influenced by several factors, including the presence of clouds, sea ice, and surface roughness. Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed by the ocean, not reflected. However, changes in surface conditions (waves, foam, ice, etc.) can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight. 
 
 <h3>Shortwave penetrative radiation</h3>
 
