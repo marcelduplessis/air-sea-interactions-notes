@@ -97,7 +97,7 @@ The parameters show that:
 The climatological estimate of shortwave radiation shows clear patterns of shortwave radiation reaching the surface. See if you identify key ocean and atmosphere features in these patterns?
 
 <div style="text-align: center;">
-  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
+  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 60%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
@@ -152,7 +152,7 @@ For the ocean, emissivity in the infrared range is high, typically between 0.97 
 Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more with temperature, moisture, and cloud conditions.
 
 <div style="text-align: center;">
-  <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
+  <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 60%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of net longwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 

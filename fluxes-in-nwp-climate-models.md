@@ -25,7 +25,7 @@ Using satellite measurements to estimate air-sea fluxes requires the use of math
 - HOAPS (Hamburg Ocean Atmosphere Parameters and Fluxes from Satellite Data) offers global fields of precipitation, evaporation, and latent heat flux over the oceans, derived from satellite data. 
 
 <div style="text-align: center;">
-  <img src="assets/images/satellite-products-table.png" alt="satellite-products-table" style="width: 70%; margin: 30px 0 0px 0;">
+  <img src="assets/images/satellite-products-table.png" alt="satellite-products-table" style="width: 100%; margin: 30px 0 0px 0;">
   <p><em>Table 1. Examples of satellite gridded products</em></p>
 </div>
 
@@ -53,7 +53,7 @@ These SST fronts drive strong atmospheric responses (e.g., storm tracks, precipi
 - Evaporation and precipitation patterns
 - Atmospheric pressure adjustments
 
-<h3> Numerical Weather Prediction (NWP) </h3>
+<h2> Numerical Weather Prediction (NWP) </h2>
 
 Numerical Weather Prediction (NWP) models are used to forecast weather conditions. They are typically run at higher resolutions than climate models, allowing better representation of mesoscale oceanic features and tropical cyclone-ocean interactions, such as the Kuroshio and Gulf Stream.
 
@@ -75,11 +75,12 @@ Numerical weather prediction models have known biases in the ocean surface fluxe
 
 This has put large importance of observing in-situ air-sea fluxes. Some efforts include:
 
-| Effort                        | Description                                                                 | Key Features                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Effort                        | Description                                                                | Key Features                                                                |
+|:-----------------------------|:----------------------------------------------------------------------------|:----------------------------------------------------------------------------|
 | **OceanSITES**               | Global network of oceanographic time-series stations.                      | Moored buoys, deep-ocean platforms, long-term monitoring.                   |
 | **TOGA-COARE**               | Large field program focused on tropical air-sea interactions.              | Ship-based and buoy-based measurements of heat fluxes.                      |
 | **NOAA Buoy Network**        | Network of moored buoys providing real-time data.                          | Surface winds, air temperature, humidity, SST, heat fluxes.                 |
 | **PIRATA**                   | Moored buoy network in the tropical Atlantic.                              | Wind, temperature, humidity, SST, heat flux data.                           |
 | **R/V Malaspina**            | Research vessel that deploys buoys for air-sea flux measurement.           | Air-sea flux measurements, boundary layer processes.                        |
 | **Ocean Observatories Initiative** | A variety of **observing platforms** including **moorings, buoys, gliders, and research vessels** | Moored buoys, deep-ocean platforms, long-term monitoring.                   |
+
