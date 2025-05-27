@@ -103,22 +103,22 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
 \\[ Q_{sen} = \rho_a c_p C_H U (\theta_s - \theta_a) \\]
     
 where: 
-- \\( Q_{sen} \\): Sensible heat flux
-- \\( \rho_a \\): air density
-- \\( c_p \\): specific heat capacity of air at constant pressure
-- \\( C_H \\): bulk transfer coefficient for heat
-- \\( U \\): wind speed at reference height of 10 m above sea level
-- \\( \theta_s, \theta_a \\): potential temperature at surface skin and 2 m above sea level
+- \\( Q_{sen} \\): Sensible heat flux in units of W m\\(^{-2}\\)
+- \\( \rho_a \\): air density in units of kg m\\(^{-3}\\)
+- \\( c_p \\): specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K\\(^{-1}\\
+- \\( C_H \\): bulk transfer coefficient for heat in dimensionless units
+- \\( U \\): wind speed at reference height of 10 m above sea level in units of m s\\(^{-1}\\)
+- \\( \theta_s, \theta_a \\): potential temperature at surface skin and 2 m above sea level in units of K
 
 **Latent heat flux**:
 
 \\[ Q_{lat} = \rho_a L_v C_E U (q_s - q_a) \\]
     
 where: 
-- \\( Q_{lat} \\): latent heat flux
-- \\( L_v \\): latent heat of vaporization
-- \\( C_E \\): latent heat transfer coefficient
-- \\( q_s, q_a \\): specific humidity at the surface and air at 2 m above sea level
+- \\( Q_{lat} \\): latent heat flux in units of W m\\(^{-2}\\)
+- \\( L_v \\): latent heat of vaporization in units of J kg\\(^{-1}\\)
+- \\( C_E \\): latent heat transfer coefficient in dimensionless units
+- \\( q_s, q_a \\): specific humidity at the surface and air at 2 m above sea level in units of kg kg\\(^{-1}\\)
 
 **Momentum flux**:
         
