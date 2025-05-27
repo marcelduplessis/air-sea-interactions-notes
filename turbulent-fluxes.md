@@ -167,25 +167,15 @@ The Monin-Obukhov length \\(L\\) (for temperature) and \\( L_q \\)​ (for moist
 
 <h3>Monin-Obukhov Similarity Theory:</h3>
 
-MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface. It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. It can be defined as:
+MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface. It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. Let's take a look at the Monin-Obukhov length \\(L\\) for sensible heat flux only:
 
 \\[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} \\]
 
-where: 
-- \\( T \\) = mean virtual temperature
-- \\( \overline{w' \theta'_v} \\) = kinematic virtual potential temperature flux
-
-The interpretation of \\( L \\) can be summarised below:
-
-| Stability           | Sign of L      | Description                         |
-|---------------------|----------------|-------------------------------------|
-| **Stable**          | L>0            | Buoyancy suppresses turbulence      |
-| **Neutral**         | L→∞            | No buoyant effects, shear-dominated |
-| **Accuracy**        | L<0            | Buoyancy enhances turbulence        |
+\\( T \\) = mean virtual temperature in K and \\( \overline{w' \theta'_v} \\) = kinematic virtual potential temperature flux in K m s\\(^{-1}\\). This is a classic chicken-and-egg scenario, where you need the flux ($\overline{w'\theta'_v}$) to calculate the Monin-Obukhov length ($L$), and the Monin-Obukhov length to calculate the flux. The solution is to use an iterative approach. You start with an initial guess for $L$ (often assuming neutral conditions, i.e., $L \to \infty$), compute the fluxes using the profile equations with this guess, then use those fluxes to update your estimate of $L$. This process is repeated until the values converge.
 
 <h3>Skin temperature corrections</h3>
 
-The potential temperature variable used in the turbulent flux equations \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
+A critical source of error in the turbulent flux equations is the potential temperature variable used to define the surface skin temperature \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
 
 #### Cool skin
 
