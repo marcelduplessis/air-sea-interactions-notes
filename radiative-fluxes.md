@@ -58,9 +58,9 @@ Paulson and Simpson's model divides the solar spectrum into two parts:
 
 The mathematical formulation is:
 
-<center><h3>$Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right]$</h3></center>
+\\[ $Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right] \\]
 
-Where:
+where:
 - $Q_{pen}(z)$ is the radiative flux at depth $z$
 - $Q_{sw}$ is the surface shortwave radiation
 - $R$ is the fraction of shortwave radiation that is rapidly attenuated
@@ -69,7 +69,7 @@ Where:
 
 **Jerlov Water Types**
 
-Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][/air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
+Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
 
 The three primary oceanic water types have the following parameters:
 
