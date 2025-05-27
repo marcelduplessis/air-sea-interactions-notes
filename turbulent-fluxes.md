@@ -124,13 +124,11 @@ The drag coefficient is a function of the wind speed, the roughness length, and 
 
 \\[ C_D = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0m}} \right) - \psi_m \right)^2} \\]
 
-\\( \kappa \\) is the von Kármán constant (≈ 0.4). $z_{0m}$ is the aerodynamic roughness length in units of m, a parameter that characterizes the roughness of a surface with respect to air flow. It is a function of the surface roughness and the wind speed because the ocean surface is dynamic and changes with wind conditions (i.e., the ocean surface is rougher under high winds). The most common formulation for determining $z_{0m}$ over water is the Charnock relation: $z_{0m}$ = $\alpha$ $\frac{u_*^2}{g}$, where $\alpha$ is the Charnock coefficient, $u*$ is the friction velocity, and $g$ is the acceleration due to gravity. The Charnock coefficient is typically taken to be around 0.011-0.018. \\( \psi_m \\) is the dimensionless stability function for momentum, which accounts for the departure of the actual wind profile from its semilogarithmic form due to stability (see [Fairall et al. (2003)](/air-sea-interactions-notes/references/FBH+03))
+\\( \kappa \\) is the von Kármán constant (≈ 0.4). $z_{0m}$ is the aerodynamic roughness length in units of m, a parameter that characterizes the roughness of a surface with respect to air flow. It is a function of the surface roughness and the wind speed because the ocean surface is dynamic and changes with wind conditions (i.e., the ocean surface is rougher under high winds). The most common formulation for determining $z_{0m}$ over water is the Charnock relation: $z_{0m}$ = $\alpha$ $\frac{u_*^2}{g}$, where $\alpha$ is the Charnock coefficient, $u*$ is the friction velocity, and $g$ is the acceleration due to gravity. The Charnock coefficient is typically taken to be around 0.011-0.018. \\( \psi_m \\) is the dimensionless stability function for momentum, which accounts for the departure of the actual wind profile from its semilogarithmic form due to stability (see [Fairall et al. (2003)](/air-sea-interactions-notes/references/#FBH+03)).
 
 <h3>Bulk flux transfer coefficients:</h3>
 
-Similarly, the sensible and latent heat fluxes are sensitive to the choice of exchange parameters $C_H$ and $C_E$, respectively. 
-
-**Bulk transfer coefficient for sensible and latent heat (with stability correction):**
+Similarly, the sensible and latent heat fluxes are sensitive to the choice of exchange parameters $C_H$ and $C_E$, respectively. These are often referred to at the Stanton and Dalton numbers, respectively.
 
 \\[
 C_H = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0h}} \right) - \psi_h \right)^2}
@@ -148,7 +146,7 @@ The roughness lengths \\( z_{0h} \\), and \\( z_{0q} \\) describes how easily se
 
 To determine these, first the roughness length for momentum (\\( z_{0m} \\)) must be obtained. In COARE, \\( z_{0m} \\) depends on the friction velocity (\\( u_* \\))​ and the properties of the surface (waves, viscosity): 
 
-\\[ z_{0m} = \frac{c_0}{g} u_*{^2} + \frac{c_1 \nu}{u_*} \\]
+$z_{0m} = \frac{c_0}{g} u_*{^2} + \frac{c_1 \nu}{u_*} $
 
 where:
 - \\( c_0, c_1 \\) are constants
