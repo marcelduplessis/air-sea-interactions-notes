@@ -76,29 +76,11 @@ Ship-based eddy covariance flux measurements are subject to flow distortion erro
 
 **Motion correction**:
 
-These platforms are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed form the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
-
-<h3>Key Features:</h3>
-
-- **Direct Measurement**: Captures turbulent fluxes by resolving small-scale atmospheric eddies.
-- **High Temporal Resolution**: Requires fast-response sensors (e.g., sonic anemometers, infrared gas analyzers).
-- **Complexity**: Sensitive to sensor alignment, platform motion (e.g., ship or buoy), and environmental noise.
-
-<h3>Advantages:</h3>
-
-- Provides high accuracy for turbulent fluxes.
-- Useful for research-grade measurements.
-
-<h3>Limitations:</h3>
-
-- Requires expensive instrumentation.
-- Challenging to deploy in harsh marine environments.
-
-The exchange of momentum and energy between the atmosphere and ocean is difficult to measure directly over the ocean. Instead, oceanographers and meteorologists often rely on bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
+Platforms at sea, such as ships, buoys, and floating platforms, are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed from the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
 
 <h2>Bulk Flux Method</h2>
 
-The bulk flux method is an indirect approach that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. 
+The turbulent exchange of momentum and energy between the atmosphere and ocean is difficult and expensive to measure directly. Instead, oceanographers and meteorologists often rely on bulk formula that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. The bulk flux method is an indirect approach to estimate the turbulent fluxes of momentum, heat, and moisture. It uses a bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
 
 The bulk flux transfer of heat, momentum, moisture and gases follows the gradient-transfer theory, eddy diffusivity theory, or mixing length theory which assumes that the flux is proportional to and directed down the local gradient. For instance, take the turbulent flux of temperature:
 
