@@ -84,8 +84,6 @@ The bulk flux transfer of heat, momentum, moisture and gases follows the gradien
 
 \\[ F = \overline{w' \theta'} = -K \frac{\partial \theta}{\partial z} \\]
 
-where:
-
 - $F$ is the turbulent flux of temperature in units of K m s$^{-1}$
 - $K$ is the eddy diffusivity in units of m$^2$ s$^{-1}$ - a proportionality coefficient linking the flux to the mean potential temperature gradient prescribed to increase with the intensity of turbulence
 - $\theta$ is the potential temperature in units of K
@@ -100,32 +98,38 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
     
 \\[ Q_{sen} = \rho_a c_p C_H U (\theta_s - \theta_a) \\]
     
-- \\( Q_{sen} \\): Sensible heat flux in units of W m\\(^{-2}\\)
-- \\( \rho_a \\): air density in units of kg m\\(^{-3}\\)
-- \\( c_p \\): specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K\\(^{-1}\\
-- \\( C_H \\): bulk transfer coefficient for heat in dimensionless units
-- \\( U \\): wind speed at reference height of 10 m above sea level in units of m s\\(^{-1}\\)
-- \\( \theta_s, \theta_a \\): potential temperature at surface skin and 2 m above sea level in units of K
+- \\( Q_{sen} \\) is the sensible heat flux in units of W m\\(^{-2}\\)
+- \\( \rho_a \\) is the air density in units of kg m\\(^{-3}\\)
+- \\( c_p \\) is the specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K\\(^{-1}\\
+- \\( C_H \\) is the bulk transfer coefficient for heat in dimensionless units
+- \\( U \\) is the wind speed at reference height of 10 m above sea level in units of m s\\(^{-1}\\)
+- \\( \theta_s, \theta_a \\) are the potential temperature at the surface ocean skin layer and 2 m above sea level in units of K
 
 **Latent heat flux**:
 
 \\[ Q_{lat} = \rho_a L_v C_E U (q_s - q_a) \\]
     
-- \\( Q_{lat} \\): latent heat flux in units of W m\\(^{-2}\\)
-- \\( L_v \\): latent heat of vaporization in units of J kg\\(^{-1}\\)
-- \\( C_E \\): latent heat transfer coefficient in dimensionless units
-- \\( q_s, q_a \\): specific humidity at the surface and air at 2 m above sea level in units of kg kg\\(^{-1}\\)
+- \\( Q_{lat} \\) is the latent heat flux in units of W m\\(^{-2}\\)
+- \\( L_v \\) is the  latent heat of vaporization in units of J kg\\(^{-1}\\)
+- \\( C_E \\) is the latent heat transfer coefficient in dimensionless units
+- \\( q_s, q_a \\) are the specific humidity at the surface and air at 2 m above sea level in units of kg kg\\(^{-1}\\)
 
 **Momentum flux**:
         
 \\[ \tau = \rho_a C_D U^2 \\]
 
-- \\( \tau \\): wind stress
-- \\( C_D \\)​: drag coefficient
+- \\( \tau \\) is the surface wind stress in units of N m\\(^{-2}\\)
+- \\( C_D \\)​ is the dimensionless drag coefficient 
+
+This wind speed dependent parameterization is hard to beat because the wind and the waves are primarily responsible for supporting the surface stress.
+
+The drag coefficient is a function of the wind speed and the roughness length:
+
+\\[ C_D = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0m}} \right) - \psi_m \right)^2} \\]
 
 <h3>Bulk flux transfer coefficients:</h3>
 
-The fluxes are sensitive to the choice of exchange parameters $C_D$, $C_H$, and $C_E$, which are based on the Monin-Obukhov Similarity Theory (MOST).
+The fluxes are sensitive to the choice of exchange parameters $C_D$, $C_H$, and $C_E$, which are based on the Monin-Obukhov Similarity Theory (MOST). 
 
 **Bulk transfer coefficient for sensible and latent heat (with stability correction):**
 
