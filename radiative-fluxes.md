@@ -48,7 +48,38 @@ where:
 - \\( e^{-h} \\): exponential decay with depth. As you go deeper, less radiation is left because the water absorbs and scatters it.
 - \\( k \\): the light attenuation coefficient (units: m$^{-1}$). It depends on water clarity, chlorophyll, and other optical properties.
 
-The below figure shows an example for three commonly used water types in ocean models from [PS77](/references/#PS77). The attenuation depth is adjusted by the light attenuation coefficient, \\( k \\). In the figure, the attenuation depth (depth where light intensity drops to $1/e$ of surface value) is inversely proportional to $k$. For instance, using Type II ($k = 0.08$ m$^{−1}$) instead of Type I ($k = 0.04$ m$^{−1}$) halves the predicted attenuation depth from 12.5 m to 6.25 m. 
+However, this simple model doesn't accurately capture the complex behavior of light penetration in different water conditions. To address this limitation, Paulson and Simpson (1977) [#PS77][/air-sea-interactions-notes/references/#PS77] developed a more sophisticated two-band exponential model.
+
+**Two-Band Exponential Model**
+
+Paulson and Simpson's model divides the solar spectrum into two parts:
+1. A rapidly attenuating component (primarily red and infrared wavelengths)
+2. A more slowly attenuating component (primarily blue and green wavelengths)
+
+The mathematical formulation is:
+
+<center><h3>$Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right]$</h3></center>
+
+Where:
+- $Q_{pen}(z)$ is the radiative flux at depth $z$
+- $Q_{sw}$ is the surface shortwave radiation
+- $R$ is the fraction of shortwave radiation that is rapidly attenuated
+- $\zeta_1$ is the e-folding depth for the rapidly attenuating component
+- $\zeta_2$ is the e-folding depth for the slowly attenuating component
+
+**Jerlov Water Types**
+
+Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][/air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
+
+The three primary oceanic water types have the following parameters:
+
+| Jerlov Type | R (fraction) | ζ₁ (m) | ζ₂ (m) | Description |
+|-------------|--------------|---------|---------|-------------|
+| Type I      | 0.58         | 1.20    | 28.0    | Clearest open ocean waters |
+| Type II     | 0.77         | 1.50    | 14.0    | Moderately clear waters |
+| Type III    | 0.78         | 1.40    | 7.9     | More turbid waters |
+
+The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/references/#PS77) parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
@@ -63,6 +94,12 @@ The climatological estimate of shortwave radiation shows clear patterns of short
   <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
+
+The parameters show that:
+
+- Type I waters are the clearest, allowing light to penetrate deepest. Only 58% of the radiation is rapidly attenuated, with the remaining 42% able to reach significant depths ($\zeta_2$ = 28m).
+- Type II waters are moderately clear, with 77% of radiation rapidly attenuated and the remaining 23% penetrating to moderate depths ($\zeta_2$ = 14m).
+- Type III waters are more turbid, with 78% of radiation rapidly attenuated and the remaining 22% penetrating to shallower depths ($\zeta_2$ = 7.9m) compared to clearer water types.
 
 <h2>Longwave radiation</h2>
 
