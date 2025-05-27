@@ -120,7 +120,7 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
 
 \\( \tau \\) is the surface wind stress in units of N m\\(^{-2}\\), while \\( C_D \\)​ is the dimensionless drag coefficient. This wind speed dependent parameterization is hard to beat because the wind and the waves are primarily responsible for supporting the surface stress.
 
-The drag coefficient is a function of the wind speed, the roughness length, and a dimensionless function that account for the effects of atmospheric stratification (stability). The drag coefficient is given by:
+The drag coefficient is a function of the wind speed, the roughness length, and a dimensionless function that account for the effects of atmospheric stratification (stability). The drag coefficient is described in [Edson et al. (2013)](/air-sea-interactions-notes/references/#E13+):
 
 \\[ C_D = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0m}} \right) - \psi_m \right)^2} \\]
 
