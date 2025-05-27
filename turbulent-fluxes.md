@@ -171,23 +171,25 @@ MOST provides a framework to describe the vertical structure of the turbulent at
 
 \\[ L = -\frac{u_*^3}{\kappa \left( \frac{g}{T} \right) \overline{w'\theta'_v}} \\]
 
-\\( T \\) = mean virtual temperature in K and \\( \overline{w' \theta'_v} \\) = kinematic virtual potential temperature flux in K m s\\(^{-1}\\). This is a classic chicken-and-egg scenario, where you need the flux ($\overline{w'\theta'_v}$) to calculate the Monin-Obukhov length ($L$), and the Monin-Obukhov length to calculate the flux. The solution is to use an iterative approach. You start with an initial guess for $L$ (often assuming neutral conditions, i.e., $L \to \infty$), compute the fluxes using the profile equations with this guess, then use those fluxes to update your estimate of $L$. This process is repeated until the values converge.
+\\( T \\) is the mean virtual temperature in K and \\( \overline{w' \theta'_v} \\) is the kinematic virtual potential temperature flux in K m s\\(^{-1}\\). This is a classic chicken-and-egg scenario, where you need the flux ($\overline{w'\theta'_v}$) to calculate the Monin-Obukhov length ($L$), and the Monin-Obukhov length to calculate the flux. The solution is to use an iterative approach. You start with an initial guess for $L$ (often assuming neutral conditions, i.e., $L \to \infty$), compute the fluxes using the profile equations with this guess, then use those fluxes to update your estimate of $L$. This process is repeated until the values converge.
 
 <h3>Skin temperature corrections</h3>
 
-A critical source of error in the turbulent flux equations is the potential temperature variable used to define the surface skin temperature \\( \theta_s \\) refers to to the skin temperature of the surface ocean. This is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface measured temperature, typically measured a few meters below the sea surface (e.g. from a ship thermosalinograph). 
+A critical source of error in the turbulent flux equations is the potential temperature variable used to define the surface skin temperature \\( \theta_s \\). We require a value that represents the skin temperature of the surface ocean, but this is difficult to directly observe and requires specialised infrared radiometers. Instead, the most commonly used \\( \theta_s \\) in observations is the near-surface "bulk"  temperature, typically measured a 1-5 meters below the sea surface (e.g. from a ship thermosalinograph). These two temperature can different by several tenths of a degree due to the diurnal heating of the ocean surface.
+
+#### Warm layer 
+
+The bulk flux algorithm estimates the temperature increase in the upper ocean (the "warm layer effect") using a diurnal warm layer model, originally based on Fairall et al. (1996) and refined in later versions. It estimates how much warmer the very top layer (the "skin") of the ocean is compared to the bulk temperature. This is done by calculating the temperature difference between the surface and a certain depth, using a model that takes into account sunlight, wind, and mixing. The difference between the skin temperature and the reference depth temperature is the warm layer correction.
 
 #### Cool skin
 
-If net flux is cooling the surface:
+Although the warm layer effect is the dominant correction, there is also a cool skin effect. The surface skin temperature is typically cooler than the temperature measured even just a few centimeters or meters below the surface. This "cool skin" effect arises because the ocean loses heat to the atmosphere through turbulent and radiative fluxes, creating a thin (∼1 mm) surface layer where heat transfer is dominated by molecular processes rather than turbulence.
 
-\\[ 
-  \Delta T_{cool} = 0.2 \times \frac{Q_{net}}{\rho c_p u_*}
-\\]
-
-#### Warm layer
+The cool skin correction estimates the temperature difference between the bulk temperature and the true skin temperature, allowing flux algorithms to use a more representative surface value. The bulk flux algorithm includes a sub-model for the cool skin effect, originally based on Saunders (1967) and refined by Fairall et al. (1996) for the COARE algorithms. The cool skin temperature depression is calculated as a function of the net upward heat flux at the surface (including sensible, latent, and longwave radiative fluxes), wind speed (through friction velocity), and the molecular properties of seawater. The correction is typically negative, meaning the skin temperature is cooler than the bulk temperature. The algorithm subtracts this cool skin correction from the measured bulk SST to estimate the skin temperature used in flux calculations.
 
 <h3>Relative wind corrections</h3>
+
+Mmomentum, sensible heat, latent heat fluxes depend on the difference in velocity between the air and the sea surface. If the ocean surface is moving (due to currents), the effective wind speed felt at the interface is different from the wind speed measured relative to a fixed point on the ocean surface. Relative wind corrections account for the motion of the ocean surface (surface currents) and the motion of the air (wind) to determine the effective wind speed at the air-sea interface following $\vec{U}_{\text{rel}} = \vec{U}_{\text{air}} - \vec{U}_{\text{surface current}}$
 
 <h3>Coupled Ocean Atmosphere Response Experiment</h3>
 
