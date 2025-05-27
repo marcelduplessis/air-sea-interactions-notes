@@ -29,14 +29,14 @@ $\alpha$ varies between 0 and 1, with 0 representing complete absorption and 1 r
 
 <h3>Shortwave penetrative radiation</h3>
 
-Shortwave radiation can penetrate tens of meters into the ocean, unlike longwave radiation (which is absorbed in the top microns).
+Once at the ocean surface, shortwave radiation is absorbed and scattered by water molecules and particles in the ocean. Shortwave radiation can penetrate tens of meters into the ocean, unlike longwave radiation (which is absorbed in the top microns).
 
 **Penetration is highly wavelength-dependent:**
 
 - Blue/green light (shorter wavelengths) penetrates deepest (up to ~100 m in clear water).
 - Red/infrared light is absorbed within the top few meters
 
-In the clearest seawater, around 75% of entering Qsw is absorbed by 10 m depth. Meanwhile, in biologically productive or turbid waters will extinguish around 95% by 10 m.
+The vertical distribution of shortwave radiation in the ocean is often described by an exponential decay function. The rate of decay is determined by the water's clarity and the presence of particles and organisms that absorb or scatter light. In the clearest seawater, around 75% of entering shortwave radiation is absorbed by 10 m depth. Meanwhile, in biologically productive or turbid waters will extinguish around 95% by 10 m.
 
 The amount of shortwave radiation that reaches a given depth can be simplified to:
 
