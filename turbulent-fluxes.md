@@ -45,23 +45,23 @@ If we imagine a simultaneous measurement of the water vapour concentration \\( q
 
 <h3>Observational methods:</h3>
 
-There are several ways to obtain eddy covariance measurements at sea. The most common is using ship-based observations, while others include moored buoys, drifting spar buoys, and autonomous vehicles. Each come with their own set of complications.
+There are several ways to obtain eddy covariance measurements at sea, such as ship-based observations, moored buoys, drifting spar buoys, and autonomous vehicles. Each come with their own set of complications.
 
 **Primary instruments:**
 
 The fundamental instruments needed to obtain eddy covariance measurements are: 
 
 - 3-dimensional sonic anemometer for x, y, and z direction wind speeds and fast response temperature.
-- Infrared gas analysers for water vapour and \\( CO_2 \\) concentrations.
+- Infrared gas analysers for water vapour and CO$$_2 concentrations.
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 50%; margin: 30px 0 0px 0;">
-  <p><em>Sensors installed on an eddy covariance mast in preperatation for the Benguela Flux Experiment. Key sensors for determining the net heat budget include the sonic anemometer, infrared gas analyser, and radiometers. Source: Dr. Brian Ward</em></p>
+  <p><em>Meteorologicalensors installed on an eddy covariance mast in preperatation for the Benguela Flux Experiment. The sensors required for determining the net heat budget include the sonic anemometer, infrared gas analyser, and radiometers. Photo: Dr. Brian Ward</em></p>
 </div>
 
 **Ship-based eddy covariance flux measurements**:
 
-Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
+The most common method for obtaining eddy covariance measurements at sea is from a ship. Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion, which is the effect of bending and acceleration of the wind field by the ship's hull and superstructure. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 60%; margin: 30px 0 0px 0;">
