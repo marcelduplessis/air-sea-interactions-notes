@@ -124,9 +124,11 @@ The drag coefficient is a function of the wind speed, the roughness length, and 
 
 \\[ C_D = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0m}} \right) - \psi_m \right)^2} \\]
 
+$z_{0m}$ is the aerodynamic roughness length in units of m, and \\( \psi_m \\) is the dimensionless stability function for momentum, which accounts for the departure of the actual wind profile from its semilogarithmic form due to stability (see [Fairall et al. (2003)](/air-sea-interactions-notes/references/#F03+))
+
 <h3>Bulk flux transfer coefficients:</h3>
 
-The fluxes are sensitive to the choice of exchange parameters $C_D$, $C_H$, and $C_E$, which are based on the Monin-Obukhov Similarity Theory (MOST). 
+Similarly, the sensible and latent heat fluxes are sensitive to the choice of exchange parameters $C_H$ and $C_E$, respectively. 
 
 **Bulk transfer coefficient for sensible and latent heat (with stability correction):**
 
