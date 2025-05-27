@@ -28,8 +28,6 @@ The flux of the scalar quantity \\( c \\) is given by:
 
 \\[ F = \overline{w'c'} \\]
 
-where:
-
 - \\( w' \\): vertical wind speed fluctuation
 - \\( c' \\): scalar quantity fluctuation (e.g., temperature, humidity)
 - \\( \overline{w'c'} \\): time-averaged covariance of \\( w' \\) and \\( c' \\)
@@ -94,15 +92,14 @@ where:
 - $z$ is the height above the ground in units of m
 - $\overline{w' \theta'}$ is the covariance of vertical wind velocity (m s$^{-1}$) and temperature (K) fluctuations
 
-The bulk formula is used to estimate the turbulent heat fluxes (latent and sensible) and the frictional force of wind blowing across the sea surface transfering momentum to the ocean, driving surface currents and waves (momentum flux). 
-
 <h3>Bulk Flux Formulas:</h3>
+
+The bulk formula is used to estimate the turbulent heat fluxes (latent and sensible) and the frictional force of wind blowing across the sea surface transfering momentum to the ocean, driving surface currents and waves (momentum flux). 
 
 **Sensible heat flux**:
     
 \\[ Q_{sen} = \rho_a c_p C_H U (\theta_s - \theta_a) \\]
     
-where: 
 - \\( Q_{sen} \\): Sensible heat flux in units of W m\\(^{-2}\\)
 - \\( \rho_a \\): air density in units of kg m\\(^{-3}\\)
 - \\( c_p \\): specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K\\(^{-1}\\
@@ -114,7 +111,6 @@ where:
 
 \\[ Q_{lat} = \rho_a L_v C_E U (q_s - q_a) \\]
     
-where: 
 - \\( Q_{lat} \\): latent heat flux in units of W m\\(^{-2}\\)
 - \\( L_v \\): latent heat of vaporization in units of J kg\\(^{-1}\\)
 - \\( C_E \\): latent heat transfer coefficient in dimensionless units
@@ -124,7 +120,6 @@ where:
         
 \\[ \tau = \rho_a C_D U^2 \\]
 
-where: 
 - \\( \tau \\): wind stress
 - \\( C_D \\)​: drag coefficient
 
