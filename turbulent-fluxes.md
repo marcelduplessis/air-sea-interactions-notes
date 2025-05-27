@@ -14,7 +14,7 @@ The two most commonly applied approaches to quantifying air-sea exchanges: the *
 
 <h2>Eddy Covariance</h2>
 
-The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or CO$_2$ concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 $Hz$.
+The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or CO$_2$ concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 Hz. The eddy covariance method is the most accurate method for measuring air-sea fluxes, but it is also the most expensive and complex.
 
 <h3>Governing Equation:</h3>
 
@@ -41,17 +41,7 @@ where:
 
 ### Frozen Taylor hypothesis
 
-If we imagine a simultaneous measurement of the water vapour concentration \\( q \\) ($\mu$mol mol$^{-1}$) and vertical wind speed \\( w \\) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
-
-### Marine Atmospheric Boundary Layer Turbulence
-
-This video shows a Large Eddy Simulation of the marine atmospheric boundary layer. It demonstrates how winds, convection, and surface waves combine in complex ways to drive momentum and scalar transport in the marine atmospheric boundary layer. You can visualise the turbulent eddies in various parameters on display to get a sense of the small-scale nature of the atmopsheric eddies that generate turbulent air-sea exchange.
-
-
-
-{% include youtube.html id="e5DO-gq-5XE" %}
-
-
+If we imagine a simultaneous measurement of the water vapour concentration \\( q \\) ($\mu$mol mol$^{-1}$) and vertical wind speed \\( w \\) (m s$^{-1}$) of a large number of \\( N \\) air volumes at the same height above the surface, the vertical flux of the water flux (i.e. latent heat flux) is given by the average over all measurements. The simultaneous measurement at \\( N \\) locations \\( p_j \\) is not very feasible. However, under the assumption of homogeneity in space and time, multiple measurements at the same point will lead to the same result. This is called Taylor "frozen turbulence" hypothesis.
 
 <h3>Observational methods:</h3>
 
