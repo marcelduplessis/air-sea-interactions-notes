@@ -58,7 +58,7 @@ Paulson and Simpson's model divides the solar spectrum into two parts:
 
 The mathematical formulation is:
 
-\\[ $Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right] \\]
+\\[ Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right] \\]
 
 where:
 - $Q_{pen}(z)$ is the radiative flux at depth $z$
@@ -69,7 +69,7 @@ where:
 
 **Jerlov Water Types**
 
-Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
+Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][/air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
 
 The three primary oceanic water types have the following parameters:
 
@@ -79,7 +79,7 @@ The three primary oceanic water types have the following parameters:
 | Type II     | 0.77         | 1.50   | 14.0     | Moderately clear waters |
 | Type III    | 0.78         | 1.40   | 7.9      | More turbid waters |
 
-The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/references/#PS77) parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
+The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/air-sea-interactions-notes/references/#PS77) parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
