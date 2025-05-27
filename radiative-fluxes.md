@@ -74,10 +74,10 @@ Jerlov (1968) classified ocean waters into different optical categories based on
 The three primary oceanic water types have the following parameters:
 
 | Jerlov Type | R (fraction) | ζ₁ (m) | ζ₂ (m) | Description |
-|-------------|--------------|---------|---------|-------------|
-| Type I      | 0.58         | 1.20    | 28.0    | Clearest open ocean waters |
-| Type II     | 0.77         | 1.50    | 14.0    | Moderately clear waters |
-| Type III    | 0.78         | 1.40    | 7.9     | More turbid waters |
+|:------------|:------------:|--------|---------:|:------------|
+| Type I      | 0.58         | 1.20   | 28.0     | Clearest open ocean waters |
+| Type II     | 0.77         | 1.50   | 14.0     | Moderately clear waters |
+| Type III    | 0.78         | 1.40   | 7.9      | More turbid waters |
 
 The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/references/#PS77) parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
