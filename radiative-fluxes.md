@@ -186,7 +186,7 @@ They measure the downwelling shortwave radiation QSW↓​ — i.e., the radiati
 
 <div style="text-align: center;">
   <img src="assets/images/spn1.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
-  <p><em>SPN1 Pyranometer. Source: <a href="https://delta-t.co.uk/product/spn1/">Delta T</a></em></p>
+  <p><em>SPN1 Pyranometer often used for at-sea measurements of downwelling shortwave radiation. Source: <a href="https://delta-t.co.uk/product/spn1/">Delta T</a></em></p>
 </div>
 
 **Key considerations**
@@ -202,7 +202,7 @@ To measure the downwelling longwave radiation we use pyrgeomters. A pyrgeometer 
 
 <div style="text-align: center;">
   <img src="assets/images/pyrgeometer.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
-  <p><em>Kipp & Zonen pyrgeometer.</em></p>
+  <p><em>Kipp & Zonen pyrgeometer installed onto the atmospheric mast of the R/V S.A. Agulhas II.</em></p>
 </div>
 
 The core part is a thermopile sensor with a dome-shaped window made of a material (e.g. silicon or germanium) that transmits longwave radiation.
