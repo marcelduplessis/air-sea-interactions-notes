@@ -162,10 +162,9 @@ Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more 
 
 To measure the downwelling shortwave radiation at sea, we use pyranometers. 
 
-- A pyranometer is a sensor that measures hemispherical solar irradiance (i.e., radiation from the entire sky dome) on a flat surface. 
-- It typically measures radiation over the wavelength range of approximately 300–2800 nano meters — capturing the bulk of shortwave radiation from the sun.
+A pyranometer is a sensor that measures hemispherical solar irradiance (i.e., radiation from the entire sky dome) on a flat surface. It is used to measure the solar radiation received from above. It typically measures radiation over the wavelength range of approximately 0.2-2.8 $\mu$m — capturing the bulk of shortwave radiation from the sun. Solar radiation passing through the glass dome of the pyranometer impinges on a flat thermopile with a blackened upper surface. The instrument is so constructed, using two concentric domes to overcome convection within the instrument, that the thermopile output has a linear response to the radiative intensity. Accuracy of the instrument is usually quoted as 2%.
 
-**How pyranometers work**
+**How pyranometers work:**
 
 The sensing element is usually a thermopile that generates a voltage proportional to the net radiant energy it absorbs.
 
@@ -174,9 +173,9 @@ The sensor surface is protected by glass domes that:
 - Block longwave radiation
 - Protect against environmental contaminants (e.g., salt spray, dust)
 
-The output signal (a small voltage, in microvolts) is converted to irradiance (W/m²) using a calibration factor.
+The output signal (a small voltage, in microvolts) is converted to irradiance (W m$^{-2}$) using a calibration factor.
 
-**Measuring shortwave radiation at sea**
+**Measuring shortwave radiation at sea:**
 
 At sea, pyranometers are often installed:
 
@@ -186,7 +185,7 @@ At sea, pyranometers are often installed:
 They measure the downwelling shortwave radiation QSW↓​ — i.e., the radiation coming from the atmosphere and sky to the ocean surface.
 
 <div style="text-align: center;">
-  <img src="assets/images/spn1.png" alt="spn1" style="width: 80%; margin: 30px 0 0px 0;">
+  <img src="assets/images/spn1.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
   <p><em>SPN1 Pyranometer. Source: <a href="https://delta-t.co.uk/product/spn1/">Delta T</a></em></p>
 </div>
 
@@ -199,12 +198,10 @@ They measure the downwelling shortwave radiation QSW↓​ — i.e., the radiati
 
 <h3>Pyrgeometers</h3>
 
-To measure the downwelling longwave radiation we use pyrgeomters. A pyrgeometer measures thermal infrared radiation, typically >4 µm.
-
-It detects the infrared energy emitted by the atmosphere, clouds, and sometimes the sea surface itself.
+To measure the downwelling longwave radiation we use pyrgeomters. A pyrgeometer measures thermal infrared radiation, typically >4 $\mu$m. It is used to measure the amount of infrared radiation emitted by the atmosphere and clouds. The pyrgeometer works by determining its own thermal balance, combining the contributions from dome and case temperatures with longwave radiation through the silicon window. The pyrgeometer measures the difference in temperature between the blackened detector and the ambient air temperature inside the dome. The detector is a blackened surface inside the dome which is detected with a thermopile.
 
 <div style="text-align: center;">
-  <img src="assets/images/pyrgeometer.png" alt="spn1" style="width: 80%; margin: 30px 0 0px 0;">
+  <img src="assets/images/pyrgeometer.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
   <p><em>Kipp & Zonen pyrgeometer.</em></p>
 </div>
 
