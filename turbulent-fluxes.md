@@ -86,7 +86,13 @@ The bulk flux transfer of heat, momentum, moisture and gases follows the gradien
 
 \\[ F = \overline{w' \theta'} = -K \frac{\partial \theta}{\partial z} \\]
 
-Parameter \\( K \\) is prescribed to increase with the intensity of turbulence, with varies with height above the ground, mean wind shear and surface heating by the sun. 
+where:
+
+- $F$ is the turbulent flux of temperature in units of K m s$^{-1}$
+- $K$ is the eddy diffusivity in units of m$^2$ s$^{-1}$ - a proportionality coefficient linking the flux to the mean potential temperature gradient prescribed to increase with the intensity of turbulence
+- $\theta$ is the potential temperature in units of K
+- $z$ is the height above the ground in units of m
+- $\overline{w' \theta'}$ is the covariance of vertical wind velocity (m s$^{-1}$) and temperature (K) fluctuations
 
 The bulk formula is used to estimate the turbulent heat fluxes (latent and sensible) and the frictional force of wind blowing across the sea surface transfering momentum to the ocean, driving surface currents and waves (momentum flux). 
 
