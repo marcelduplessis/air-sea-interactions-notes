@@ -105,12 +105,12 @@ The climatological estimate of shortwave radiation shows clear patterns of short
 
 The net longwave radiation (outgoing minus incoming) is a key part of the ocean surface energy budget. It represents a loss of heat from the ocean to the atmosphere, though some of that loss is offset by downwelling radiation from the atmosphere.
 
-<h3>Outgoing longwave radiation</h3>
+<h3>Upwelling longwave radiation</h3>
 
 The ocean emits infrared radiation (longwave radiation) because it's warmer than the atmosphere above it. This follows the Stefan–Boltzmann law:
 
 \\[
-Q_{\text{LW} \uparrow} = \epsilon \sigma T_s^4
+Q_{\text{LW} \uparrow} = \epsilon \sigma T_{skin}^4
 \\]
 
 where:
@@ -121,9 +121,9 @@ where:
 
 \\( \sigma \\) is the Stefan–Boltzmann constant (5.67 \\( \times \\) 10\\(^{-8} \, \text{W} \, \text{m}^{-2} \, \text{K}^{-4} \\)),
 
-\\( T_s \\) is the sea surface skin temperature (in Kelvin).
+\\( T_{skin} \\) is the sea surface skin temperature (in Kelvin).
 
-<h3>Incoming longwave radiation</h3>
+<h3>Downwelling longwave radiation</h3>
 
 The atmosphere emits infrared radiation downward toward the ocean surface. This is called downwelling longwave radiation and is also governed by Planck’s Law. It depends on:
 
@@ -140,14 +140,6 @@ The net longwave radiation flux is the **difference between incoming and outgoin
 \\[
 Q_{\text{LW}} = Q_{\text{LW} \downarrow} - Q_{\text{LW} \uparrow}
 \\]
-
-where:
-
-\\( Q_{\text{LW}} \\) is the net longwave radiation at the sea surface (W m\\(^{-2}\\)),
-
-\\( Q_{\text{LW} \downarrow} \\) is the downwelling atmospheric radiation (W m\\(^{-2}\\)),
-
-\\( Q_{\text{LW} \uparrow} \\) is the emitted ocean radiation, as defined above.
 
 A negative \\( Q_{\text{LW}} \\) indicates a net **loss of energy** from the ocean to the atmosphere.
 
