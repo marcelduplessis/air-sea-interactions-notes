@@ -79,12 +79,18 @@ The three primary oceanic water types have the following parameters:
 | Type II     | 0.77         | 1.50   | 14.0     | Moderately clear waters |
 | Type III    | 0.78         | 1.40   | 7.9      | More turbid waters |
 
-The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/air-sea-interactions-notes/references/#PS77) parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
+The below figure shows an implementation of three commonly used water types in ocean models in the [Paulson and Simpson (1977)](/air-sea-interactions-notes/references/#PS77) two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
-  <p><em>Penetration depth of shortwave radiation based on three different water types from [PS77](/references/#PS77) and the light attenuation coefficient approximated to 1.</em></p>
+  <p><em>Penetration depth of shortwave radiation based on three different water types from [Paulson and Simpson (1977)](/air-sea-interactions-notes/references/#PS77). The surface shortwave radiation is set to 200 W m<sup>-2</sup>.</em></p>
 </div>
+
+The parameters show that:
+
+- Type I waters are the clearest, allowing light to penetrate deepest. Only 58% of the radiation is rapidly attenuated, with the remaining 42% able to reach significant depths ($\zeta_2$ = 28m).
+- Type II waters are moderately clear, with 77% of radiation rapidly attenuated and the remaining 23% penetrating to moderate depths ($\zeta_2$ = 14m).
+- Type III waters are more turbid, with 78% of radiation rapidly attenuated and the remaining 22% penetrating to shallower depths ($\zeta_2$ = 7.9m) compared to clearer water types.
 
 <h3>Global estimates of net shortwave radiation</h3>
 
@@ -94,12 +100,6 @@ The climatological estimate of shortwave radiation shows clear patterns of short
   <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 100%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
-
-The parameters show that:
-
-- Type I waters are the clearest, allowing light to penetrate deepest. Only 58% of the radiation is rapidly attenuated, with the remaining 42% able to reach significant depths ($\zeta_2$ = 28m).
-- Type II waters are moderately clear, with 77% of radiation rapidly attenuated and the remaining 23% penetrating to moderate depths ($\zeta_2$ = 14m).
-- Type III waters are more turbid, with 78% of radiation rapidly attenuated and the remaining 22% penetrating to shallower depths ($\zeta_2$ = 7.9m) compared to clearer water types.
 
 <h2>Longwave radiation</h2>
 
