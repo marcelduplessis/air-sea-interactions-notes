@@ -4,9 +4,9 @@ title: Radiative fluxes
 chapter: 3
 ---
 
-<h1> Radiation fluxes </h1>
+<h1> Radiative fluxes </h1>
 
-The radiative fluxes in the earth system are often partitioned into shortwave and longwave components. These names refer to the wavelength of the electromagnetic waves which constitute the radiation. Radiative energy that reaches the ocean surface can do different things, depending on the temperature of the ocean and its albedo. 
+The radiative fluxes in the earth system are partitioned into shortwave and longwave components. These names refer to the wavelength of the electromagnetic waves which constitute the radiation. Radiative energy that reaches the ocean surface can do different things, depending on the temperature of the ocean and its albedo. 
 
 <h2>Shortwave radiation</h2>
 
@@ -14,9 +14,9 @@ As we’ve seen, shortwave radiation is the primary driver of heating on Earth. 
 
 <h3>Surface Albedo</h3>
 
-Shortwave radiation is emitted by the Sun arrives at the Earth’s surface in 8 minutes, on its path it is scattered, absorbed and reflected. As we have learned, the incoming shortwave radiation at the top of the atmosphere is 342 W m\\(^{-2}\\). However, the global average absorbed shortwave radiation by the ocean surface is approximately 170–180 W m\\(^{-2}\\). This value can vary depending on latitude, season, cloud cover, and albedo.
+Shortwave radiation emitted by the sun arrives at the Earth’s surface in 8 minutes. On its path it is scattered, absorbed and reflected. While the global average of incoming shortwave radiation at the top of the atmosphere is 341 W m$^{-2}$, the global average absorbed shortwave radiation by the ocean surface is approximately 170–180 W m$^{-2}$.
 
-In terms of the radiation that reaches the ocean surface, the total absorbed by the ocean depends on the albedo:
+The amount of shortwave radiation absorbed by the ocean depends on the albedo of the surface. The albedo is the fraction of incoming sunlight that is reflected by the surface. The relationship between incoming and reflected shortwave radiation is given by:
 
 \\[ Q_{\text{SW}\uparrow} = \alpha \cdot Q_{\text{SW}\downarrow} \\]
 
