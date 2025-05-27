@@ -61,18 +61,18 @@ The fundamental instruments needed to obtain eddy covariance measurements are:
 
 **Ship-based eddy covariance flux measurements**:
 
-The most common method for obtaining eddy covariance measurements at sea is from a ship. Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion, which is the effect of bending and acceleration of the wind field by the ship's hull and superstructure. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom and flux measurements are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
+The most common method for obtaining eddy covariance measurements at sea is from a ship. Ship-based eddy covariance instruments should be installed to minimise the effect of flow distortion, which is the effect of bending and acceleration of the wind field by the ship's hull and superstructure. The flux instrumentation is usually mounted on an arm pointing out from a bow mast or boom. The wind measurements are that are used for analysis are restricted to a wind sector where minimal flow distortion effects are expected, (i.e., when the ship is pointed into the wind field.)
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-ship.jpg" alt="eddy covariance ship" style="width: 60%; margin: 30px 0 0px 0;">
-  <p><em>Image of an eddy covariance setup on a ship. You will notice different anemometers are installed for redundency. This is an important way to validate measurements. Source: Dr. Brian Ward</em></p>
+  <p><em>Image of an eddy covariance setup on a ship. You will notice different anemometers are installed for redundency. This is an important way to validate measurements. Photo: Dr. Brian Ward</em></p>
 </div>
 
 <h3>Sources of errors:</h3>
 
 **Flow distortion**:
 
-Air-sea flux measurements require a platform, typically a vessel or a buoy. The presence of the platform superstructure and the instrument themself cause a distortion of the wind field and lead to acceleration or deceleration of the wind speed. This can lead to errors in the wind speed in the order of 10%, even at well exposed measurement locations, (e.g Yelland et al., 2002; Popinet et al., 2004).
+Ship-based eddy covariance flux measurements are subject to flow distortion errors. The presence of the platform superstructure and the instrument themself cause a distortion of the wind field and lead to acceleration or deceleration of the wind speed. Studies using computational fluid dynamics (CFD) have shown that the flow distortion can be significant. [Yelland et al. (2002)](/air-sea-interactions-notes/references/#YM02+) modelled the air flow around two ships using CFD simulations and compared the results to anemometers placed in both well-exposed and badly exposed locations. Their results showed that the effects of flow distortion are found to vary only slightly with wind speed, but are very sensitive to the relative wind direction and, if uncorrected, can cause large biases in ship-based meteorological measurements (up to 60% for the drag coefficient).
 
 **Motion correction**:
 

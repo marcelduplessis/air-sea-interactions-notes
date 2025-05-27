@@ -56,6 +56,10 @@ title: References
 [TFK09] Trenberth, K.E., Fasullo, J.T. and Kiehl, J., 2009. Earth's global energy budget. Bulletin of the american meteorological society, 90(3), pp.311-324. URL: <a href="https://doi.org/10.1175/2008BAMS2634.1">https://doi.org/10.1175/2008BAMS2634.1</a>.
 </div>
 
+<div id="YM02+" class="reference">
+[YM02+] Yelland, M.J., Moat, B.I., Pascal, R.W. and Berry, D.I., 2002. CFD model estimates of the airflow distortion over research ships and the impact on momentum flux measurements. Journal of Atmospheric and Oceanic Technology, 19(10), pp.1477-1499. URL: <a href="https://doi.org/10.1175/1520-0426(2002)019<1477:CMEOTA>2.0.CO;2">https://doi.org/10.1175/1520-0426(2002)019<1477:CMEOTA>2.0.CO;2</a>.
+</div>
+
 <style>
 .reference {
     text-indent: -3em; /* Negative indent for the first line */
