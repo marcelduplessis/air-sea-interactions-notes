@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Radiative fluxes
 chapter: 2
+title: Radiative fluxes
 ---
 
 <h1> Radiative fluxes </h1>

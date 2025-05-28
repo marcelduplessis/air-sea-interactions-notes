@@ -1,7 +1,7 @@
 ---
 layout: default
 chapter: 3
-title: Turbulent Heat Fluxes
+title: Turbulent Fluxes
 ---
 
 <h1> Turbulent fluxes </h1>
