@@ -140,12 +140,16 @@ Q_{\text{LW}} = Q_{\text{LW} \downarrow} - Q_{\text{LW} \uparrow}
 
 A negative \\( Q_{\text{LW}} \\) indicates a net **loss of energy** from the ocean to the atmosphere.
 
+<h3>Global estimates of net longwave radiation</h3>
+
+As above, the climatological estimate of $Q_{lw}$ taken from ship-based observations is shown [[JKT98](https://usclivar.org/sites/default/files/documents/2015/SOC_flux_atlas.pdf)]. Can you identify the ocean dynamics that influence the regional patterns of $Q_{lw}$?
+
 <div style="text-align: center;">
-  <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 60%; margin: 30px 0 0px 0;">
+  <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 80%; margin: 0px 0 0px 0;">
   <p><em>The climatological estimate of net longwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
-<h2>In-Situ Measurements</h2>
+<h2>Measuring radiation at sea</h2>
 
 <h3>Pyranometers</h3>
 
