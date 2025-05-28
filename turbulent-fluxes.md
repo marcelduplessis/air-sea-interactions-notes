@@ -146,11 +146,11 @@ The roughness lengths $z_{0h}$ and $z_{0q}$ describe how easily sensible heat (t
 
 **Stability function**
 
-Stability functions are critical for parameterizing turbulent air-sea heat fluxes in ocean and atmospheric models, adjusting transfer coefficients based on atmospheric stability. The atmosphere is typically slightly unstable as the sea is normally warmer than the air just above it. In these conditions turbulence is enhanced, mixing is increased and the vertical gradients are weaker than in neutral conditions. Conversely when the atmosphere is stable, turbulence is suppressed, mixing is weak and steeper gradients can exist. The formula for stability function (both sensible and latent heat)
+Stability functions are critical for parameterizing turbulent air-sea heat fluxes in ocean and atmospheric models, adjusting transfer coefficients based on atmospheric stability. The atmosphere is typically slightly unstable as the sea is normally warmer than the air just above it. In these conditions turbulence is enhanced, mixing is increased and the vertical gradients are weaker than in neutral conditions. Conversely when the atmosphere is stable, turbulence is suppressed, mixing is weak and steeper gradients can exist.
 
 While we don't go into the details of the stability functions here, their values derive from Monin-Obukhov Similarity Theory and are estimated from $z$/$L$, where $L$ is the Monin-Obukhov Length.
 
-The Monin-Obukhov length \\(L\\) (for temperature) and \\( L_q \\)​ (for moisture) depend on the surface fluxes and boundary layer stability:
+The Monin-Obukhov Length \\(L\\) (for temperature) and \\( L_q \\)​ (for moisture) depend on the surface fluxes and boundary layer stability:
 
 - \\(L\\) (for sensible heat) is related to temperature flux and friction velocity.
 - \\( L_q \\)​ (for latent heat) is related to the moisture flux and wind speed.
