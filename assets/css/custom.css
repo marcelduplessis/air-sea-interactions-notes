@@ -28,10 +28,12 @@ body {
 .start-h1-1 { counter-reset: h1 0; }
 .start-h1-2 { counter-reset: h1 1; }
 .start-h1-3 { counter-reset: h1 2; }
+.start-h1-4 { counter-reset: h1 3; }
 
 .no-heading-numbers h1::before,
 .no-heading-numbers h2::before,
-.no-heading-numbers h3::before {
+.no-heading-numbers h3::before,
+.no-heading-numbers h4::before {
   content: none;
   counter-increment: none;
 }
