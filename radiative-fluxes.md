@@ -108,17 +108,13 @@ Q_{\text{LW} \uparrow} = \epsilon \sigma T_{skin}^4
 \\]
 
 - \\( Q_{\text{LW} \uparrow} \\) is the emitted (upward) longwave radiation at the surface (W m\\(^{-2}\\)),
-- \\( \epsilon \\) is the surface emissivity (typically 0.97–0.99 for ocean),
+- \\( \epsilon \\) is the surface emissivity,
 - \\( \sigma \\) is the Stefan–Boltzmann constant (5.67 \\( \times \\) 10\\(^{-8} \, \text{W} \, \text{m}^{-2} \, \text{K}^{-4} \\)),
 - \\( T_{skin} \\) is the sea surface skin temperature (in Kelvin).
 
 **Emissivity:**
 
-Emissivity ($\epsilon$) is a measure of how efficiently a surface emits thermal radiation compared to a perfect blackbody (\\( \epsilon = 1 \\)). 
-
-For the ocean, emissivity in the infrared range is high, typically between 0.97 and 0.99. This means the ocean emits nearly as much longwave radiation as a perfect emitter.
-
-Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more with temperature, moisture, and cloud conditions.
+Emissivity ($\epsilon$) is a measure of how efficiently a surface emits thermal radiation compared to a perfect blackbody (\\( \epsilon = 1 \\)), and varies with temperature, moisture, and cloud conditions. For the ocean, emissivity in the infrared range is high, typically between 0.97 and 0.99. This means the ocean emits nearly as much longwave radiation as a perfect emitter.
 
 <h3>Downwelling longwave radiation</h3>
 
@@ -150,6 +146,8 @@ As above, the climatological estimate of $Q_{lw}$ taken from ship-based observat
 </div>
 
 <h2>Measuring radiation at sea</h2>
+
+Making climate quality meteorological and flux measurements at sea is difficult, and a lot of work has been done to ensure communicate best practices. One guiding document is [A guide to making climate quality meteorological and flux measurements at sea](https://repository.library.noaa.gov/view/noaa/17408) by Bradley and Fairall (2007).
 
 <h3>Pyranometers</h3>
 
