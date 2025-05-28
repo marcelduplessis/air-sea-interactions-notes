@@ -7,7 +7,7 @@ title: Global Energy Distribution
 
 <h1> Global Energy Distribution </h1>
 
-*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK19](/air-sea-interactions-notes/references)]
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK18](/air-sea-interactions-notes/references)]
 
 I like to start with this quote from Baylor Fox-Kemper because when we talk about scales of interest it really depends on your application. Each has their relative importance and necessity to understand and be curious about. 
 
@@ -21,7 +21,7 @@ This shortwave radiation acts primarily in the wavelength range of 0.25-4 $\mu$m
 
 <div style="text-align: center;">
   <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 0px 0;">
-  <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
+  <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/">[TFK09]</a></em></p>
 </div>
 
 The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m$^{-2}$ emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.

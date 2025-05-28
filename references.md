@@ -46,6 +46,11 @@ title: References
 [GF19] Foltz, G.R., 2019. Wind-and buoyancy-forced upper ocean. Encyclopedia of ocean sciences, 1, pp.113-121. URL: <a href="https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf">https://www.aoml.noaa.gov/phod/docs/2019ENCYC.pdf</a>.
 </div>
 
+<div id="J68" class="reference">
+[J68] Jerlov, N.G., 1968. Optical oceanography (Vol. 5). Elsevier. URL: <a href="https://books.google.se/books?hl=en&lr=&id=k9EjXyVJH0UC&oi=fnd&pg=PP1&dq=jerlov+1968&ots=zlBC0wRkoF&sig=UtErKj5FYkFyuzG4zQ2CCU6sDpQ&redir_esc=y#v=onepage&q=jerlov%201968&f=false">https://books.google.se/books?hl=en&lr=&id=k9EjXyVJH0UC&oi=fnd&pg=PP1&dq=jerlov+1968&ots=zlBC0wRkoF&sig=UtErKj5FYkFyuzG4zQ2CCU6sDpQ&redir_esc=y#v=onepage&q=jerlov%201968&f=false</a>.
+</div>
+
+
 <div id="PS77" class="reference">
 [PS77] Paulson, C.A. and Simpson, J.J., 1977. Irradiance measurements in the upper ocean. Journal of Physical Oceanography, 7(6), pp.952-956. URL: <a href="https://doi.org/10.1175/1520-0485(1977)007<0952:IMITUO>2.0.CO;2">https://doi.org/10.1175/1520-0485(1977)007<0952:IMITUO>2.0.CO;2</a>.
 </div>

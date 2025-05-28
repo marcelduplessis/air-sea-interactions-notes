@@ -10,45 +10,41 @@ The radiative fluxes in the earth system are partitioned into shortwave and long
 
 <h2>Shortwave radiation</h2>
 
-As we’ve seen, shortwave radiation is the primary driver of heating on Earth. Its distribution plays a crucial role in shaping weather patterns and the global climate system. Now, let’s explore the factors that determine how solar radiation is absorbed by the ocean. 
+As we’ve seen, shortwave radiation ($Q_{sw}$) is the primary driver of heating on Earth. Its distribution plays a crucial role in shaping weather patterns and the global climate system. Now, let’s explore the factors that determine how solar radiation is absorbed by the ocean. 
 
 <h3>Surface Albedo</h3>
 
-Shortwave radiation emitted by the sun arrives at the Earth’s surface in 8 minutes. On its path it is scattered, absorbed and reflected. While the global average of incoming shortwave radiation at the top of the atmosphere is 341 W m$^{-2}$, the global average absorbed shortwave radiation by the ocean surface is approximately 170–180 W m$^{-2}$.
+Shortwave radiation emitted by the sun arrives at the Earth’s surface in 8 minutes. On its path it is scattered, absorbed and reflected. While the global average of incoming shortwave radiation at the top of the atmosphere is 341 W m$^{-2}$, the amount absorbed by the ocean surface is approximately 170–180 W m$^{-2}$.
 
-The amount of shortwave radiation absorbed by the ocean depends on the albedo of the surface. The albedo is the fraction of incoming sunlight that is reflected by the surface. The relationship between incoming and reflected shortwave radiation is given by:
+One factor contributing to this redcution in shortwave radiation absorbed by the ocean is the albedo effect, which explains the fraction of incoming sunlight that is reflected by the surface. The relationship between incoming and reflected shortwave radiation is given by:
 
 \\[ Q_{\text{SW}\uparrow} = \alpha \cdot Q_{\text{SW}\downarrow} \\]
 
-where:
 - \\( Q_{\text{SW}\downarrow} \\)​: Incoming shortwave radiation — sunlight reaching the ocean surface.
 - \\( Q_{\text{SW}\uparrow} \\): Reflected shortwave radiation — sunlight reflected back upward from the surface.
 - \\( \alpha \\) Albedo — the fraction of incoming sunlight that is reflected by the surface.
 
-$\alpha$ varies between 0 and 1, with 0 representing complete absorption and 1 representing complete reflection. The albedo of the ocean surface is influenced by several factors, including the presence of clouds, sea ice, and surface roughness. Ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed by the ocean, not reflected. However, changes in surface conditions (waves, foam, ice, etc.) can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight. 
+$\alpha$ varies between 0 and 1, with 0 representing complete absorption and 1 representing complete reflection. This value varies due to several factors, including the presence of clouds, sea ice, and surface roughness. On average, ocean albedo is low (typically 0.06–0.10), meaning most sunlight is absorbed by the ocean. However, different wave, foam, and ice conditions can affect albedo and therefore this balance. For instance, sea ice albedo can range between 0.2 and 0.9, reflecting up to 90% of incoming sunlight. 
 
 <h3>Shortwave penetrative radiation</h3>
 
-Once at the ocean surface, shortwave radiation is absorbed and scattered by water molecules and particles in the ocean. Shortwave radiation can penetrate tens of meters into the ocean, unlike longwave radiation (which is absorbed in the top microns).
+Unlike longwave radiation ($Q_{lw}$) - which is absorbed in the top microns of the surface ocean - $Q_{sw}$ penetrates to tens of meters deep and is often described by an exponential decay function. The rate of decay is determined depends on the water's clarity and the presence of particles and organisms that absorb or scatter light. In the clearest seawater, around 75% of entering shortwave radiation is absorbed by 10 m depth. Meanwhile, in biologically productive or turbid waters will extinguish around 95% by 10 m.
 
-**Penetration is highly wavelength-dependent:**
+**The penetration depth is highly wavelength-dependent:**
 
 - Blue/green light (shorter wavelengths) penetrates deepest (up to ~100 m in clear water).
 - Red/infrared light is absorbed within the top few meters
 
-The vertical distribution of shortwave radiation in the ocean is often described by an exponential decay function. The rate of decay is determined by the water's clarity and the presence of particles and organisms that absorb or scatter light. In the clearest seawater, around 75% of entering shortwave radiation is absorbed by 10 m depth. Meanwhile, in biologically productive or turbid waters will extinguish around 95% by 10 m.
-
 The amount of shortwave radiation that reaches a given depth can be simplified to:
 
-\\[ Q_{pen} = Q_{sw} e^{-kh} \\]
+\\[ Q_{pen}(z) = Q_{sw} e^{-kz} \\]
 
-where:
 - \\( Q_{pen} \\): the amount of shortwave radiation that reaches depth $h$, in W m$^{-2}$ — i.e., how much of the original solar energy has penetrated to that depth.
-- \\( h \\): depth in the water column, in meters (m). Sometimes it can be non-dimensional if scaled, but generally it's depth.
-- \\( e^{-h} \\): exponential decay with depth. As you go deeper, less radiation is left because the water absorbs and scatters it.
+- \\( z \\): depth in the water column, in meters (m). Sometimes it can be non-dimensional if scaled, but generally it's depth.
+- \\( e^{-z} \\): exponential decay with depth. As you go deeper, less radiation is left because the water absorbs and scatters it.
 - \\( k \\): the light attenuation coefficient (units: m$^{-1}$). It depends on water clarity, chlorophyll, and other optical properties.
 
-However, this simple model doesn't accurately capture the complex behavior of light penetration in different water conditions. To address this limitation, Paulson and Simpson (1977) [#PS77][/air-sea-interactions-notes/references/#PS77] developed a more sophisticated two-band exponential model.
+However, this simple model doesn't accurately capture the complex behavior of light penetration in different water conditions. To address this limitation, Paulson and Simpson (1977) [PS77][/air-sea-interactions-notes/references] developed a more sophisticated two-band exponential model.
 
 **Two-Band Exponential Model**
 
@@ -60,16 +56,13 @@ The mathematical formulation is:
 
 \\[ Q_{pen}(z) = Q_{sw} \left[ R \cdot e^{-z/\zeta_1} + (1-R) \cdot e^{-z/\zeta_2} \right] \\]
 
-where:
-- $Q_{pen}(z)$ is the radiative flux at depth $z$
-- $Q_{sw}$ is the surface shortwave radiation
 - $R$ is the fraction of shortwave radiation that is rapidly attenuated
 - $\zeta_1$ is the e-folding depth for the rapidly attenuating component
 - $\zeta_2$ is the e-folding depth for the slowly attenuating component
 
 **Jerlov Water Types**
 
-Jerlov (1968) classified ocean waters into different optical categories based on their transparency. [#PS77][/air-sea-interactions-notes/references/#PS77] parameterized their two-band model for these Jerlov water types.
+Jerlov (1968)[J68](/air-sea-interactions-notes/references) classified ocean waters into different optical categories based on their transparency. This allows us to model the penetration depth of $Q_{sw} in different water types. $[#PS77][/air-sea-interactions-notes/references] parameterized their two-band model for these Jerlov water types.
 
 The three primary oceanic water types have the following parameters:
 
@@ -79,11 +72,11 @@ The three primary oceanic water types have the following parameters:
 | Type II     | 0.77         | 1.50   | 14.0     | Moderately clear waters |
 | Type III    | 0.78         | 1.40   | 7.9      | More turbid waters |
 
-The below figure shows an implementation of three commonly used water types in ocean models in the [Paulson and Simpson (1977)](/air-sea-interactions-notes/references/#PS77) two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
+The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/air-sea-interactions-notes/references) two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
-  <p><em>Penetration depth of shortwave radiation based on three different water types from [Paulson and Simpson (1977)](/air-sea-interactions-notes/references/#PS77). The surface shortwave radiation is set to 200 W m<sup>-2</sup>.</em></p>
+  <p><em>Penetration depth of shortwave radiation based on three different water types from [Paulson and Simpson (1977)](/air-sea-interactions-notes/references). The surface shortwave radiation is set to 200 W m$^{-2}$.</em></p>
 </div>
 
 The parameters show that:
@@ -94,10 +87,11 @@ The parameters show that:
 
 <h3>Global estimates of net shortwave radiation</h3>
 
-The climatological estimate of shortwave radiation shows clear patterns of shortwave radiation reaching the surface. See if you identify key ocean and atmosphere features in these patterns?
+The climatological estimate of $Q_{sw}$ taken from ship-based observations is shown below. The fields have been derived from the COADS1a (1980-93) dataset enhanced with additional metadata from the WMO47 list of ships [JKT98](https://usclivar.org/sites/default/files/documents/2015/SOC_flux_atlas.pdf). It is important to note that the quality of the fields has a strong spatial
+dependence which reflects the global distribution of ship observations. Quality is likely to be high in the well sampled North Atlantic & North Pacific but to decrease in the Southern Hemisphere. Still, the figure shows clear regional patterns and hints to the atmospheric and oceanic dynamics that influence how much $Q_{sw}$ is absorbed into the ocean. Can you identify these patterns?
 
 <div style="text-align: center;">
-  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 60%; margin: 30px 0 0px 0;">
+  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 60%; margin: 0px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
@@ -112,8 +106,6 @@ The ocean emits infrared radiation (longwave radiation) because it's warmer than
 \\[
 Q_{\text{LW} \uparrow} = \epsilon \sigma T_{skin}^4
 \\]
-
-where:
 
 \\( Q_{\text{LW} \uparrow} \\) is the emitted (upward) longwave radiation at the surface (W m\\(^{-2}\\)),
 
