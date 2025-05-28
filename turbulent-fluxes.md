@@ -155,7 +155,7 @@ The Monin-Obukhov Length \\(L\\) (for temperature) and \\( L_q \\)​ (for moist
 - \\(L\\) (for sensible heat) is related to temperature flux and friction velocity.
 - \\( L_q \\)​ (for latent heat) is related to the moisture flux and wind speed.
 
-<h3>Monin-Obukhov Similarity Theory:</h3>
+**Monin-Obukhov Similarity Theory:**
 
 MOST provides a framework to describe the vertical structure of the turbulent atmosphere near the surface. It relates turbulent fluxes of heat, momentum, and moisture to mean gradients in wind speed, temperature, and humidity. It represents the height at which buoyant production of turbulence is comparable to mechanical (shear) production. Let's take a look at the Monin-Obukhov length \\(L\\) for sensible heat flux only:
 
