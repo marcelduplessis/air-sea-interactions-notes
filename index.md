@@ -44,7 +44,7 @@ These notes were compiled from several readings. You can find the references [he
 
 ## License
 
-This work is licensed under a [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org › licenses › gpl-3.0.en.html
+This work is licensed under a [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html
 ).
 
 <style>
