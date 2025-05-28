@@ -50,7 +50,7 @@ There are several ways to obtain eddy covariance measurements at sea, such as sh
 The fundamental instruments needed to obtain eddy covariance measurements are: 
 
 - 3-dimensional sonic anemometer for x, y, and z direction wind speeds and fast response temperature.
-- Infrared gas analysers for water vapour and CO$$_2 concentrations.
+- Infrared gas analysers for water vapour and CO$_2$ concentrations.
 
 <div style="text-align: center;">
   <img src="assets/images/eddy-cov-instruments.png" alt="eddy covariance ship" style="width: 50%; margin: 30px 0 0px 0;">
@@ -70,7 +70,7 @@ The most common method for obtaining eddy covariance measurements at sea is from
 
 **Flow distortion**:
 
-Ship-based eddy covariance flux measurements are subject to flow distortion errors. The presence of the platform superstructure and the instrument themself cause a distortion of the wind field and lead to acceleration or deceleration of the wind speed. Studies using computational fluid dynamics (CFD) have shown that the flow distortion can be significant. [Yelland et al. (2002)](/air-sea-interactions-notes/references/#YM02+) modelled the air flow around two ships using CFD simulations and compared the results to anemometers placed in both well-exposed and badly exposed locations. Their results showed that the effects of flow distortion are found to vary only slightly with wind speed, but are very sensitive to the relative wind direction and, if uncorrected, can cause large biases in ship-based meteorological measurements (up to 60% for the drag coefficient).
+Ship-based eddy covariance flux measurements are subject to flow distortion errors. The presence of the platform superstructure and the instrument themself cause a distortion of the wind field and lead to acceleration or deceleration of the wind speed. Studies using computational fluid dynamics (CFD) have shown that the flow distortion can be significant. [[YM02](/air-sea-interactions-notes/references)] modelled the air flow around two ships using CFD simulations and compared the results to anemometers placed in both well-exposed and badly exposed locations. Their results showed that the effects of flow distortion are found to vary only slightly with wind speed, but are very sensitive to the relative wind direction and, if uncorrected, can cause large biases in ship-based meteorological measurements (up to 60% for the drag coefficient).
 
 **Motion correction**:
 
@@ -100,7 +100,7 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
     
 - \\( Q_{sen} \\) is the sensible heat flux in units of W m\\(^{-2}\\)
 - \\( \rho_a \\) is the air density in units of kg m\\(^{-3}\\)
-- \\( c_p \\) is the specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K\\(^{-1}\\
+- \\( c_p \\) is the specific heat capacity of air at constant pressure in units of J kg\\(^{-1}\\) K$^{-1}$
 - \\( C_H \\) is the bulk transfer coefficient for heat in dimensionless units
 - \\( U \\) is the wind speed at reference height of 10 m above sea level in units of m s\\(^{-1}\\)
 - \\( \theta_s, \theta_a \\) are the potential temperature at the surface ocean skin layer and 2 m above sea level in units of K
@@ -120,11 +120,11 @@ The bulk formula is used to estimate the turbulent heat fluxes (latent and sensi
 
 \\( \tau \\) is the surface wind stress in units of N m\\(^{-2}\\), while \\( C_D \\)​ is the dimensionless drag coefficient. This wind speed dependent parameterization is hard to beat because the wind and the waves are primarily responsible for supporting the surface stress.
 
-The drag coefficient is a function of the wind speed, the roughness length, and a dimensionless function that account for the effects of atmospheric stratification (stability). The drag coefficient is described in [Edson et al. (2013)](/air-sea-interactions-notes/references/#E13+):
+The drag coefficient is a function of the wind speed, the roughness length, and a dimensionless function that account for the effects of atmospheric stratification (stability). The drag coefficient is described in [[EJW+13](/air-sea-interactions-notes/references)]:
 
 \\[ C_D = \frac{k^2}{\left( \ln\left( \frac{z}{z_{0m}} \right) - \psi_m \right)^2} \\]
 
-$\kappa$ is the von Kármán constant (0.4). $z_{0m}$ is the aerodynamic roughness length in units of m, a parameter that characterizes the roughness of a surface with respect to air flow. It is a function of the surface roughness and the wind speed because the ocean surface is dynamic and changes with wind conditions (i.e., the ocean surface is rougher under high winds). $\psi_m$ is the dimensionless stability function for momentum, which accounts for the departure of the actual wind profile from its semilogarithmic form due to stability (see [Fairall et al. 2003](/air-sea-interactions-notes/references/#FBH+03)).
+$\kappa$ is the von Kármán constant (0.4). $z_{0m}$ is the aerodynamic roughness length in units of m, a parameter that characterizes the roughness of a surface with respect to air flow. It is a function of the surface roughness and the wind speed because the ocean surface is dynamic and changes with wind conditions (i.e., the ocean surface is rougher under high winds). $\psi_m$ is the dimensionless stability function for momentum, which accounts for the departure of the actual wind profile from its semilogarithmic form due to stability (see [[FBH+03](/air-sea-interactions-notes/references)]).
 
 <h3>Bulk flux transfer coefficients:</h3>
 
@@ -146,19 +146,9 @@ The roughness lengths $z_{0h}$ and $z_{0q}$ describe how easily sensible heat (t
 
 **Stability function**
 
-The formula for stability function (both sensible and latent heat)
+Stability functions are critical for parameterizing turbulent air-sea heat fluxes in ocean and atmospheric models, adjusting transfer coefficients based on atmospheric stability. The atmosphere is typically slightly unstable as the sea is normally warmer than the air just above it. In these conditions turbulence is enhanced, mixing is increased and the vertical gradients are weaker than in neutral conditions. Conversely when the atmosphere is stable, turbulence is suppressed, mixing is weak and steeper gradients can exist. The formula for stability function (both sensible and latent heat)
 
-For stable conditions (i.e. cool ocean, warm atmosphere):
-\\[
-\psi = - \frac{1}{2} \ln\left( \frac{1 + \sqrt{1 + 10 \frac{z}{L}}}{2} \right) + 2 \tan^{-1}\left( \frac{1}{\sqrt{10 \frac{z}{L}}} \right)
-\\]
-
-For unstable conditions (i.e. warm ocean, cool atmosphere):
-\\[
-\psi = \ln \left( \frac{1 + \sqrt{1 + 10 \frac{z}{L}}}{2} \right)
-\\]
-
-\\(z\\) = height of measurement (often 10 m).
+While we don't go into the details of the stability functions here, their values derive from Monin-Obukhov Similarity Theory and are estimated from $z$/$L$, where $L$ is the Monin-Obukhov Length.
 
 The Monin-Obukhov length \\(L\\) (for temperature) and \\( L_q \\)​ (for moisture) depend on the surface fluxes and boundary layer stability:
 
