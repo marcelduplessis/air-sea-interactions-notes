@@ -59,6 +59,10 @@ title: References
 [RALS17] Ruzmaikin, A., Aumann, H.H., Lee, J. and Susskind, J., 2017. Diurnal cycle variability of surface temperature inferred from AIRS data. Journal of Geophysical Research: Atmospheres, 122(20), pp.10-928. URL: <a href="https://doi.org/10.1002/2016JD026265">https://doi.org/10.1002/2016JD026265</a>.
 </div>
 
+<div id="S67" class="reference">
+[S67] Saunders, P. M., The temperature at the ocean-air interface, J. Atmos. Sci., 24, 269–273, 1967. URL: <a href="https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf">hhttps://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf</a>.
+</div>
+
 <div id="TFK09" class="reference">
 [TFK09] Trenberth, K.E., Fasullo, J.T. and Kiehl, J., 2009. Earth's global energy budget. Bulletin of the american meteorological society, 90(3), pp.311-324. URL: <a href="https://doi.org/10.1175/2008BAMS2634.1">https://doi.org/10.1175/2008BAMS2634.1</a>.
 </div>
