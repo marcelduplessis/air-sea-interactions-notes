@@ -10,9 +10,9 @@ title: References
 [BA10] Burba, G. and Anderson, D., 2010. A brief practical guide to eddy covariance flux measurements: principles and workflow examples for scientific and industrial applications. Li-Cor Biosciences. URL: <a href="https://books.google.se/books?hl=en&lr=&id=mCsI1_8GdrIC&oi=fnd&pg=PA6&dq=A+Brief+Practical+Guide+to+Eddy+Covariance+Flux+Measurements:+Principles+and+Workflow+Examples+for+Scientific+and+Industrial+Applications&ots=TMPk3_Uk8Y&sig=GUa0x8L60KvtJlMslJ2ktmbJZVw&redir_esc=y#v=onepage&q=A%20Brief%20Practical%20Guide%20to%20Eddy%20Covariance%20Flux%20Measurements%3A%20Principles%20and%20Workflow%20Examples%20for%20Scientific%20and%20Industrial%20Applications&f=false">Google Book</a>.
 </div>
 
-<h2 id="BFK18">[BFK18]</h2>
-Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers in Operational Oceanography", E. Chassignet, A. Pascual, J. Tintoré, and J. Verron, Eds., GODAE OceanView, 27-74, URL: <a href="https://doi.org/10.17125/gov2018ch02">https://doi.org/10.17125/gov2018ch02</a>.
-
+<div id="BFK18" class="reference">
+[BFK18] Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers in Operational Oceanography", E. Chassignet, A. Pascual, J. Tintoré, and J. Verron, Eds., GODAE OceanView, 27-74, URL: <a href="https://doi.org/10.17125/gov2018ch02">https://doi.org/10.17125/gov2018ch02</a>.
+</div>
 
 <div id="CGE+19" class="reference">
 [CGE+19] Cronin, M.F., Gentemann, C.L., Edson, J., Ueki, I., Bourassa, M., Brown, S., Clayson, C.A., Fairall, C.W., Farrar, J.T., Gille, S.T. and Gulev, S., 2019. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6, p.430. URL: <a href="https://doi.org/10.3389/fmars.2019.00430">https://doi.org/10.3389/fmars.2019.00430</a>.
@@ -68,3 +68,20 @@ Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers i
     padding-left: 3em; /* Indent for subsequent lines */
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Check if we have a hash in the URL
+  if(window.location.hash) {
+    const targetId = window.location.hash.substring(1);
+    const targetElement = document.getElementById(targetId);
+    
+    if(targetElement) {
+      // Scroll to the element
+      setTimeout(function() {
+        targetElement.scrollIntoView();
+      }, 100);
+    }
+  }
+});
+</script>
