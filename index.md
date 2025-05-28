@@ -25,11 +25,11 @@ We start the notes with the Earth's energy distribution, which is fundamentally 
 For instance, these exchanges influence floods, droughts, storm intensity, and storm tracks. Predicting these phenomena is vital for protecting people, property, and natural resources from extreme weather events and the impacts of climate variability and change. This is particularly relevant for predictions beyond the traditional 1–10 day range, extending to sub-seasonal, seasonal, and even decadal timescales. Achieving this requires a strong understanding of the physical processes governing air-sea interactions and the factors that drive their variability.
 
 
-## Additional Resources
+## Additional resources
 
 These notes are created to be stand-alone for the air-sea interactions module of the OC4920 course. You will find it beneficial to do your own reading around the subject to extend your knowledge beyond what is presented here. There are a number of reading material that you will find helpful, some of which I have listed in the references.
 
-## Learning Objectives
+## Learning objectives
 
 - Understand Earth's energy distribution 
 - Differentiate the difference between direct and indirect measurements of air-sea fluxes
