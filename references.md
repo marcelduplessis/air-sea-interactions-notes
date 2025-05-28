@@ -1,7 +1,7 @@
 ---
 layout: default
-chapter: 5
 title: References
+no_heading_numbers: true
 ---
 
 # References
