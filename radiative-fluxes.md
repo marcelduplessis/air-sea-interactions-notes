@@ -147,69 +147,56 @@ As above, the climatological estimate of $Q_{lw}$ taken from ship-based observat
 
 <h2>Measuring radiation at sea</h2>
 
-Making climate quality meteorological and flux measurements at sea is difficult, and a lot of work has been done to ensure communicate best practices. One guiding document is [A guide to making climate quality meteorological and flux measurements at sea](https://repository.library.noaa.gov/view/noaa/17408) by Bradley and Fairall (2007).
+Making climate quality meteorological and flux measurements at sea is difficult, and a lot of work has been done to communicate best practices. One guiding document is [A guide to making climate quality meteorological and flux measurements at sea](https://repository.library.noaa.gov/view/noaa/17408) by Bradley and Fairall (2007).
 
 <h3>Pyranometers</h3>
 
 To measure the downwelling shortwave radiation at sea, we use pyranometers. 
 
-A pyranometer is a sensor that measures hemispherical solar irradiance (i.e., radiation from the entire sky dome) on a flat surface. It is used to measure the solar radiation received from above. It typically measures radiation over the wavelength range of approximately 0.2-2.8 $\mu$m — capturing the bulk of shortwave radiation from the sun. Solar radiation passing through the glass dome of the pyranometer impinges on a flat thermopile with a blackened upper surface. The instrument is so constructed, using two concentric domes to overcome convection within the instrument, that the thermopile output has a linear response to the radiative intensity. Accuracy of the instrument is usually quoted as 2%.
+A pyranometer is a sensor that measures hemispherical solar irradiance (i.e., radiation from the entire sky dome) on a flat surface. It is used to measure the solar radiation received from above ($Q_{\text{sw}\downarrow}$). It typically measures radiation over the wavelength range of approximately 0.2-2.8 $\mu$m — capturing the bulk of shortwave radiation from the sun. 
 
 **How pyranometers work:**
 
-The sensing element is usually a thermopile that generates a voltage proportional to the net radiant energy it absorbs.
+Solar radiation passing through the glass dome of the pyranometer impinges on a flat thermopile with a blackened upper surface. The thermopile output has a linear response to the radiative intensity, and so generates a voltage (in $\mu$V) proportional to the net radiant energy it absorbs that is converted to irradiance (W m$^{-2}$) using a calibration factor. Accuracy of the instrument is usually quoted as 2%.
 
 The sensor surface is protected by glass domes that:
-- Transmit shortwave radiation
-- Block longwave radiation
-- Protect against environmental contaminants (e.g., salt spray, dust)
+- Transmit shortwave radiation (~0.2-2.8 $\mu$m)
+- Block longwave radiation (>4 $\mu$m)
+- Protect against environmental contaminants (e.g., salt spray, dust).
 
-The output signal (a small voltage, in microvolts) is converted to irradiance (W m$^{-2}$) using a calibration factor.
-
-**Measuring shortwave radiation at sea:**
-
-At sea, pyranometers are often installed:
-
-- On buoys (e.g., TAO/TRITON array in the tropical Pacific)
-- On ship masts (carefully sited to minimize shading and reflection)
-
-They measure the downwelling shortwave radiation QSW↓​ — i.e., the radiation coming from the atmosphere and sky to the ocean surface.
 
 <div style="text-align: center;">
   <img src="assets/images/spn1.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
   <p><em>SPN1 Pyranometer often used for at-sea measurements of downwelling shortwave radiation. Source: <a href="https://delta-t.co.uk/product/spn1/">Delta T</a></em></p>
 </div>
 
-**Key considerations**
-
-- Tilt corrections: The platform (ship or buoy) may tilt due to waves, causing measurement errors. Some systems apply real-time corrections using motion sensors (IMUs).
-- Shading: Structures (like masts) can shade the sensor. Good installation minimizes this.
-- Reflections (albedo): At the sea surface, some shortwave radiation is reflected back into the atmosphere. Pyranometers measure incoming radiation only; separate instruments (e.g., up-looking pyranometers) are needed to measure reflected radiation and calculate surface albedo.
-- Salt spray and contamination: Can reduce transmission through the domes. Regular cleaning or self-cleaning domes are used on autonomous platforms.
-
 <h3>Pyrgeometers</h3>
 
-To measure the downwelling longwave radiation we use pyrgeomters. A pyrgeometer measures thermal infrared radiation, typically >4 $\mu$m. It is used to measure the amount of infrared radiation emitted by the atmosphere and clouds. The pyrgeometer works by determining its own thermal balance, combining the contributions from dome and case temperatures with longwave radiation through the silicon window. The pyrgeometer measures the difference in temperature between the blackened detector and the ambient air temperature inside the dome. The detector is a blackened surface inside the dome which is detected with a thermopile.
+To measure the downwelling longwave radiation ($Q_{\text{lw}\downarrow}$) we use pyrgeomters. A pyrgeometer measures thermal infrared radiation, typically >4 $\mu$m. It is used to measure the amount of infrared radiation emitted by the atmosphere and clouds. 
+
+**How pyrgeometers work:**
+
+The pyrgeometer works by determining its own thermal balance, combining the contributions from dome and case temperatures with ($Q_{\text{lw}\downarrow}$) through the silicon window. The pyrgeometer measures the difference in temperature between the blackened detector and the ambient air temperature inside the dome. The detector is a blackened surface inside the dome which is detected with a thermopile.
+
+The core part is a thermopile sensor with a dome-shaped window made of a material (e.g. silicon or germanium) that transmits longwave radiation. It usually has a blackened surface to absorb radiation and a temperature sensor (often a thermistor) to record the instrument’s body temperature.
+
+The net signal is used to calculate downwelling longwave radiation using an energy balance formula.
 
 <div style="text-align: center;">
   <img src="assets/images/pyrgeometer.png" alt="spn1" style="width: 50%; margin: 30px 0 0px 0;">
   <p><em>Kipp & Zonen pyrgeometer installed onto the atmospheric mast of the R/V S.A. Agulhas II.</em></p>
 </div>
 
-The core part is a thermopile sensor with a dome-shaped window made of a material (e.g. silicon or germanium) that transmits longwave radiation.
-
-It senses temperature differences between the detector and incoming infrared energy.
-
-It usually has:
-- A blackened surface to absorb radiation.
-- A temperature sensor (often a thermistor) to record the instrument’s body temperature.
-
-The net signal is used to calculate downwelling longwave radiation using an energy balance formula.
-
 **Key considerations:**
 
-- Shipboard: Mounted on masts or platforms away from obstructions and heat sources.
-- Buoys: May be installed on surface buoys with stabilization to reduce tilt and motion effects.
+Both pyranometers and pyrgeometers are small (about the size of a your fist), and so can be installed on many different platforms including on buoys (e.g., TAO/TRITON array in the tropical Pacific), on ship masts (carefully sited to minimize shading and reflection), and autonomous vehicles.
+
+Accurate deployments of these sensors to measure $Q_{sw}$ and $Q_{lw}$ require several key considerations that include:
+
+- Tilt corrections: The platform (ship or buoy) may tilt due to waves, causing measurement errors. Some systems apply real-time corrections using motion sensors (IMUs).
+- Shading: Structures (like masts) can shade the sensor. Good installation minimizes this.
+- Reflections (albedo): At the sea surface, some shortwave radiation is reflected back into the atmosphere. Pyranometers measure incoming radiation only; separate instruments (e.g., up-looking pyranometers) are needed to measure reflected radiation and calculate surface albedo.
+- Salt spray and contamination: Can reduce transmission through the domes. Regular cleaning or self-cleaning domes are used on autonomous platforms.
 
 **Recommended practices:**
     - Horizon should be clear.
