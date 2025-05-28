@@ -66,11 +66,11 @@ Jerlov (1968)[J68](/air-sea-interactions-notes/references) classified ocean wate
 
 The three primary oceanic water types have the following parameters:
 
-| Jerlov Type | R (fraction) | ζ₁ (m) | ζ₂ (m) | Description |
-|:------------|:------------:|--------|---------:|:------------|
-| Type I      | 0.58         | 1.20   | 28.0     | Clearest open ocean waters |
-| Type II     | 0.77         | 1.50   | 14.0     | Moderately clear waters |
-| Type III    | 0.78         | 1.40   | 7.9      | More turbid waters |
+| Jerlov Type         | R (fraction)         | $\zeta_1$ (m)      | $\zeta_2$ (m)       | Description         |
+|:--------------------|:--------------------:|--------------------|--------------------:|:--------------------|
+| Type I              | 0.58                 | 1.20               | 28.0                | Clearest open ocean waters |
+| Type II             | 0.77                 | 1.50               | 14.0                | Moderately clear waters |
+| Type III            | 0.78                 | 1.40               | 7.9                 | More turbid waters |
 
 The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/air-sea-interactions-notes/references) two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
