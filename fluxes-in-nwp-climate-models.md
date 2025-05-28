@@ -1,10 +1,10 @@
 ---
 layout: default
 chapter: 4
-title: Air-Sea Heat Fluxes in Climate, Numerical Weather Models, and Data Products
+title: Air-sea heat fluxes in climate and numerical weather models, and data products
 ---
 
-<h1> Air-Sea Heat Fluxes in Climate, Numerical Weather Models, and Data Products </h1>
+<h1> Air-sea heat fluxes in climate and numerical weather models, and data products </h1>
 
 <h2> Mapping fluxes: satellite gridded products </h2> 
 
@@ -33,7 +33,7 @@ Using satellite measurements to estimate air-sea fluxes requires the use of math
 
 There is still considerable uncertainty that exists between data products. This is due to the different methods used to estimate the fluxes, the different satellite and in situ observations used as input, and the different assumptions and parameterizations used in the flux algorithms. There is growing research investigating these biases (e.g. [BPG17, THK+18, CGE+19](/air-sea-interactions-notes/references)).
 
-<h2> Climate Models </h2> 
+<h2> Climate models </h2> 
 
 Climate models are always run for a historical period and (often) also for the future to get an idea of the climate change that we can expect. The latest iteration of climate model simulation from the Coupled Model Intercomparison Project is CMIP6. CMIP6 simulate air-sea fluxes at grid scales of ~50–100 km.
 
@@ -53,7 +53,7 @@ These SST fronts drive strong atmospheric responses (e.g., storm tracks, precipi
 - Evaporation and precipitation patterns
 - Atmospheric pressure adjustments
 
-<h2> Numerical Weather Prediction (NWP) </h2>
+<h2> Numerical weather prediction </h2>
 
 Numerical Weather Prediction (NWP) models are used to forecast weather conditions. They are typically run at higher resolutions than climate models, allowing better representation of mesoscale oceanic features and tropical cyclone-ocean interactions, such as the Kuroshio and Gulf Stream.
 

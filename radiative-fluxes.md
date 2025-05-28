@@ -12,7 +12,7 @@ The radiative fluxes in the earth system are partitioned into shortwave and long
 
 As we’ve seen, shortwave radiation ($Q_{sw}$) is the primary driver of heating on Earth. Its distribution plays a crucial role in shaping weather patterns and the global climate system. Now, let’s explore the factors that determine how solar radiation is absorbed by the ocean. 
 
-<h3>Surface Albedo</h3>
+<h3>Surface albedo</h3>
 
 Shortwave radiation emitted by the sun arrives at the Earth’s surface in 8 minutes. On its path it is scattered, absorbed and reflected. While the global average of incoming shortwave radiation at the top of the atmosphere is 341 W m$^{-2}$, the amount absorbed by the ocean surface is approximately 170–180 W m$^{-2}$.
 
@@ -46,7 +46,7 @@ The amount of shortwave radiation that reaches a given depth can be simplified t
 
 However, this simple model doesn't accurately capture the complex behavior of light penetration in different water conditions. To address this limitation, Paulson and Simpson (1977) [PS77][/air-sea-interactions-notes/references] developed a more sophisticated two-band exponential model.
 
-**Two-Band Exponential Model**
+**Two-band exponential model**
 
 Paulson and Simpson's model divides the solar spectrum into two parts:
 1. A rapidly attenuating component (primarily red and infrared wavelengths)
@@ -60,7 +60,7 @@ The mathematical formulation is:
 - $\zeta_1$ is the e-folding depth for the rapidly attenuating component
 - $\zeta_2$ is the e-folding depth for the slowly attenuating component
 
-**Jerlov Water Types**
+**Jerlov water types**
 
 Jerlov (1968)[[J68](/air-sea-interactions-notes/references)] classified ocean waters into different optical categories based on their transparency. This allows us to model the penetration depth of $Q_{sw}$ in different water types. [[#PS77](/air-sea-interactions-notes/references)] parameterized their two-band model for these Jerlov water types.
 
@@ -187,7 +187,7 @@ The net signal is used to calculate downwelling longwave radiation using an ener
   <p><em>Kipp & Zonen pyrgeometer installed onto the atmospheric mast of the R/V S.A. Agulhas II.</em></p>
 </div>
 
-**Key considerations:**
+### Key considerations
 
 Both pyranometers and pyrgeometers are small (about the size of a your fist), and so can be installed on many different platforms including on buoys (e.g., TAO/TRITON array in the tropical Pacific), on ship masts (carefully sited to minimize shading and reflection), and autonomous vehicles.
 

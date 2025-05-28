@@ -5,7 +5,7 @@ chapter: 1
 title: Global Energy Distribution
 ---
 
-<h1> Global Energy Distribution </h1>
+<h1> Global energy distribution </h1>
 
 *“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK18](/air-sea-interactions-notes/references)]
 
@@ -26,7 +26,7 @@ This shortwave radiation acts primarily in the wavelength range of 0.25-4 $\mu$m
 
 The balance between incoming solar radiation and outgoing radiation is crucial for maintaining the climate system. So the 239 W m$^{-2}$ emitted as longwave radiation back to space balances the absorbed solar radiation. This averaged view of the energy budget is more complex. For instance, the outgoing longwave radiation is highly variable and depends on the temperature of the object emitting the radiation, which follows the Stefan–Boltzmann law, described as the power radiated from a black body in terms of its temperature.
 
-**The Stefan-Boltzmann law**\
+### The Stefan-Boltzmann law
 \\[j^* = \epsilon \sigma T^4\\]
 
 \\(j^*\\) is the radiant exitance, which is the power radiated per unit area in the form of electromagnetic radiation, with units W m$^{-2}$. \\(\epsilon\\) is a dimensionless property of the surface of an object that indicates how effectively it radiates energy compared to a perfect black body. The ocean has a high thermal emissivity, typically between 0.96 and 0.99. \\(\sigma\\) is the Stefan-Boltzmann constant that has a value of ~5.67 \\(\times\\) \\(10^{−8}\\) W m$^{-2}$ x K\\(^4\\). \\(T\\) is the absolute temperature in Kelvin (K).

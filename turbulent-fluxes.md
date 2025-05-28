@@ -12,11 +12,11 @@ The two most commonly applied approaches to quantifying air-sea exchanges: the *
 - Discuss the advantages and disadvantages of the two methods
 - Outline the main instrumentation required to obtain each estimation of the flux
 
-<h2>Eddy Covariance</h2>
+<h2>Eddy covariance</h2>
 
 The eddy covariance method is a direct measurement technique -- sometimes called direct covariance -- used to measure the flux of momentum, heat, and gases at the air-sea interface. In the atmospheric bounary layer, turbulent eddies of size 1-100 m and evolutionary time scales of seconds to minutes carry properties towards and away from the surface ocean. The eddy covariance method therefore relies on measurements of wind velocity, temperature, and scalar quantities like humidity or CO$_2$ concentration at scales much faster than the evolution of eddies, typcially at 10 or 20 Hz. The eddy covariance method is the most accurate method for measuring air-sea fluxes, but it is also the most expensive and complex.
 
-<h3>Governing Equation:</h3>
+<h3>Governing equation:</h3>
 
 If we are interested in a quantity \\( c \\), it can be separated into its mean and fluctating parts:
 
@@ -76,7 +76,7 @@ Ship-based eddy covariance flux measurements are subject to flow distortion erro
 
 Platforms at sea, such as ships, buoys, and floating platforms, are also subject to pitch, roll, and yaw motion. The wind speed needs to be corrected from the platform framework \\( i,j,k \\) to a Earth reference frame \\( x,y,z \\). The measured wind speeds are transformed from the instantaneous platform coordinate system in the fixed earth coordinate system by means of the Euler transformation. If the anemometer is not perfectly aligned with the mean wind direction or the local vertical, errors in the measured vertical wind component can occur. Furthermore, time lags between motion sensors and wind measurements can create alignment errors in the motion correction algorithm.
 
-<h2>Bulk Flux Method</h2>
+<h2>Bulk flux method</h2>
 
 The turbulent exchange of momentum and energy between the atmosphere and ocean is difficult and expensive to measure directly. Instead, oceanographers and meteorologists often rely on bulk formula that estimates air-sea fluxes using empirical parameterizations based on mean meteorological and oceanographic variables. The bulk flux method is an indirect approach to estimate the turbulent fluxes of momentum, heat, and moisture. It uses a bulk formula that relates the fluxes to more easily measured averaged wind speed, temperature and humidity.
 
