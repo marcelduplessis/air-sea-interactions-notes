@@ -62,7 +62,7 @@ The mathematical formulation is:
 
 **Jerlov Water Types**
 
-Jerlov (1968)[J68](/air-sea-interactions-notes/references) classified ocean waters into different optical categories based on their transparency. This allows us to model the penetration depth of $Q_{sw} in different water types. $[#PS77][/air-sea-interactions-notes/references] parameterized their two-band model for these Jerlov water types.
+Jerlov (1968)[[J68](/air-sea-interactions-notes/references)] classified ocean waters into different optical categories based on their transparency. This allows us to model the penetration depth of $Q_{sw}$ in different water types. [[#PS77](/air-sea-interactions-notes/references)] parameterized their two-band model for these Jerlov water types.
 
 The three primary oceanic water types have the following parameters:
 
@@ -72,11 +72,11 @@ The three primary oceanic water types have the following parameters:
 | Type II             | 0.77                 | 1.50               | 14.0                | Moderately clear waters |
 | Type III            | 0.78                 | 1.40               | 7.9                 | More turbid waters |
 
-The below figure shows an implementation of three commonly used water types in ocean models in the [PS77](/air-sea-interactions-notes/references) two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
+The below figure shows an implementation of three commonly used water types in ocean models in the [[PS77](/air-sea-interactions-notes/references)] two-band parameterization. The surface shortwave radiation is set to 200 W m$^{-2}$.  
 
 <div style="text-align: center;">
   <img src="assets/images/sw-pen.png" alt="sw-pen" style="width: 70%; margin: 30px 0 0px 0;">
-  <p><em>Penetration depth of shortwave radiation based on three different water types from [Paulson and Simpson (1977)](/air-sea-interactions-notes/references). The surface shortwave radiation is set to 200 W m$^{-2}$.</em></p>
+  <p><em>Penetration depth of shortwave radiation based on three different water types from Paulson and Simpson (1977). The surface shortwave radiation is set to 200 W m$^{-2}$.</em></p>
 </div>
 
 The parameters show that:
@@ -87,11 +87,11 @@ The parameters show that:
 
 <h3>Global estimates of net shortwave radiation</h3>
 
-The climatological estimate of $Q_{sw}$ taken from ship-based observations is shown below. The fields have been derived from the COADS1a (1980-93) dataset enhanced with additional metadata from the WMO47 list of ships [JKT98](https://usclivar.org/sites/default/files/documents/2015/SOC_flux_atlas.pdf). It is important to note that the quality of the fields has a strong spatial
+The climatological estimate of $Q_{sw}$ taken from ship-based observations is shown below. The fields have been derived from the COADS1a (1980-93) dataset enhanced with additional metadata from the WMO47 list of ships [[JKT98](https://usclivar.org/sites/default/files/documents/2015/SOC_flux_atlas.pdf)]. It is important to note that the quality of the fields has a strong spatial
 dependence which reflects the global distribution of ship observations. Quality is likely to be high in the well sampled North Atlantic & North Pacific but to decrease in the Southern Hemisphere. Still, the figure shows clear regional patterns and hints to the atmospheric and oceanic dynamics that influence how much $Q_{sw}$ is absorbed into the ocean. Can you identify these patterns?
 
 <div style="text-align: center;">
-  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 60%; margin: 0px 0 0px 0;">
+  <img src="assets/images/sw-rad-map.png" alt="sw-rad-map" style="width: 80%; margin: 0px 0 0px 0;">
   <p><em>The climatological estimate of shortwave radiation based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
 </div>
 
@@ -101,23 +101,28 @@ The net longwave radiation (outgoing minus incoming) is a key part of the ocean 
 
 <h3>Upwelling longwave radiation</h3>
 
-The ocean emits infrared radiation (longwave radiation) because it's warmer than the atmosphere above it. This follows the Stefan–Boltzmann law:
+The ocean emits infrared radiation ($Q_{\text{LW} \uparrow}$) because it's warmer than the atmosphere above it. This follows the Stefan–Boltzmann law:
 
 \\[
 Q_{\text{LW} \uparrow} = \epsilon \sigma T_{skin}^4
 \\]
 
-\\( Q_{\text{LW} \uparrow} \\) is the emitted (upward) longwave radiation at the surface (W m\\(^{-2}\\)),
+- \\( Q_{\text{LW} \uparrow} \\) is the emitted (upward) longwave radiation at the surface (W m\\(^{-2}\\)),
+- \\( \epsilon \\) is the surface emissivity (typically 0.97–0.99 for ocean),
+- \\( \sigma \\) is the Stefan–Boltzmann constant (5.67 \\( \times \\) 10\\(^{-8} \, \text{W} \, \text{m}^{-2} \, \text{K}^{-4} \\)),
+- \\( T_{skin} \\) is the sea surface skin temperature (in Kelvin).
 
-\\( \epsilon \\) is the surface emissivity (typically 0.97–0.99 for ocean),
+**Emissivity:**
 
-\\( \sigma \\) is the Stefan–Boltzmann constant (5.67 \\( \times \\) 10\\(^{-8} \, \text{W} \, \text{m}^{-2} \, \text{K}^{-4} \\)),
+Emissivity ($\epsilon$) is a measure of how efficiently a surface emits thermal radiation compared to a perfect blackbody (\\( \epsilon = 1 \\)). 
 
-\\( T_{skin} \\) is the sea surface skin temperature (in Kelvin).
+For the ocean, emissivity in the infrared range is high, typically between 0.97 and 0.99. This means the ocean emits nearly as much longwave radiation as a perfect emitter.
+
+Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more with temperature, moisture, and cloud conditions.
 
 <h3>Downwelling longwave radiation</h3>
 
-The atmosphere emits infrared radiation downward toward the ocean surface. This is called downwelling longwave radiation and is also governed by Planck’s Law. It depends on:
+The atmosphere emits infrared radiation downward toward the ocean surface ($Q_{\text{LW} \downarrow}$). This is called downwelling longwave radiation and is also governed by Planck’s Law. It depends on:
 
 - Atmospheric temperature
 - Cloud cover and greenhouse gases
@@ -134,14 +139,6 @@ Q_{\text{LW}} = Q_{\text{LW} \downarrow} - Q_{\text{LW} \uparrow}
 \\]
 
 A negative \\( Q_{\text{LW}} \\) indicates a net **loss of energy** from the ocean to the atmosphere.
-
-<h3>Emissivity</h3>
-
-Emissivity is a measure of how efficiently a surface emits thermal radiation compared to a perfect blackbody (\\( \epsilon = 1 \\)). 
-
-For the ocean, emissivity in the infrared range is high, typically between 0.97 and 0.99. This means the ocean emits nearly as much longwave radiation as a perfect emitter.
-
-Atmospheric emissivity (affecting \\( Q_{\text{LW} \downarrow} \\)) varies more with temperature, moisture, and cloud conditions.
 
 <div style="text-align: center;">
   <img src="assets/images/lw-rad-map.png" alt="lw-rad-map" style="width: 60%; margin: 30px 0 0px 0;">
