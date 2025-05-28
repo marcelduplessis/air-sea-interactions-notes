@@ -7,7 +7,7 @@ title: Global Energy Distribution
 
 <h1> Global Energy Distribution </h1>
 
-*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK18](/air-sea-interactions-notes/references/#BFK18)]
+*“Ocean motions result from the overall forcing of the climate system but are filtered through various processes on different scales before arriving at the motions of interest for a particular application.”* -- [[BFK19](/air-sea-interactions-notes/references)]
 
 I like to start with this quote from Baylor Fox-Kemper because when we talk about scales of interest it really depends on your application. Each has their relative importance and necessity to understand and be curious about. 
 
