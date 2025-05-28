@@ -14,6 +14,10 @@ title: References
 [BFK18] Fox-Kemper, B., 2018: Notions for the motions of the oceans. In "New Frontiers in Operational Oceanography", E. Chassignet, A. Pascual, J. Tintoré, and J. Verron, Eds., GODAE OceanView, 27-74, URL: <a href="https://doi.org/10.17125/gov2018ch02">https://doi.org/10.17125/gov2018ch02</a>.
 </div>
 
+<div id="BPG17" class="reference">
+[BPG17] Bentamy, A., Piolle, J.F., Grouazel, A., Danielson, R., Gulev, S., Paul, F., Azelmat, H., Mathieu, P.P., von Schuckmann, K., Sathyendranath, S. and Evers-King, H., 2017. Review and assessment of latent and sensible heat flux accuracy over the global oceans. Remote Sensing of Environment, 201, pp.196-218. URL: <a href="https://doi.org/10.1016/j.rse.2017.08.016">https://doi.org/10.1016/j.rse.2017.08.016</a>.
+</div>
+
 <div id="CGE+19" class="reference">
 [CGE+19] Cronin, M.F., Gentemann, C.L., Edson, J., Ueki, I., Bourassa, M., Brown, S., Clayson, C.A., Fairall, C.W., Farrar, J.T., Gille, S.T. and Gulev, S., 2019. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6, p.430. URL: <a href="https://doi.org/10.3389/fmars.2019.00430">https://doi.org/10.3389/fmars.2019.00430</a>.
 </div>
@@ -60,7 +64,15 @@ title: References
 </div>
 
 <div id="S67" class="reference">
-[S67] Saunders, P. M., The temperature at the ocean-air interface, J. Atmos. Sci., 24, 269–273, 1967. URL: <a href="https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf">hhttps://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf</a>.
+[S67] Saunders, P. M., The temperature at the ocean-air interface, J. Atmos. Sci., 24, 269–273, 1967. URL: <a href="https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf">https://journals.ametsoc.org/view/journals/atsc/24/3/1520-0469_1967_024_0269_ttatoa_2_0_co_2.pdf</a>.
+</div>
+
+<div id="SBPT19" class="reference">
+[SBPT19] Small, R.J., Bryan, F.O., Bishop, S.P. and Tomas, R.A., 2019. Air–sea turbulent heat fluxes in climate models and observational analyses: What drives their variability?. Journal of Climate, 32(8), pp.2397-2421. URL: <a href="https://doi.org/10.1175/JCLI-D-18-0576.1">https://doi.org/10.1175/JCLI-D-18-0576.1</a>.
+</div>
+
+<div id="THK+18" class="reference">
+[THK+18] Tomita, H., Hihara, T., Kako, S.I., Kubota, M. and Kutsuwada, K., 2019. An introduction to J-OFURO3, a third-generation Japanese ocean flux data set using remote-sensing observations. Journal of Oceanography, 75(2), pp.171-194. URL: <a href="https://doi.org/10.1007/s10872-018-0493-x">https://doi.org/10.1007/s10872-018-0493-x</a>.
 </div>
 
 <div id="TFK09" class="reference">

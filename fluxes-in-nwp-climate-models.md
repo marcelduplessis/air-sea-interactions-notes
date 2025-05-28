@@ -31,7 +31,7 @@ Using satellite measurements to estimate air-sea fluxes requires the use of math
 
 #### Biases in data products
 
-There is still considerable uncertainty that exists between data products. This is due to the different methods used to estimate the fluxes, the different satellite and in situ observations used as input, and the different assumptions and parameterizations used in the flux algorithms. There is growing research investigating these biases (e.g. Tomita et al. 2010; Bentamy et al. 2017; Cronin et al. 2019).
+There is still considerable uncertainty that exists between data products. This is due to the different methods used to estimate the fluxes, the different satellite and in situ observations used as input, and the different assumptions and parameterizations used in the flux algorithms. There is growing research investigating these biases (e.g. [BPG17, THK+18, CGE+19](/air-sea-interactions-notes/references)).
 
 <h2> Climate Models </h2> 
 
@@ -46,7 +46,7 @@ In the CMIP6 and other climate model simulation, the air-sea fluxes are calculat
 
 Models that resolve ocean mesoscale eddies (~0.1 degree ocean grid) have much better representation of high eddy rich regions. The mesoscale eddies are important for the air-sea fluxes because they can transport heat and salt, and they can also affect the wind stress. However, these models are computationally expensive and not yet feasible for long-term climate simulations. The lower resolution (~1 degree ocean grid) climate models can't resolve these eddies. Therefore, they underestimate the variability of the sea surface temperature and misrepresent the variability of the fluxes.
 
-High-resolution models capture ocean-forced flux variability but not climate scale models. As we have seen, the dominant variability of turbulent heat fluxes comes from the western boundary currents and tropical Pacific, but models cannot represent the WBCs as they are narrow and fast ocean currents, often only 50–100 km wide. Because WBCs have very sharp sea surface temperature (SST) fronts, coarse climate models appear too broad, too weak, mislocated, and less variable than in reality (Small et al. 2019).
+High-resolution models capture ocean-forced flux variability but not climate scale models. As we have seen, the dominant variability of turbulent heat fluxes comes from the western boundary currents and tropical Pacific, but models cannot represent the WBCs as they are narrow and fast ocean currents, often only 50–100 km wide. Because WBCs have very sharp sea surface temperature (SST) fronts, coarse climate models appear too broad, too weak, mislocated, and less variable than in reality ([SBPT19](/air-sea-interactions-notes/references)).
 
 These SST fronts drive strong atmospheric responses (e.g., storm tracks, precipitation bands). Coarse models smooth out these SST gradients, weakening the:
 - Surface wind convergence/divergence patterns
