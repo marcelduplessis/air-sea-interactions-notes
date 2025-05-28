@@ -20,7 +20,7 @@ Globally, the Earth system is in a state of energy balance. The entire the Earth
 This shortwave radiation acts primarily in the wavelength range of 0.25-4 $\mu$m. In balancing Earth's energy budget, this is lost out the top of the atmosphere as outgoing longwave radiation, which falls within the infrared portion of the spectrum and has typical wavelengths of 4 to 30 $\mu$m.
 
 <div style="text-align: center;">
-  <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 10px 0;">
+  <img src="assets/images/energy-budget.png" alt="energy budget" style="width: 70%; margin: 0px 0;">
   <p><em>Global annual mean Earth's energy budget between 2000-2004. Arrows are scaled to their relative importance. Source: <a href="air-sea-interactions-notes/references/#TFK09">[TFK09]</a></em></p>
 </div>
 
@@ -49,11 +49,11 @@ If we average these kinds of images for long enough periods, we remove the weath
 The stationary features are captured while those obscured by moving clouds are blurred. Can you spot the continental features? For instance, you can see our planet's vast deserts, the high, cold Tibetan plateau to the north of India, and the mountains of North America. The band of yellow encircling the planet's equator is the Intertropical Convergence Zone (ITCZ), a region of persistent thunderstorms and high, cold clouds. The ITCZ merges with the monsoon systems of Africa and South America. Higher latitudes are increasingly obscured by clouds, though some features like the Great Lakes, the British Isles and Korea are apparent. Antarctica stands out cold and clear at the bottom of the image. [Info source](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/).
 
 <div style="text-align: center;">
-  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 100%; margin: 30px 0;">
+  <img src="assets/images/airs-brightness-temp.jpg" alt="AIRS-brightness-temp" style="width: 100%; margin: 0px 0;">
   <p><em> Global Average Brightness Temperature for April 2003. Source: [https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/](https://airs.jpl.nasa.gov/resources/170/global-average-brightness-temperature-for-april-2003/)</em></p>
 </div>
 
-If we take a global average of the brightness temperature (outgoing longwave radiation), we get a value of around -18 \\(\degree\\)C. As you may guess, this is not the average temperature of Earth. It is more like 15 \\(\degree\\)C, which we have determined by taking surface temperature measurements from weather stations, ships, and buoys over many decades. Why the difference? Greenhouse gasses.
+If we take a global average of the brightness temperature (outgoing longwave radiation), we get a value of around -18 $^{\circ}$C. As you may guess, this is not the average temperature of Earth. It is more like 15 $^{\circ}$C, which we have determined by taking surface temperature measurements from weather stations, ships, and buoys over many decades. Why the difference? Greenhouse gasses.
 
 ## Greenhouse gas absorption
 
@@ -64,7 +64,7 @@ The absorption spectrum (below) of a greenhouse gas like carbon dioxide or metha
 By absorbing and re-emitting infrared radiation, greenhouse gases help to regulate the temperature of the Earth's atmosphere and surface. However, as the concentration of these gases increases due to human activities, the absorption of infrared radiation also increases, leading to an enhanced greenhouse effect and global warming.
 
 <div style="text-align: center;">
-  <img src="assets/images/ghg.png" alt="ghg" style="width: 70%; margin: 30px 0;">
+  <img src="assets/images/ghg.png" alt="ghg" style="width: 70%; margin: 0px 0;">
   <p><em> Amount of energy absorbed by greenhouse gases in various wavelength regions, from ultraviolet radiation on the left, to visible light in the middle, to infrared radiation on the right. This figure was prepared by Robert A. Rohde for the Global Warming Art project.</em></p>
 </div>
 
@@ -73,7 +73,7 @@ By absorbing and re-emitting infrared radiation, greenhouse gases help to regula
 The increase of greenhouse gasses in Earth's atmosphere results in more heat (energy) remaining in the atmosphere. This means that Earth's energy budget shows a slight imbalance at the top of the atmosphere of about 0.9 W m$^{-2}$, indicating ongoing changes in the climate system. Climate scientists have been carefully monitoring this since the 1950's, with the most famous observational site the Mauna Loa Observatory in Hawaii.
 
 <div style="text-align: center;">
-  <img src="assets/images/mlo-full-record.png" alt="ghg" style="width: 70%; margin: 30px 0;">
+  <img src="assets/images/mlo-full-record.png" alt="ghg" style="width: 70%; margin: 0px 0;">
   <p><em>The Keeling Curve is the record of atmospheric CO2 from the Mauna Loa Observatory, starting in 1958 [https://keelingcurve.ucsd.edu/](https://keelingcurve.ucsd.edu/)</em></p>
 </div>
 
@@ -92,7 +92,7 @@ This imbalance is not constant and also varies:
 The primary reason for the mismatch between incoming and outgoing energy is the atmospheric and oceanic circulation systems, which transport heat from energy-surplus regions to energy-deficit regions. This large-scale redistribution helps maintain a relatively stable global climate.
 
 <div style="text-align: center;">
-  <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 30px 0;">
+  <img src="assets/images/heat-redist.png" alt="heat-redis" style="width: 60%; margin: 0px 0;">
   <p><em> Global heat redistribution. Source: NASA.</em></p>
 </div>
 
@@ -111,8 +111,6 @@ To maintain global energy balance, this poleward energy transfer must equal the 
   - Equatorial easterlies,
   - Mid-latitude westerlies.
 
-{% include youtube.html id="mKcU-hIoPf4" %}
-
 #### 2. Ocean Sensible Heat Transport (~2 PW)
 
 - Surface currents move warm water poleward and cold water equatorward.
@@ -124,8 +122,6 @@ To maintain global energy balance, this poleward energy transfer must equal the 
 - Meridional (north-south) heat transport is poleward on average, but varies:
   - In the Atlantic, transport is northward at all latitudes,
   - In the Indian Ocean, it is southward at all latitudes.
-
-{% include youtube.html id="CCmTY0PKGDs" %}
 
 #### 3. Latent Heat Transport (~1 PW)
 - Involves the hydrological cycle: evaporation, transport of water vapor, and precipitation.
