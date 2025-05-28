@@ -163,6 +163,10 @@ MOST provides a framework to describe the vertical structure of the turbulent at
 
 \\( T \\) is the mean virtual temperature in K and \\( \overline{w' \theta'_v} \\) is the kinematic virtual potential temperature flux in K m s\\(^{-1}\\). This is a classic chicken-and-egg scenario, where you need the flux ($\overline{w'\theta'_v}$) to calculate the Monin-Obukhov length ($L$), and the Monin-Obukhov length to calculate the flux. The solution is to use an iterative approach. You start with an initial guess for $L$ (often assuming neutral conditions, i.e., $L \to \infty$), compute the fluxes using the profile equations with this guess, then use those fluxes to update your estimate of $L$. This process is repeated until the values converge.
 
+<h3>Global estimates of turbulent heat fluxes</h3>
+
+The climatological estimate of $Q_{sen}$ and $Q_{lat}$ taken from ship-based observations is shown below. The fields have been derived from the COADS1a (1980-93) dataset enhanced with additional metadata from the WMO47 list of ships [[JKT98](https://usclivar.org/sites/default/files/documents/2015/SOC_flux_atlas.pdf)]. It is important to note that the quality of the fields has a strong spatial dependence which reflects the global distribution of ship observations. Quality is likely to be high in the well sampled North Atlantic & North Pacific but to decrease in the Southern Hemisphere. Still, the figure shows clear regional patterns and hints to the atmospheric and oceanic dynamics that influence how the air-sea exchange of heat and moisture. Can you identify these patterns?
+
 <div style="text-align: center;">
   <img src="assets/images/lhf-shf-map.png" alt="lhf-shf-map" style="width: 100%; margin: 30px 0 0px 0;">
   <p><em>The climatological estimate of sensible (left) and latent (right) heat flux based on ship meteorological reports. The data is from the National Oceanography Centre surface flux climatology Version 1.1. Data source: <a href="ftp://ftp.noc.soton.ac.uk/pub/sxj/clim/netcdf/">National Oceanography Center UK</a></em></p>
